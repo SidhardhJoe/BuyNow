@@ -10,13 +10,15 @@ import AdPage1 from './src/AdPages/AdPage1';
 import Adpage2 from './src/AdPages/Adpage2';
 import AdPage3 from './src/AdPages/AdPage3';
 import SignUpPage from './src/SignUpPage';
+import SuccessPage from './src/SuccessPage';
 
 
 
 const LoadFonts = () => {
   return useFonts({
     PoppinsBold:require("./Fonts/Poppins-Bold.ttf"),
-    PoppinsRegular:require("./Fonts/Poppins-Regular.ttf")
+    PoppinsRegular:require("./Fonts/Poppins-Regular.ttf"),
+    PoppinsMedium:require("./Fonts/Poppins-Medium.ttf")
   })
 }
 
@@ -43,6 +45,7 @@ export default function App() {
           <Nav.Screen name='AdPage2' component={Adpage2} />
           <Nav.Screen name='AdPage3' component={AdPage3} />
           <Nav.Screen name='SignUpPage' component={SignUpPage} />
+          <Nav.Screen name='SuccessPage' component={SuccessPage}/>
         </Nav.Navigator>
       </NavigationContainer>
     );
