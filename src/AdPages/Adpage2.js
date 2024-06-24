@@ -10,15 +10,12 @@ const Adpage2 = () => {
                 <Image source={require("../../Images/Cover2.png")} style={styles.coverimg} />
             </View>
             <View style={styles.textbox}>
-                <Text style={styles.text1}>20%  Discount</Text>
-                <Text style={styles.text1}>New Arrival Products</Text>
+                <Text style={styles.text1}>Take Advantage</Text>
+                <Text style={styles.text1}>Of The Offer Shopping</Text>
             </View>
-            <View>
-                <Text>Publish your selfies to make yourself
-                </Text>
-                <Text>
-                    more beautiful with this app
-                </Text>
+            <View style={{marginTop:10}}>
+                <Text  style={styles.text2}>Offers that drop every week</Text>
+                <Text  style={styles.text2}>Get the them by setting drop alerts</Text>
             </View>
             <View style={styles.rowbar}>
                 <View style={styles.dots}>
@@ -52,10 +49,12 @@ const styles = StyleSheet.create({
         borderRadius: 20
     },
     textbox: {
-        marginTop: 80
+        marginTop: 70
     },
     text1: {
-        fontSize: 28
+        fontSize: 28,
+        fontFamily:"PoppinsBold",
+        marginLeft:10
     },
     circle: {
         height: 10,
@@ -82,5 +81,10 @@ const styles = StyleSheet.create({
     },
     forwardicon: {
         marginTop: 60,
+    },
+    text2:{
+        fontFamily:"PoppinsRegular",
+        marginLeft:10,
+        color:"grey"
     }
 })
