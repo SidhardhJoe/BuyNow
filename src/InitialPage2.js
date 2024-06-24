@@ -37,20 +37,21 @@ const styles = StyleSheet.create({
     },
     login_box: {
         height: 40,
-        width: 300,
+        width: 250,
         backgroundColor: "white",
         marginBottom: 20,
         borderRadius: 20
     },
     signup_box: {
         height: 40,
-        width: 300,
+        width: 250,
         backgroundColor: "white",
         borderRadius: 20
     },
     text: {
         textAlign: "center",
         marginTop: 7,
-        fontSize: 18
+        fontSize: 18,
+        fontFamily:"PoppinsBold"
     }
 })

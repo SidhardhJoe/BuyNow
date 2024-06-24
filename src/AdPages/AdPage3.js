@@ -10,12 +10,15 @@ const AdPage3 = () => {
                 <Image source={require("../../Images/Cover3.png")} style={styles.coverimg} />
             </View>
             <View style={styles.textbox}>
-                <Text style={styles.text1}>20%  Discount</Text>
-                <Text style={styles.text1}>New Arrival Products</Text>
+                <Text style={styles.text1}>All Types Offers</Text>
+                <Text style={styles.text1}>Within Your Reach</Text>
             </View>
-            <View style={{marginTop:10}}>
-                <Text style={styles.text2}>Publish your selfies to make yourself</Text>
-                <Text style={styles.text2}>more beautiful with this app</Text>
+            <View style={{ marginTop: 10 }}>
+                <Text style={styles.text2}>Get easy access to new fashions</Text>
+                <View style={{flexDirection:"row"}}>
+                    <Text style={styles.text2}>With just a tap, Welcome to </Text>
+                    <Text style={{ fontFamily: "PoppinsBold",}}> BuyNow.</Text>
+                </View>
             </View>
             <View style={styles.rowbar}>
                 <View style={styles.dots}>
@@ -52,8 +55,8 @@ const styles = StyleSheet.create({
     },
     text1: {
         fontSize: 28,
-        fontFamily:"PoppinsBold",
-        marginLeft:10
+        fontFamily: "PoppinsBold",
+        marginLeft: 10
     },
     circle: {
         height: 10,
@@ -81,9 +84,9 @@ const styles = StyleSheet.create({
     forwardicon: {
         marginTop: 60,
     },
-    text2:{
-        fontFamily:"PoppinsRegular",
-        marginLeft:10,
-        color:"grey"
+    text2: {
+        fontFamily: "PoppinsRegular",
+        marginLeft: 10,
+        color: "grey"
     }
 })
