@@ -14,12 +14,9 @@ const AdPage1 = () => {
                 <Text style={styles.text1}>20%  Discount</Text>
                 <Text style={styles.text1}>New Arrival Products</Text>
             </View>
-            <View>
-                <Text>Publish your selfies to make yourself
-                </Text>
-                <Text>
-                    more beautiful with this app
-                </Text>
+            <View style={{marginTop:10}}>
+                <Text style={styles.text2}>Publish your selfies to make yourself</Text>
+                <Text style={styles.text2}>more beautiful with this app</Text>
             </View>
             <View style={styles.rowbar}>
                 <View style={styles.dots}>
@@ -52,10 +49,12 @@ const styles = StyleSheet.create({
         borderRadius: 20
     },
     textbox: {
-        marginTop: 80
+        marginTop: 70
     },
     text1: {
-        fontSize: 28
+        fontSize: 28,
+        fontFamily:"PoppinsBold",
+        marginLeft:10
     },
     circle: {
         height: 10,
@@ -82,5 +81,10 @@ const styles = StyleSheet.create({
     },
     forwardicon: {
         marginTop: 60,
+    },
+    text2:{
+        fontFamily:"PoppinsRegular",
+        marginLeft:10,
+        color:"grey"
     }
 })
