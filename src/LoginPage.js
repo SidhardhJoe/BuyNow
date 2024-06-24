@@ -47,9 +47,19 @@ const LoginPage = () => {
         </View>
       </View>
       <View>
-        <TouchableOpacity onPress={()=>navigation.navigate('SuccessPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('SuccessPage')}>
           <View style={styles.loginbox}>
             <Text style={styles.logintext}>Login</Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+      <View>
+        <Text style={styles.or}>Or</Text>
+      </View>
+      <View>
+        <TouchableOpacity onPress={()=>navigation.navigate('SignUpPage')}>
+          <View style={styles.signupbox}>
+            <Text style={styles.logintext}>Sign Up</Text>
           </View>
         </TouchableOpacity>
       </View>
@@ -74,7 +84,7 @@ const styles = StyleSheet.create({
     fontFamily: "PoppinsBold",
     fontSize: 20,
     marginLeft: 20,
-    marginTop: 20
+    marginTop: 40
   },
   plos: {
     fontFamily: "PoppinsRegular",
@@ -109,7 +119,7 @@ const styles = StyleSheet.create({
     height: 45,
     width: 200,
     backgroundColor: "black",
-    marginTop: 30,
+    marginTop: 50,
     marginLeft: 77,
     borderRadius: 30
   },
@@ -119,5 +129,27 @@ const styles = StyleSheet.create({
     fontSize: 18,
     textAlign: "center",
     marginTop: 8
+  },
+  lineview: {
+    borderBottomWidth: 1,
+    width: 142.5,
+    marginLeft: 20
+  },
+  lineview1: {
+    width: 142.5,
+    borderBottomWidth: 1,
+  },
+  or: {
+    fontFamily: "PoppinsBold",
+    marginTop: 10,
+    textAlign: "center"
+  },
+  signupbox: {
+    height: 45,
+    width: 200,
+    backgroundColor: "black",
+    marginTop: 10,
+    marginLeft: 77,
+    borderRadius: 30
   }
 })
