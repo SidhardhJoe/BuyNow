@@ -27,7 +27,7 @@ const BottomNav = createBottomTabNavigator();
 
 export default function App() {
 
-  Loaded=LoadFonts();
+  const [Loaded]=LoadFonts();
   if(Loaded){
     return (
       <NavigationContainer>
@@ -50,10 +50,6 @@ export default function App() {
       </NavigationContainer>
     );
   }
-
- 
-
-  
 }
 
 const styles = StyleSheet.create({
