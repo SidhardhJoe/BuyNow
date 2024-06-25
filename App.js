@@ -1,6 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { StyleSheet, Platform } from 'react-native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 import { useFonts } from 'expo-font';
 import InitalPage from './src/InitalPage';
@@ -11,6 +10,7 @@ import Adpage2 from './src/AdPages/Adpage2';
 import AdPage3 from './src/AdPages/AdPage3';
 import SignUpPage from './src/SignUpPage';
 import SuccessPage from './src/SuccessPage';
+import BottomNav from './BottomNav';
 
 
 
@@ -23,7 +23,6 @@ const LoadFonts = () => {
 }
 
 const Nav = createStackNavigator();
-const BottomNav = createBottomTabNavigator();
 
 export default function App() {
 
@@ -46,6 +45,7 @@ export default function App() {
           <Nav.Screen name='AdPage3' component={AdPage3} />
           <Nav.Screen name='SignUpPage' component={SignUpPage} />
           <Nav.Screen name='SuccessPage' component={SuccessPage}/>
+          <Nav.Screen name='BottomNav' component={BottomNav}/>
         </Nav.Navigator>
       </NavigationContainer>
     );
