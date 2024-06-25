@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, Alert } from 'react-native'
 import React, { useState } from 'react'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation } from '@react-navigation/native'
@@ -9,6 +9,16 @@ const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [secureTextEntry, setSecureTextEntry] = useState(true);
+
+  const handlePress=()=>{
+    if(email === ''){
+      Alert.alert("Enter Email")
+    }else if(password === ''){
+      Alert.alert("Enter Password")
+    }else{
+      navigation.navigate('SuccessPage')
+    }
+  }
 
   const toggleSecureTextEntry = () => {
     setSecureTextEntry(!secureTextEntry);
@@ -47,7 +57,7 @@ const LoginPage = () => {
         </View>
       </View>
       <View>
-        <TouchableOpacity onPress={() => navigation.navigate('SuccessPage')}>
+        <TouchableOpacity onPress={handlePress}>
           <View style={styles.loginbox}>
             <Text style={styles.logintext}>Login</Text>
           </View>

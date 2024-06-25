@@ -18,18 +18,19 @@ const SignUpPage = () => {
     setSecureTextEntry(!secureTextEntry);
   };
 
-  const handlePress = () => { 
+  const handlePress = () => {
     if (password != confirmpassword) {
       Alert.alert("Password not same")
-    } else if ( username===''){
+    } else if (username === '') {
       Alert.alert("Enter Username")
-    } else if(email===''){
+    } else if (email === '') {
       Alert.alert("Enter Email")
-    }else{
+    } else if (isSelected === false) {
+      Alert.alert("Accept terms and conditions")
+    } else {
       navigation.navigate('SuccessPage')
     }
   }
-
   return (
     <KeyboardAvoidingView
       style={styles.mainview}
@@ -101,7 +102,6 @@ const SignUpPage = () => {
             </View>
           </TouchableOpacity>
         </View>
-
       </View>
     </KeyboardAvoidingView>
   )
