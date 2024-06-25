@@ -3,12 +3,17 @@ import React from 'react'
 
 const Notifications = () => {
   return (
-    <View>
-      <Text>Notifications</Text>
+    <View style={styles.container}>
+      
     </View>
   )
 }
 
 export default Notifications
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor:"white"
+  }
+})
