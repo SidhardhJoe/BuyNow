@@ -18,11 +18,15 @@ const SignUpPage = () => {
     setSecureTextEntry(!secureTextEntry);
   };
 
-  const handlePress = () => {
-    if (password === confirmpassword) {
-      navigation.navigate('SuccessPage')
-    } else {
+  const handlePress = () => { 
+    if (password != confirmpassword) {
       Alert.alert("Password not same")
+    } else if ( username===''){
+      Alert.alert("Enter Username")
+    } else if(email===''){
+      Alert.alert("Enter Email")
+    }else{
+      navigation.navigate('SuccessPage')
     }
   }
 
