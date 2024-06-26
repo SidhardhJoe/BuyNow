@@ -19,7 +19,7 @@ const Home = () => {
         <Text style={styles.catext}>Categories</Text>
       </View>
       <View style={styles.boxcontainer}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('TestPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Cart.png")} style={styles.sideicon} />
@@ -118,6 +118,7 @@ const styles = StyleSheet.create({
   boxcontainer: {
     alignItems: "center",
     paddingTop: 20,
+    justifyContent:"center"
   },
   box: {
     paddingVertical: 18,

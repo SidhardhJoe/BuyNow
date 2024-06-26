@@ -11,6 +11,7 @@ import AdPage3 from './src/AdPages/AdPage3';
 import SignUpPage from './src/SignUpPage';
 import SuccessPage from './src/SuccessPage';
 import BottomNav from './BottomNav';
+import TestPage from './src/TestPage';
 
 
 
@@ -46,6 +47,7 @@ export default function App() {
           <Nav.Screen name='SignUpPage' component={SignUpPage} />
           <Nav.Screen name='SuccessPage' component={SuccessPage}/>
           <Nav.Screen name='BottomNav' component={BottomNav}/>
+          <Nav.Screen name='TestPage' component={TestPage}/>
         </Nav.Navigator>
       </NavigationContainer>
     );
