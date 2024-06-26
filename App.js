@@ -33,10 +33,10 @@ export default function App() {
       <NavigationContainer>
         <Nav.Navigator screenOptions={{
           headerShown: false, gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: Platform.OS === 'Android'
-            ? CardStyleInterpolators.forHorizontalIOS
-            : CardStyleInterpolators.forRevealFromBottomAndroid,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: Platform.OS === 'Android'
+          //   ? CardStyleInterpolators.forHorizontalIOS
+          //   : CardStyleInterpolators.forRevealFromBottomAndroid,
         }}>
           <Nav.Screen name='InitialPage' component={InitalPage} />
           <Nav.Screen name='InitialPage2' component={InitialPage2} />

@@ -27,7 +27,9 @@ const TestPage = () => {
             <FlatList
                 data={data}
                 renderItem={renderItem}
+                numColumns={3}
                 keyExtractor={item => item.id.toString()}
+                // contentContainerStyle={styles.list}
             />
         </View>
     );
@@ -44,6 +46,9 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 24,
         marginBottom: 20,
+    },
+    list: {
+        // alignItems: 'center',
     },
     itemContainer: {
         marginBottom: 10,
