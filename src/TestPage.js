@@ -5,7 +5,7 @@ const TestPage = () => {
     const [data, setData] = useState([]); // Initialize data as an empty array
 
     const getAPI = async () => {
-        const url = "http://192.168.1.98:3000/clothes";
+        const url = "http://192.168.1.98:3000/electronics";
         const result = await fetch(url);
         const data = await result.json();
         setData(data);
@@ -20,7 +20,6 @@ const TestPage = () => {
             <Image source={{ uri: item.image }} style={styles.image} />
         </View>
     );
-
     return (
         <View style={styles.container}>
             <Text style={styles.title}>TestPage</Text>
@@ -29,10 +28,11 @@ const TestPage = () => {
                 renderItem={renderItem}
                 numColumns={3}
                 keyExtractor={item => item.id.toString()}
-                // contentContainerStyle={styles.list}
+            // contentContainerStyle={styles.list}
             />
         </View>
     );
+
 };
 
 export default TestPage;
@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
     itemContainer: {
         marginBottom: 10,
         alignItems: 'center',
-        borderWidth:1,
-        justifyContent:"center"
+        borderWidth: 1,
+        justifyContent: "center"
     },
     image: {
         width: 100,
