@@ -5,7 +5,7 @@ const TestPage = () => {
     const [data, setData] = useState([]); // Initialize data as an empty array
 
     const getAPI = async () => {
-        const url = "http://192.168.1.98:3000/electronics";
+        const url = "http://192.168.1.98:3000/jewels";
         const result = await fetch(url);
         const data = await result.json();
         setData(data);
@@ -32,6 +32,7 @@ const TestPage = () => {
             />
         </View>
     );
+
 
 };
 
