@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <View style={styles.view1}>
-        <TouchableOpacity onPress={()=>navigation.navigate('Profile')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
           <View style={styles.profile}>
             <Image source={require("../../../Icons/profile.png")} style={styles.icon} />
           </View>
@@ -150,10 +150,12 @@ const styles = StyleSheet.create({
     height: 24,
     width: 24
   },
-  profile:{
-    height:42,
-    width:40,
-    backgroundColor:"#cdcdcd",
-    borderRadius:20
+  profile: {
+    height: 45,
+    width: 45,
+    backgroundColor: "#cdcdcd",
+    borderRadius: 25,
+    justifyContent:"center",
+    alignItems:"center"
   }
 })

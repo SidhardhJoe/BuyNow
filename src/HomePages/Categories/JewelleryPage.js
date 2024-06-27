@@ -34,7 +34,7 @@ const JewelleryPage = () => {
   return (
     <View style={styles.container}>
       <View style={styles.view1}>
-        <TouchableOpacity onPress={()=>navigation.navigate('Home')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
           <Image source={require("../../../Icons/Back.png")} style={styles.icon} />
         </TouchableOpacity>
         <Image source={require("../../../Icons/Search.png")} style={styles.icon} />
