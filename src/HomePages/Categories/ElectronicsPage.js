@@ -1,14 +1,64 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
+import React, { useEffect, useState } from 'react';
 
 const ElectronicsPage = () => {
-  return (
-    <View>
-      <Text>ElectronicsPage</Text>
-    </View>
-  )
-}
+    const [data, setData] = useState([]); 
+    const getAPI = async () => {
+        const url = "http://192.168.1.98:3000/Electronics";
+        const result = await fetch(url);
+        const data = await result.json();
+        setData(data);
+    };
 
-export default ElectronicsPage
+    useEffect(() => {
+        getAPI();
+    }, []);
 
-const styles = StyleSheet.create({})
+    const renderItem = ({ item }) => (
+        <View style={styles.itemContainer}>
+            <Image source={{ uri: item.image }} style={styles.image} />
+        </View>
+    );
+
+    return (
+        <View style={styles.container}>
+            <Text style={styles.title}>TestPage</Text>
+            <FlatList
+                data={data}
+                renderItem={renderItem}
+                numColumns={2}
+                keyExtractor={item => item.id.toString()}
+            // contentContainerStyle={styles.list}
+            />
+        </View>
+    );
+
+
+};
+
+export default ElectronicsPage;
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: 'white',
+        alignItems: 'center',
+    },
+    title: {
+        fontSize: 24,
+        marginBottom: 20,
+    },
+    list: {
+        // alignItems: 'center',
+    },
+    itemContainer: {
+        marginBottom: 10,
+        alignItems: 'center',
+        borderWidth: 1,
+        justifyContent: "center"
+    },
+    image: {
+        width: 100,
+        height: 100,
+    },
+});

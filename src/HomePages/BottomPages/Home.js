@@ -30,7 +30,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('ClothesPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Clothes.png")} style={styles.sideicon} />
@@ -41,7 +41,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('BagsPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Bags.png")} style={styles.sideicon} />
@@ -52,7 +52,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('ShoesPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Shoes.png")} style={styles.sideicon} />
@@ -63,7 +63,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('ElectronicsPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Electronics.png")} style={styles.sideicon} />
@@ -74,7 +74,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('JewelleryPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Ring.png")} style={styles.sideicon} />

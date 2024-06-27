@@ -2,8 +2,7 @@ import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
 import React, { useEffect, useState } from 'react';
 
 const TestPage = () => {
-    const [data, setData] = useState([]); // Initialize data as an empty array
-
+    const [data, setData] = useState([]); 
     const getAPI = async () => {
         const url = "http://192.168.1.98:3000/jewels";
         const result = await fetch(url);
@@ -20,6 +19,7 @@ const TestPage = () => {
             <Image source={{ uri: item.image }} style={styles.image} />
         </View>
     );
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>TestPage</Text>
