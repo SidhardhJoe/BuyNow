@@ -411,102 +411,142 @@
     {
       "id":1,
       "image":"https://in.danielwellington.com/cdn/shop/products/d50489783aa3ff98d3754b4e7fbc36cbf8937492.png?v=1686815193",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":2,
       "image":"https://in.danielwellington.com/cdn/shop/products/a993aa5a42d230f0944c08a7aed325739918733b.png?v=1679932016",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":3,
       "image":"https://in.danielwellington.com/cdn/shop/products/lpjj5kd10lqskn5zlbts.png?v=1686815179",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":4,
       "image":"https://www.miabytanishq.com/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10eab331/images/hi-res/2812FTM.jpg?sw=640&sh=640",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":5,
       "image":"https://www.amama.in/cdn/shop/files/AMA-RU-AR-013-2.jpg?v=1717131188&width=800",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":6,
       "image":"https://www.amama.in/cdn/shop/products/BPR001-1_f30d7a77-2f65-4bb1-9037-6d36ad79b1c3.jpg?v=1717844430&width=1200",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":7,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-98157308001_2.jpg?v=1657014122&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":8,
       "image":"https://accessorizelondon.in/cdn/shop/products/01_78497781_1.jpg?v=1675683616&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":9,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-38180681001_4.jpg?v=1659957484&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":10,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-18408581001_2_c7b8cdaf-8f71-43e8-b618-bc49ae97d1fb.jpg?v=1663843852&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":11,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-82004941001_2_a033cc4f-d145-4052-9818-299398f156a0.jpg?v=1662375139&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":12,
       "image":"https://accessorizelondon.in/cdn/shop/products/MA-18187670001_5_9a33291d-042e-4663-909b-4f30f3ae2043.jpg?v=1675336758&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":13,
       "image":"https://accessorizelondon.in/cdn/shop/products/MA-38105397001_2.jpg?v=1677229898&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":14,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-98135981001_2_8834b775-a3d5-4839-a3d5-f2c89f1478bf.jpg?v=1657008846&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":15,
       "image":"https://accessorizelondon.in/cdn/shop/products/MA-38100481001_3.jpg?v=1657021866&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":16,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-58174908001_1_e7f5cc3f-354d-4c94-93e0-7d98c093bc4d.jpg?v=1693986666&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":17,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-38180781001_3_92390dd7-4ed7-4625-807c-5d7ce07b62ec.jpg?v=1668139450&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":18,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-69483881001_1_641a0042-e964-4344-b667-4b15ce62b150.jpg?v=1663842808&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":19,
       "image":"https://accessorizelondon.in/cdn/shop/products/MA-58102981001_1.jpg?v=1678695955&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     },
     {
       "id":20,
       "image":"https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
-      "description":"jewels 1"
+      "description":"jewels 1",
+      "desc":"trial 1",
+      "price":"$200"
     }
   ]
   

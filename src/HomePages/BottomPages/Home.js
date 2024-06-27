@@ -8,8 +8,10 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <View style={styles.view1}>
-        <TouchableOpacity>
-          <Image source={require("../../../Icons/Back.png")} style={styles.icon} />
+        <TouchableOpacity onPress={()=>navigation.navigate('Profile')}>
+          <View style={styles.profile}>
+            <Image source={require("../../../Icons/profile.png")} style={styles.icon} />
+          </View>
         </TouchableOpacity>
         <TouchableOpacity>
           <Image source={require("../../../Icons/Search.png")} style={styles.icon} />
@@ -19,7 +21,7 @@ const Home = () => {
         <Text style={styles.catext}>Categories</Text>
       </View>
       <View style={styles.boxcontainer}>
-        <TouchableOpacity onPress={()=>navigation.navigate('TestPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('TestPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Cart.png")} style={styles.sideicon} />
@@ -30,7 +32,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate('ClothesPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('ClothesPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Clothes.png")} style={styles.sideicon} />
@@ -41,7 +43,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate('BagsPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('BagsPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Bags.png")} style={styles.sideicon} />
@@ -52,7 +54,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate('ShoesPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('ShoesPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Shoes.png")} style={styles.sideicon} />
@@ -63,7 +65,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate('ElectronicsPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('ElectronicsPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Electronics.png")} style={styles.sideicon} />
@@ -74,7 +76,7 @@ const Home = () => {
             </View>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate('JewelleryPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('JewelleryPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Ring.png")} style={styles.sideicon} />
@@ -118,7 +120,7 @@ const styles = StyleSheet.create({
   boxcontainer: {
     alignItems: "center",
     paddingTop: 20,
-    justifyContent:"center"
+    justifyContent: "center"
   },
   box: {
     paddingVertical: 18,
@@ -147,5 +149,11 @@ const styles = StyleSheet.create({
   sideicon: {
     height: 24,
     width: 24
+  },
+  profile:{
+    height:42,
+    width:40,
+    backgroundColor:"#cdcdcd",
+    borderRadius:20
   }
 })
