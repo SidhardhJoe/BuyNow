@@ -11,12 +11,14 @@ import AdPage3 from './src/AdPages/AdPage3';
 import SignUpPage from './src/SignUpPage';
 import SuccessPage from './src/SuccessPage';
 import BottomNav from './BottomNav';
-import TestPage from './src/TestPage';
 import ClothesPage from './src/HomePages/Categories/ClothesPage';
 import BagsPage from './src/HomePages/Categories/BagsPage';
 import ShoesPage from './src/HomePages/Categories/Shoespage';
 import ElectronicsPage from './src/HomePages/Categories/ElectronicsPage';
 import JewelleryPage from './src/HomePages/Categories/JewelleryPage';
+import NewArrivalsPage from './src/HomePages/Categories/NewArrivalsPage';
+import ProductDetailsPage from './src/ProductDetailsPage';
+import TestPage from './src/TestPage';
  
 
 
@@ -48,12 +50,14 @@ export default function App() {
           <Nav.Screen name='SignUpPage' component={SignUpPage} />
           <Nav.Screen name='SuccessPage' component={SuccessPage}/>
           <Nav.Screen name='BottomNav' component={BottomNav}/>
-          <Nav.Screen name='TestPage' component={TestPage}/>
+          <Nav.Screen name='NewArrivalsPage' component={NewArrivalsPage}/>
           <Nav.Screen name='ClothesPage' component={ClothesPage}/>
           <Nav.Screen name='BagsPage' component={BagsPage}/>
           <Nav.Screen name='ShoesPage' component={ShoesPage}/>
           <Nav.Screen name='ElectronicsPage' component={ElectronicsPage}/>
           <Nav.Screen name='JewelleryPage' component={JewelleryPage}/>
+          <Nav.Screen name='ProductDetailsPage' component={ProductDetailsPage}/>
+          <Nav.Screen name='TestPage' component={TestPage}/>
         </Nav.Navigator>
       </NavigationContainer>
     );

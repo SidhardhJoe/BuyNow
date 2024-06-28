@@ -21,7 +21,7 @@ const Home = () => {
         <Text style={styles.catext}>Categories</Text>
       </View>
       <View style={styles.boxcontainer}>
-        <TouchableOpacity onPress={() => navigation.navigate('TestPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('NewArrivalsPage')}>
           <View style={styles.box}>
             <View style={{ flexDirection: "row", gap: 2 }}>
               <Image source={require("../../../Icons/Cart.png")} style={styles.sideicon} />

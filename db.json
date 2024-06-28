@@ -708,6 +708,43 @@
       "desc":"McTavish",
       "price":"$800"
     }
+  ],
+  "newarrivals":[
+    {
+      "id":1,
+      "image":"https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
+      "description":"InterTwined",
+      "desc":"McTavish",
+      "price":"$800"
+    },
+    {
+      "id":2,
+      "image":"https://m.media-amazon.com/images/I/412CKVTe8dL._SY445_SX342_QL70_FMwebp_.jpg",
+      "description":"iPhone 15 Pro",
+      "desc":"Apple",
+      "price":"$999"
+    },
+    {
+      "id": 3,
+      "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "description": "Blue Half Sleeve Shirt",
+      "desc":"H & M",
+      "price":"$29.99"
+    },
+    {
+      "id":4,
+      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
+      "description":"Coffin Collection",
+      "desc":"SNKRS",
+      "price":"$250"
+    },
+    {
+      "id":5,
+      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408760001/665/410408760001_1_6934.webp",
+      "description":"Mini Me Duffel",
+      "desc":"Catergirl",
+      "price":"$199.99"
+    }
   ]
   
 }

@@ -19,7 +19,7 @@ const ClothesPage = () => {
 
   const renderItem = ({ item }) => (
     <View style={styles.itemContainer}>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={()=>navigation.navigate('ProductDetailsPage')}>
         <Image source={{ uri: item.image }} style={styles.image} />
         <View style={{ justifyContent: "center", alignItems: "center" }}>
           <Text style={styles.desctext}>{item.description}</Text>
