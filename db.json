@@ -7,6 +7,7 @@
       "desc": "H & M",
       "price": "$29.99",
       "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar",
       "size": [
         {
           "id": 1,
@@ -24,7 +25,8 @@
       "description": "Black Half Sleeve Shirt",
       "desc": "H & M",
       "price": "$29.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 3,
@@ -32,7 +34,8 @@
       "description": "White Thick Lined Shirt",
       "desc": "H & M",
       "price": "$34.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 4,
@@ -40,7 +43,8 @@
       "description": "Brown Polo",
       "desc": "H & M",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "description": "Straight Red T-Shirt",
       "desc": "McTavish",
       "price": "$19.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 6,
@@ -56,7 +61,8 @@
       "description": "Green Printed T-Shirt",
       "desc": "Green Vial",
       "price": "$22.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 7,
@@ -64,7 +70,8 @@
       "description": "Godfather T-Shirt",
       "desc": "McTavish",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 8,
@@ -72,7 +79,8 @@
       "description": "Retro Black t-Shirt",
       "desc": "Rusties",
       "price": "$22.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 9,
@@ -80,7 +88,8 @@
       "description": "Cream 'Labria' Shirt",
       "desc": "Green Vial",
       "price": "$24.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "description": "Brown Pocketed T-Shirt",
       "desc": "H & M",
       "price": "$19.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 11,
@@ -96,7 +106,8 @@
       "description": "Center T-Shirt",
       "desc": "trial 1",
       "price": "$22.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 12,
@@ -104,7 +115,8 @@
       "description": "Green Camo T-Shirt",
       "desc": "McTavish",
       "price": "$29.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 13,
@@ -112,7 +124,8 @@
       "description": "Nirvana T-Shirt",
       "desc": "H & M",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 14,
@@ -120,7 +133,8 @@
       "description": "Peace Above",
       "desc": "Green Vial",
       "price": "$24.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 15,
@@ -128,7 +142,8 @@
       "description": "Pink Polo",
       "desc": "Green Vial",
       "price": "$29.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 16,
@@ -136,7 +151,8 @@
       "description": "NYC Love",
       "desc": "McTavish",
       "price": "$39.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 17,
@@ -144,7 +160,8 @@
       "description": "Black White Longer",
       "desc": "McTavish",
       "price": "$69.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 18,
@@ -152,7 +169,8 @@
       "description": "Blue Button Down",
       "desc": "H & M",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 19,
@@ -160,7 +178,8 @@
       "description": "Brown Button Shirt",
       "desc": "Green Vial",
       "price": "$23.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 20,
@@ -168,7 +187,8 @@
       "description": "Color Boxed Button Shirt",
       "desc": "McTavish",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     }
   ],
   "shoes": [
@@ -178,7 +198,8 @@
       "description": "JMT Edition",
       "desc": "Nike",
       "price": "$199.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 2,
@@ -186,7 +207,8 @@
       "description": "White Mix Derby",
       "desc": "Nike",
       "price": "$149.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 3,
@@ -194,7 +216,8 @@
       "description": "Coffin Collection",
       "desc": "SNKRS",
       "price": "$250",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 4,
@@ -202,7 +225,8 @@
       "description": "AirForce 1",
       "desc": "Nike",
       "price": "$79.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 5,
@@ -210,7 +234,8 @@
       "description": "Calf Runner",
       "desc": "SNKRS",
       "price": "$99.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 6,
@@ -218,7 +243,8 @@
       "description": "Nike Mid",
       "desc": "Nike",
       "price": "$90.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 7,
@@ -226,7 +252,8 @@
       "description": "Clouds",
       "desc": "SNKRS",
       "price": "$200",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 8,
@@ -234,7 +261,8 @@
       "description": "AirForce 1 Black Swoosh",
       "desc": "Nike",
       "price": "$119.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 9,
@@ -242,7 +270,8 @@
       "description": "90's Collection",
       "desc": "Nike",
       "price": "$79.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 10,
@@ -250,7 +279,8 @@
       "description": "Cater For Sky",
       "desc": "SNKRS",
       "price": "$200",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 11,
@@ -258,7 +288,8 @@
       "description": "Half Man",
       "desc": "Nike",
       "price": "$225",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 12,
@@ -266,7 +297,8 @@
       "description": "AirMax 99",
       "desc": "SNKRS",
       "price": "$99.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 13,
@@ -274,7 +306,8 @@
       "description": "AirForce 1 High",
       "desc": "Nike",
       "price": "$129.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 14,
@@ -282,7 +315,8 @@
       "description": "Red White Combo",
       "desc": "SNKRS",
       "price": "$119.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 15,
@@ -290,7 +324,8 @@
       "description": "Peagasus Runner",
       "desc": "Nike",
       "price": "$199.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 16,
@@ -298,7 +333,8 @@
       "description": "Floaters",
       "desc": "Nike",
       "price": "$159.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 17,
@@ -306,7 +342,8 @@
       "description": "AirMax 98",
       "desc": "SNKRS",
       "price": "$149.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 18,
@@ -314,7 +351,8 @@
       "description": "Nike VapourFly 3",
       "desc": "Nike",
       "price": "$199.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 19,
@@ -322,7 +360,8 @@
       "description": "AirJordan 1 Black",
       "desc": "Nike",
       "price": "$190.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 20,
@@ -330,7 +369,8 @@
       "description": "Train Wreaker",
       "desc": "SNKRS",
       "price": "$129.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     }
   ],
   "bags": [
@@ -340,7 +380,8 @@
       "description": "Rainbow",
       "desc": "Hermans",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 2,
@@ -348,7 +389,8 @@
       "description": "Mini Me Duffel",
       "desc": "Catergirl",
       "price": "$199.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 3,
@@ -356,7 +398,8 @@
       "description": "Chained Up Side bag",
       "desc": "Dystopia",
       "price": "$55.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 4,
@@ -364,7 +407,8 @@
       "description": "Thin and Long",
       "desc": "Dystopia",
       "price": "$19.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 5,
@@ -372,7 +416,8 @@
       "description": "Hockeys bat",
       "desc": "Hermans",
       "price": "$149.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 6,
@@ -380,7 +425,8 @@
       "description": "Pink Tail",
       "desc": "Catergirl",
       "price": "$55.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 7,
@@ -388,7 +434,8 @@
       "description": "Mini Chain",
       "desc": "Hermans",
       "price": "$29.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 8,
@@ -396,7 +443,8 @@
       "description": "Pin 2.0",
       "desc": "Catergirl",
       "price": "$155.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 9,
@@ -404,7 +452,8 @@
       "description": "Snake Camo",
       "desc": "Hermans",
       "price": "$499.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 10,
@@ -412,7 +461,8 @@
       "description": "Extra Long",
       "desc": "Dystopia",
       "price": "$200",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 11,
@@ -420,7 +470,8 @@
       "description": "Large Green",
       "desc": "Hermans",
       "price": "$55.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 12,
@@ -428,7 +479,8 @@
       "description": "Red Medium",
       "desc": "Dystopia",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 13,
@@ -436,7 +488,8 @@
       "description": "Orange Sider",
       "desc": "Hermans",
       "price": "$19.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 14,
@@ -444,7 +497,8 @@
       "description": "Croco Bag",
       "desc": "Skinned",
       "price": "$200.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 15,
@@ -452,7 +506,8 @@
       "description": "SM 12",
       "desc": "Steve Madden",
       "price": "$109.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 16,
@@ -460,7 +515,8 @@
       "description": "Brown Longers",
       "desc": "McTavish",
       "price": "$49.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 17,
@@ -468,7 +524,8 @@
       "description": "Skinner Night",
       "desc": "Skinned",
       "price": "$11.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 18,
@@ -476,7 +533,8 @@
       "description": "Steve Madden CS",
       "desc": "Steve Madden",
       "price": "$199.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 19,
@@ -484,7 +542,8 @@
       "description": "Sawed off",
       "desc": "McTavish",
       "price": "$149.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 20,
@@ -492,7 +551,8 @@
       "description": "Slim Boy",
       "desc": "Hiro",
       "price": "$150.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     }
   ],
   "electronics": [
@@ -502,7 +562,8 @@
       "description": "OnePlus Open",
       "desc": "OnePlus",
       "price": "$999.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 2,
@@ -510,7 +571,8 @@
       "description": "iPhone 13",
       "desc": "Apple",
       "price": "$759.9",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 3,
@@ -518,7 +580,8 @@
       "description": "iPhone SE",
       "desc": "Apple",
       "price": "$450",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 4,
@@ -526,7 +589,8 @@
       "description": "iPhone 14 Plus",
       "desc": "Apple",
       "price": "$850",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 5,
@@ -534,7 +598,8 @@
       "description": "iPhone 15",
       "desc": "Apple",
       "price": "$699.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 6,
@@ -542,7 +607,8 @@
       "description": "iPhone 15 Pro Max",
       "desc": "Apple",
       "price": "$1199",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 7,
@@ -550,7 +616,8 @@
       "description": "iPhone 15 Pro",
       "desc": "Apple",
       "price": "$999",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 8,
@@ -558,7 +625,8 @@
       "description": "A55 5G",
       "desc": "Samsung",
       "price": "$400",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 9,
@@ -566,7 +634,8 @@
       "description": "IQOO 9 Pro",
       "desc": "IQOO",
       "price": "$499",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 10,
@@ -574,14 +643,16 @@
       "description": "IQOO Neo 9 pro",
       "desc": "IQOO",
       "price": "$499",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 11,
       "image": "https://m.media-amazon.com/images/I/41vvbQWXrzL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "S24",
       "desc": "Samsung",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 12,
@@ -589,7 +660,8 @@
       "description": "S24 Ultra",
       "desc": "Samsung",
       "price": "1199",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 13,
@@ -597,7 +669,8 @@
       "description": "Xiaomi 14 Ultra",
       "desc": "Xiaomi",
       "price": "$1199",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 14,
@@ -605,7 +678,8 @@
       "description": "IQOO Z7 Pro",
       "desc": "IQOO",
       "price": "$499",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 15,
@@ -613,7 +687,8 @@
       "description": "Xiaomi 14",
       "desc": "Xiaomi",
       "price": "$200",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 16,
@@ -621,7 +696,8 @@
       "description": " Redmi 12",
       "desc": "Redmi",
       "price": "$400",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 17,
@@ -629,7 +705,8 @@
       "description": "Redmi Note 13 pro",
       "desc": "Redmi",
       "price": "$220",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 18,
@@ -637,7 +714,8 @@
       "description": "Redmi Note 13 pro",
       "desc": "Redmi",
       "price": "$250",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 19,
@@ -645,7 +723,8 @@
       "description": "Redmi Note 13 C",
       "desc": "Redmi",
       "price": "$220",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 20,
@@ -653,7 +732,8 @@
       "description": "Xiaomi 12 Pro+",
       "desc": "Xiaomi",
       "price": "$290",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     }
   ],
   "jewels": [
@@ -663,7 +743,8 @@
       "description": "DW 1 Ring",
       "desc": "DW",
       "price": "$199",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 2,
@@ -671,7 +752,8 @@
       "description": "DW 1 Ring Large",
       "desc": "DW",
       "price": "$250",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 3,
@@ -679,7 +761,8 @@
       "description": "Carbon Zero",
       "desc": "CC",
       "price": "$290",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 4,
@@ -687,7 +770,8 @@
       "description": "Skelaton Rig",
       "desc": "CC",
       "price": "$199",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 5,
@@ -695,7 +779,8 @@
       "description": "Flat Long",
       "desc": "DW",
       "price": "$79",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 6,
@@ -703,7 +788,8 @@
       "description": "All Fingers",
       "desc": "Dystopia",
       "price": "$199",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 7,
@@ -711,7 +797,8 @@
       "description": "Hanna Earings",
       "desc": "Hanna",
       "price": "$290",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 8,
@@ -719,7 +806,8 @@
       "description": "All 10 Fingers",
       "desc": "A10",
       "price": "$500",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 9,
@@ -727,7 +815,8 @@
       "description": "Bengal Bangles",
       "desc": "DW",
       "price": "$400",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 10,
@@ -735,7 +824,8 @@
       "description": "All Mineral",
       "desc": "CC",
       "price": "$350",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 11,
@@ -743,7 +833,8 @@
       "description": "Rainy Earings",
       "desc": "CC",
       "price": "$2000",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 12,
@@ -751,7 +842,8 @@
       "description": "Pinned Bangles",
       "desc": "DW",
       "price": "$100",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 13,
@@ -759,7 +851,8 @@
       "description": "Green Emeralds",
       "desc": "Ringers",
       "price": "$999",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 14,
@@ -767,7 +860,8 @@
       "description": "Scorpion Ears",
       "desc": "Ringers",
       "price": "$200",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 15,
@@ -775,7 +869,8 @@
       "description": "All Ring 5",
       "desc": "DW",
       "price": "$800",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 16,
@@ -783,7 +878,8 @@
       "description": "Air Cut ",
       "desc": "AiroG",
       "price": "$10,000",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 17,
@@ -791,7 +887,8 @@
       "description": "Banger",
       "desc": "CC",
       "price": "$200",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 18,
@@ -799,7 +896,8 @@
       "description": "Universe Earing",
       "desc": "BlueCut",
       "price": "$2000",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 19,
@@ -807,7 +905,8 @@
       "description": "Butterfly Earings",
       "desc": "DW",
       "price": "$600",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 20,
@@ -815,7 +914,8 @@
       "description": "InterTwined",
       "desc": "McTavish",
       "price": "$800",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     }
   ],
   "newarrivals": [
@@ -825,7 +925,8 @@
       "description": "InterTwined",
       "desc": "McTavish",
       "price": "$800",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 2,
@@ -833,7 +934,8 @@
       "description": "iPhone 15 Pro",
       "desc": "Apple",
       "price": "$999",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 3,
@@ -841,7 +943,8 @@
       "description": "Blue Half Sleeve Shirt",
       "desc": "H & M",
       "price": "$29.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 4,
@@ -849,7 +952,8 @@
       "description": "Coffin Collection",
       "desc": "SNKRS",
       "price": "$250",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
       "id": 5,
@@ -857,7 +961,8 @@
       "description": "Mini Me Duffel",
       "desc": "Catergirl",
       "price": "$199.99",
-      "stock": "Product in stock"
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     }
   ],
   "users": [
@@ -884,6 +989,14 @@
       "cart": [],
       "favourites": [],
       "id": 3
+    },
+    {
+      "username": "Abcd",
+      "email": "ABCD@123",
+      "password": "1234",
+      "cart": [],
+      "favourites": [],
+      "id": 4
     }
   ]
 }
