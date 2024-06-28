@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation } from '@react-navigation/native';
 import CheckBox from 'expo-checkbox';
-
+import axios from 'axios';
 
 const SignUpPage = () => {
   const navigation = useNavigation();
@@ -18,7 +18,7 @@ const SignUpPage = () => {
     setSecureTextEntry(!secureTextEntry);
   };
 
-  const handlePress = () => {
+  const handlePress = async() => {
     if (password != confirmpassword) {
       Alert.alert("Password not same")
     } else if (username === '') {
@@ -28,7 +28,19 @@ const SignUpPage = () => {
     } else if (isSelected === false) {
       Alert.alert("Accept terms and conditions")
     } else {
+      try {
+        const response = await axios.post('http://192.168.1.98:3000/users',{
+          username,
+          email,
+          password,
+          cart:[],
+          favourites:[]
+        })
       navigation.navigate('SuccessPage')
+        
+      } catch (error) {
+        console.log('error', error)
+      }
     }
   }
   return (
@@ -98,7 +110,7 @@ const SignUpPage = () => {
         <View style={styles.lastview}>
           <TouchableOpacity style={styles.login} onPress={handlePress}>
             <View>
-              <Text style={styles.logintext}>Login</Text>
+              <Text style={styles.logintext}>Register</Text>
             </View>
           </TouchableOpacity>
         </View>

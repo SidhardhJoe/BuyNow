@@ -4,851 +4,886 @@
       "id": 1,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Blue Half Sleeve Shirt",
-      "desc":"H & M",
-      "price":"$29.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$29.99",
+      "stock": "Product in stock",
+      "size": [
+        {
+          "id": 1,
+          "size": "L"
+        },
+        {
+          "id": 2,
+          "size": "S"
+        }
+      ]
     },
     {
       "id": 2,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc7%2F3b%2Fc73b3f78bd003fe5e3714f527a01b6bb4dd828ee.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Black Half Sleeve Shirt",
-      "desc":"H & M",
-      "price":"$29.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$29.99",
+      "stock": "Product in stock"
     },
     {
       "id": 3,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff9%2F48%2Ff9489a65d01754a3a32e31dcc15038c0c72e0f4e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]",
       "description": "White Thick Lined Shirt",
-      "desc":"H & M",
-      "price":"$34.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$34.99",
+      "stock": "Product in stock"
     },
     {
       "id": 4,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb1%2Fdf%2Fb1df76de02ff95ac433aef654b57ace1f5e1f403.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Brown Polo",
-      "desc":"H & M",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$49.99",
+      "stock": "Product in stock"
     },
     {
       "id": 5,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa2%2F33%2Fa233a580a7ba69fca40169d0aed35c2db9d97472.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]",
       "description": "Straight Red T-Shirt",
-      "desc":"McTavish",
-      "price":"$19.99",
-      "stock":"Product in stock"
+      "desc": "McTavish",
+      "price": "$19.99",
+      "stock": "Product in stock"
     },
     {
       "id": 6,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F54%2Ff6%2F54f69308f864cd3b3c46871991686e3c77b0846b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_printed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Green Printed T-Shirt",
-      "desc":"Green Vial",
-      "price":"$22.99",
-      "stock":"Product in stock"
+      "desc": "Green Vial",
+      "price": "$22.99",
+      "stock": "Product in stock"
     },
     {
       "id": 7,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F7a%2F0a7a496a5a58f57fdd11c360efc29250d9fe8c95.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Godfather T-Shirt",
-      "desc":"McTavish",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "desc": "McTavish",
+      "price": "$49.99",
+      "stock": "Product in stock"
     },
     {
       "id": 8,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F10%2F89%2F10897c9032ac1f588b56dda22438e33d98e9b522.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_printed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Retro Black t-Shirt",
-      "desc":"Rusties",
-      "price":"$22.99",
-      "stock":"Product in stock"
+      "desc": "Rusties",
+      "price": "$22.99",
+      "stock": "Product in stock"
     },
     {
       "id": 9,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F93%2Fb6%2F93b60ee0fc9ecbc537ee836b5d51161c772ba195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_printed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Cream 'Labria' Shirt",
-      "desc":"Green Vial",
-      "price":"$24.99",
-      "stock":"Product in stock"
+      "desc": "Green Vial",
+      "price": "$24.99",
+      "stock": "Product in stock"
     },
     {
       "id": 10,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F70%2F21%2F702174d13761ad956784f50f1f116fc8f03b7ae1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Brown Pocketed T-Shirt",
-      "desc":"H & M",
-      "price":"$19.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$19.99",
+      "stock": "Product in stock"
     },
     {
       "id": 11,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4e%2F83%2F4e83fa89020fe3f5958fddc508e628740703b801.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_printed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Center T-Shirt",
-      "desc":"trial 1",
-      "price":"$22.99",
-      "stock":"Product in stock"
+      "desc": "trial 1",
+      "price": "$22.99",
+      "stock": "Product in stock"
     },
     {
       "id": 12,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F83%2F468305176be407543d1d48945b9be0beb6c8d298.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Green Camo T-Shirt",
-      "desc":"McTavish",
-      "price":"$29.99",
-      "stock":"Product in stock"
+      "desc": "McTavish",
+      "price": "$29.99",
+      "stock": "Product in stock"
     },
     {
       "id": 13,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F64%2F47%2F644782bd8b371abb5cb0666f0bffd45fd09e4f00.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_printed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]",
       "description": "Nirvana T-Shirt",
-      "desc":"H & M",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$49.99",
+      "stock": "Product in stock"
     },
     {
       "id": 14,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Feb%2Fe4%2Febe44e7b83f8b3928e48945b0746011f2d8b97db.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Peace Above",
-      "desc":"Green Vial",
-      "price":"$24.99",
-      "stock":"Product in stock"
+      "desc": "Green Vial",
+      "price": "$24.99",
+      "stock": "Product in stock"
     },
     {
       "id": 15,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F77%2Ff6%2F77f6e2469e8ad8b6bcb0f3b0404e6672f9a10133.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5BMEN_TSHIRTSTANKS_POLO%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Pink Polo",
-      "desc":"Green Vial",
-      "price":"$29.99",
-      "stock":"Product in stock"
+      "desc": "Green Vial",
+      "price": "$29.99",
+      "stock": "Product in stock"
     },
     {
       "id": 16,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F8c%2F1c%2F8c1c796dd7bbbb119e382f629241841ac6033384.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "NYC Love",
-      "desc":"McTavish",
-      "price":"$39.99",
-      "stock":"Product in stock"
+      "desc": "McTavish",
+      "price": "$39.99",
+      "stock": "Product in stock"
     },
     {
       "id": 17,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa4%2F8a%2Fa48a3267d0834b49db3d4ca387794a04bf15906f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Black White Longer",
-      "desc":"McTavish",
-      "price":"$69.99",
-      "stock":"Product in stock"
+      "desc": "McTavish",
+      "price": "$69.99",
+      "stock": "Product in stock"
     },
     {
       "id": 18,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F85%2F88856afd3c8db1b7a5408b2ea1e17d9c134cb92b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Blue Button Down",
-      "desc":"H & M",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$49.99",
+      "stock": "Product in stock"
     },
     {
       "id": 19,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F87%2Fa1%2F87a156dfb28d13cd06dcd90f220bafc278ebd8d6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Brown Button Shirt",
-      "desc":"Green Vial",
-      "price":"$23.99",
-      "stock":"Product in stock"
+      "desc": "Green Vial",
+      "price": "$23.99",
+      "stock": "Product in stock"
     },
     {
       "id": 20,
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F1a%2F80%2F1a80182c080036bacb99d73e58a434d6372dac31.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "description": "Color Boxed Button Shirt",
-      "desc":"McTavish",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "desc": "McTavish",
+      "price": "$49.99",
+      "stock": "Product in stock"
     }
   ],
-  "shoes":[
+  "shoes": [
     {
-      "id":1,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d6c5f9e-06be-478b-a26a-0f389579253f/ja-1-ep-basketball-shoes-XncH16.png",
-      "description":"JMT Edition",
-      "desc":"Nike",
-      "price":"$199.99",
-      "stock":"Product in stock"
+      "id": 1,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d6c5f9e-06be-478b-a26a-0f389579253f/ja-1-ep-basketball-shoes-XncH16.png",
+      "description": "JMT Edition",
+      "desc": "Nike",
+      "price": "$199.99",
+      "stock": "Product in stock"
     },
     {
-      "id":2,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4bbc821f-ac3a-48fc-a110-568efd28baf3/gamma-force-shoes-CbTnH1.png",
-      "description":"White Mix Derby",
-      "desc":"Nike",
-      "price":"$149.99",
-      "stock":"Product in stock"
+      "id": 2,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4bbc821f-ac3a-48fc-a110-568efd28baf3/gamma-force-shoes-CbTnH1.png",
+      "description": "White Mix Derby",
+      "desc": "Nike",
+      "price": "$149.99",
+      "stock": "Product in stock"
     },
     {
-      "id":3,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
-      "description":"Coffin Collection",
-      "desc":"SNKRS",
-      "price":"$250",
-      "stock":"Product in stock"
+      "id": 3,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
+      "description": "Coffin Collection",
+      "desc": "SNKRS",
+      "price": "$250",
+      "stock": "Product in stock"
     },
     {
-      "id":4,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd4a337e-51cf-46d1-9ef4-e2d41463c12d/air-force-1-07-fresh-shoes-bBRnbq.png",
-      "description":"AirForce 1",
-      "desc":"Nike",
-      "price":"$79.99",
-      "stock":"Product in stock"
+      "id": 4,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd4a337e-51cf-46d1-9ef4-e2d41463c12d/air-force-1-07-fresh-shoes-bBRnbq.png",
+      "description": "AirForce 1",
+      "desc": "Nike",
+      "price": "$79.99",
+      "stock": "Product in stock"
     },
     {
-      "id":5,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/abe975db-f9a9-4740-8f38-aa9386d82635/structure-25-road-running-shoes-Vnp1d0.png",
-      "description":"Calf Runner",
-      "desc":"SNKRS",
-      "price":"$99.99",
-      "stock":"Product in stock"
+      "id": 5,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/abe975db-f9a9-4740-8f38-aa9386d82635/structure-25-road-running-shoes-Vnp1d0.png",
+      "description": "Calf Runner",
+      "desc": "SNKRS",
+      "price": "$99.99",
+      "stock": "Product in stock"
     },
     {
-      "id":6,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b4881666-711b-4965-b20f-3609b2f30c2e/attack-shoes-Kcvz5T.png",
-      "description":"Nike Mid",
-      "desc":"Nike",
-      "price":"$90.99",
-      "stock":"Product in stock"
+      "id": 6,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b4881666-711b-4965-b20f-3609b2f30c2e/attack-shoes-Kcvz5T.png",
+      "description": "Nike Mid",
+      "desc": "Nike",
+      "price": "$90.99",
+      "stock": "Product in stock"
     },
     {
-      "id":7,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b6aa977d-3ad0-4f95-970f-2cae9a69dea5/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
-      "description":"Clouds",
-      "desc":"SNKRS",
-      "price":"$200",
-      "stock":"Product in stock"
+      "id": 7,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b6aa977d-3ad0-4f95-970f-2cae9a69dea5/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
+      "description": "Clouds",
+      "desc": "SNKRS",
+      "price": "$200",
+      "stock": "Product in stock"
     },
     {
-      "id":8,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b429cdcc-f314-46e4-806b-17160c0ab0e6/air-force-1-07-shoes-5fFrTT.png",
-      "description":"AirForce 1 Black Swoosh",
-      "desc":"Nike",
-      "price":"$119.99",
-      "stock":"Product in stock"
+      "id": 8,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b429cdcc-f314-46e4-806b-17160c0ab0e6/air-force-1-07-shoes-5fFrTT.png",
+      "description": "AirForce 1 Black Swoosh",
+      "desc": "Nike",
+      "price": "$119.99",
+      "stock": "Product in stock"
     },
     {
-      "id":9,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fb7eda3c-5ac8-4d05-a18f-1c2c5e82e36e/blazer-mid-77-vintage-shoes-dNWPTj.png",
-      "description":"90's Collection",
-      "desc":"Nike",
-      "price":"$79.99",
-      "stock":"Product in stock"
+      "id": 9,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fb7eda3c-5ac8-4d05-a18f-1c2c5e82e36e/blazer-mid-77-vintage-shoes-dNWPTj.png",
+      "description": "90's Collection",
+      "desc": "Nike",
+      "price": "$79.99",
+      "stock": "Product in stock"
     },
     {
-      "id":10,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/44f222ab-96b6-43b9-82e7-9a1bd888611d/court-vision-low-shoes-q0sr67.png",
-      "description":"Cater For Sky",
-      "desc":"SNKRS",
-      "price":"$200",
-      "stock":"Product in stock"
+      "id": 10,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/44f222ab-96b6-43b9-82e7-9a1bd888611d/court-vision-low-shoes-q0sr67.png",
+      "description": "Cater For Sky",
+      "desc": "SNKRS",
+      "price": "$200",
+      "stock": "Product in stock"
     },
     {
-      "id":11,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b0b122fc-133b-48fb-86ad-3d2db31eda09/precision-7-basketball-shoes-6FvJHX.png",
-      "description":"Half Man",
-      "desc":"Nike",
-      "price":"$225",
-      "stock":"Product in stock"
+      "id": 11,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b0b122fc-133b-48fb-86ad-3d2db31eda09/precision-7-basketball-shoes-6FvJHX.png",
+      "description": "Half Man",
+      "desc": "Nike",
+      "price": "$225",
+      "stock": "Product in stock"
     },
     {
-      "id":12,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/306de27c-9db3-4885-a939-9480eb1e6543/air-max-ishod-shoes-pJPHs6.png",
-      "description":"AirMax 99",
-      "desc":"SNKRS",
-      "price":"$99.99",
-      "stock":"Product in stock"
+      "id": 12,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/306de27c-9db3-4885-a939-9480eb1e6543/air-max-ishod-shoes-pJPHs6.png",
+      "description": "AirMax 99",
+      "desc": "SNKRS",
+      "price": "$99.99",
+      "stock": "Product in stock"
     },
     {
-      "id":13,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/04421d64-7214-4718-ba73-93e6d1447bac/air-force-1-mid-07-shoe-9S2mB4.png",
-      "description":"AirForce 1 High",
-      "desc":"Nike",
-      "price":"$129.99",
-      "stock":"Product in stock"
+      "id": 13,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/04421d64-7214-4718-ba73-93e6d1447bac/air-force-1-mid-07-shoe-9S2mB4.png",
+      "description": "AirForce 1 High",
+      "desc": "Nike",
+      "price": "$129.99",
+      "stock": "Product in stock"
     },
     {
-      "id":14,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a50b46a9-7d16-4567-aaa0-2ae8397ffb53/jordan-stay-loyal-3-shoes-GNHN2X.png",
-      "description":"Red White Combo",
-      "desc":"SNKRS",
-      "price":"$119.99",
-      "stock":"Product in stock"
+      "id": 14,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a50b46a9-7d16-4567-aaa0-2ae8397ffb53/jordan-stay-loyal-3-shoes-GNHN2X.png",
+      "description": "Red White Combo",
+      "desc": "SNKRS",
+      "price": "$119.99",
+      "stock": "Product in stock"
     },
     {
-      "id":15,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32f0e4ea-a19f-45c9-b07a-fabdd12be739/vomero-17-road-running-shoes-0DbNrf.png",
-      "description":"Peagasus Runner",
-      "desc":"Nike",
-      "price":"$199.99",
-      "stock":"Product in stock"
+      "id": 15,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32f0e4ea-a19f-45c9-b07a-fabdd12be739/vomero-17-road-running-shoes-0DbNrf.png",
+      "description": "Peagasus Runner",
+      "desc": "Nike",
+      "price": "$199.99",
+      "stock": "Product in stock"
     },
     {
-      "id":16,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/17de9fea-710d-401e-8de9-96cffccc7f5f/motiva-walking-shoes-Fjzkq7.png",
-      "description":"Floaters",
-      "desc":"Nike",
-      "price":"$159.99",
-      "stock":"Product in stock"
+      "id": 16,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/17de9fea-710d-401e-8de9-96cffccc7f5f/motiva-walking-shoes-Fjzkq7.png",
+      "description": "Floaters",
+      "desc": "Nike",
+      "price": "$159.99",
+      "stock": "Product in stock"
     },
     {
-      "id":17,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/189cdd80-9beb-43af-b993-f4d1fc5b9b25/impact-4-basketball-shoes-CcJxBx.png",
-      "description":"AirMax 98",
-      "desc":"SNKRS",
-      "price":"$149.99",
-      "stock":"Product in stock"
+      "id": 17,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/189cdd80-9beb-43af-b993-f4d1fc5b9b25/impact-4-basketball-shoes-CcJxBx.png",
+      "description": "AirMax 98",
+      "desc": "SNKRS",
+      "price": "$149.99",
+      "stock": "Product in stock"
     },
     {
-      "id":18,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1af9c87c-6e11-4bc6-ad66-648558bc49b7/vaporfly-3-road-racing-shoes-xsDgvM.png",
-      "description":"Nike VapourFly 3",
-      "desc":"Nike",
-      "price":"$199.99",
-      "stock":"Product in stock"
+      "id": 18,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1af9c87c-6e11-4bc6-ad66-648558bc49b7/vaporfly-3-road-racing-shoes-xsDgvM.png",
+      "description": "Nike VapourFly 3",
+      "desc": "Nike",
+      "price": "$199.99",
+      "stock": "Product in stock"
     },
     {
-      "id":19,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/288a2235-54ce-4f8e-a133-0117cbc381b4/air-jordan-1-mid-shoes-SQf7DM.png",
-      "description":"AirJordan 1 Black",
-      "desc":"Nike",
-      "price":"$190.99",
-      "stock":"Product in stock"
+      "id": 19,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/288a2235-54ce-4f8e-a133-0117cbc381b4/air-jordan-1-mid-shoes-SQf7DM.png",
+      "description": "AirJordan 1 Black",
+      "desc": "Nike",
+      "price": "$190.99",
+      "stock": "Product in stock"
     },
     {
-      "id":20,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/196ac49c-9b28-42d0-8538-0c1b8352d358/air-jordan-3-retro-craft-ivory-shoes-kmz0c0.png",
-      "description":"Train Wreaker",
-      "desc":"SNKRS",
-      "price":"$129.99",
-      "stock":"Product in stock"
+      "id": 20,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/196ac49c-9b28-42d0-8538-0c1b8352d358/air-jordan-3-retro-craft-ivory-shoes-kmz0c0.png",
+      "description": "Train Wreaker",
+      "desc": "SNKRS",
+      "price": "$129.99",
+      "stock": "Product in stock"
     }
   ],
-  "bags":[
+  "bags": [
     {
-      "id":1,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410345775001/665/410345775001_1_9618.webp",
-      "description":"Rainbow",
-      "desc":"Hermans",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "id": 1,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410345775001/665/410345775001_1_9618.webp",
+      "description": "Rainbow",
+      "desc": "Hermans",
+      "price": "$49.99",
+      "stock": "Product in stock"
     },
     {
-      "id":2,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408760001/665/410408760001_1_6934.webp",
-      "description":"Mini Me Duffel",
-      "desc":"Catergirl",
-      "price":"$199.99",
-      "stock":"Product in stock"
+      "id": 2,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408760001/665/410408760001_1_6934.webp",
+      "description": "Mini Me Duffel",
+      "desc": "Catergirl",
+      "price": "$199.99",
+      "stock": "Product in stock"
     },
     {
-      "id":3,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410369655001/665/410369655001_1_1703.webp",
-      "description":"Chained Up Side bag",
-      "desc":"Dystopia",
-      "price":"$55.99",
-      "stock":"Product in stock"
+      "id": 3,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410369655001/665/410369655001_1_1703.webp",
+      "description": "Chained Up Side bag",
+      "desc": "Dystopia",
+      "price": "$55.99",
+      "stock": "Product in stock"
     },
     {
-      "id":4,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410395003001/665/410395003001_1_7170.webp",
-      "description":"Thin and Long",
-      "desc":"Dystopia",
-      "price":"$19.99",
-      "stock":"Product in stock"
+      "id": 4,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410395003001/665/410395003001_1_7170.webp",
+      "description": "Thin and Long",
+      "desc": "Dystopia",
+      "price": "$19.99",
+      "stock": "Product in stock"
     },
     {
-      "id":5,
-      "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381316002/665/410381316002_1_7141.webp",
-      "description":"Hockeys bat",
-      "desc":"Hermans",
-      "price":"$149.99",
-      "stock":"Product in stock"
+      "id": 5,
+      "image": "https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381316002/665/410381316002_1_7141.webp",
+      "description": "Hockeys bat",
+      "desc": "Hermans",
+      "price": "$149.99",
+      "stock": "Product in stock"
     },
     {
-      "id":6,
-      "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381298004/665/410381298004_1_5929.webp",
-      "description":"Pink Tail",
-      "desc":"Catergirl",
-      "price":"$55.99",
-      "stock":"Product in stock"
+      "id": 6,
+      "image": "https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381298004/665/410381298004_1_5929.webp",
+      "description": "Pink Tail",
+      "desc": "Catergirl",
+      "price": "$55.99",
+      "stock": "Product in stock"
     },
     {
-      "id":7,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410366150003/665/410366150003_1_4675.webp",
-      "description":"Mini Chain",
-      "desc":"Hermans",
-      "price":"$29.99",
-      "stock":"Product in stock"
+      "id": 7,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410366150003/665/410366150003_1_4675.webp",
+      "description": "Mini Chain",
+      "desc": "Hermans",
+      "price": "$29.99",
+      "stock": "Product in stock"
     },
     {
-      "id":8,
-      "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381298004/665/410381298004_1_5929.webp",
-      "description":"Pin 2.0",
-      "desc":"Catergirl",
-      "price":"$155.99",
-      "stock":"Product in stock"
+      "id": 8,
+      "image": "https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381298004/665/410381298004_1_5929.webp",
+      "description": "Pin 2.0",
+      "desc": "Catergirl",
+      "price": "$155.99",
+      "stock": "Product in stock"
     },
     {
-      "id":9,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408091001/665/410408091001_1_6501.webp",
-      "description":"Snake Camo",
-      "desc":"Hermans",
-      "price":"$499.99",
-      "stock":"Product in stock"
+      "id": 9,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408091001/665/410408091001_1_6501.webp",
+      "description": "Snake Camo",
+      "desc": "Hermans",
+      "price": "$499.99",
+      "stock": "Product in stock"
     },
     {
-      "id":10,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408698001/665/410408698001_1_8814.webp",
-      "description":"Extra Long",
-      "desc":"Dystopia",
-      "price":"$200",
-      "stock":"Product in stock"
+      "id": 10,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408698001/665/410408698001_1_8814.webp",
+      "description": "Extra Long",
+      "desc": "Dystopia",
+      "price": "$200",
+      "stock": "Product in stock"
     },
     {
-      "id":11,
-      "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410479132001/665/410479132001_1_1869.webp",
-      "description":"Large Green",
-      "desc":"Hermans",
-      "price":"$55.99",
-      "stock":"Product in stock"
+      "id": 11,
+      "image": "https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410479132001/665/410479132001_1_1869.webp",
+      "description": "Large Green",
+      "desc": "Hermans",
+      "price": "$55.99",
+      "stock": "Product in stock"
     },
     {
-      "id":12,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408090001/665/410408090001_1_1847.webp",
-      "description":"Red Medium",
-      "desc":"Dystopia",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "id": 12,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408090001/665/410408090001_1_1847.webp",
+      "description": "Red Medium",
+      "desc": "Dystopia",
+      "price": "$49.99",
+      "stock": "Product in stock"
     },
     {
-      "id":13,
-      "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410459284001/665/410459284001_1_6763.webp",
-      "description":"Orange Sider",
-      "desc":"Hermans",
-      "price":"$19.99",
-      "stock":"Product in stock"
+      "id": 13,
+      "image": "https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410459284001/665/410459284001_1_6763.webp",
+      "description": "Orange Sider",
+      "desc": "Hermans",
+      "price": "$19.99",
+      "stock": "Product in stock"
     },
     {
-      "id":14,
-      "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410395121001/665/410395121001_1_7296.webp",
-      "description":"Croco Bag",
-      "desc":"Skinned",
-      "price":"$200.99",
-      "stock":"Product in stock"
+      "id": 14,
+      "image": "https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410395121001/665/410395121001_1_7296.webp",
+      "description": "Croco Bag",
+      "desc": "Skinned",
+      "price": "$200.99",
+      "stock": "Product in stock"
     },
     {
-      "id":15,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410338972001/665/410338972001_1_1187.webp",
-      "description":"SM 12",
-      "desc":"Steve Madden",
-      "price":"$109.99",
-      "stock":"Product in stock"
+      "id": 15,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410338972001/665/410338972001_1_1187.webp",
+      "description": "SM 12",
+      "desc": "Steve Madden",
+      "price": "$109.99",
+      "stock": "Product in stock"
     },
     {
-      "id":16,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410321946001/665/410321946001_1_5975.webp",
-      "description":"Brown Longers",
-      "desc":"McTavish",
-      "price":"$49.99",
-      "stock":"Product in stock"
+      "id": 16,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410321946001/665/410321946001_1_5975.webp",
+      "description": "Brown Longers",
+      "desc": "McTavish",
+      "price": "$49.99",
+      "stock": "Product in stock"
     },
     {
-      "id":17,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381293002/665/410381293002_1_1346.webp",
-      "description":"Skinner Night",
-      "desc":"Skinned",
-      "price":"$11.99",
-      "stock":"Product in stock"
+      "id": 17,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410381293002/665/410381293002_1_1346.webp",
+      "description": "Skinner Night",
+      "desc": "Skinned",
+      "price": "$11.99",
+      "stock": "Product in stock"
     },
     {
-      "id":18,
-      "image":"https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410459279001/665/410459279001_1_5635.webp",
-      "description":"Steve Madden CS",
-      "desc":"Steve Madden",
-      "price":"$199.99",
-      "stock":"Product in stock"
+      "id": 18,
+      "image": "https://cdn.pixelbin.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410459279001/665/410459279001_1_5635.webp",
+      "description": "Steve Madden CS",
+      "desc": "Steve Madden",
+      "price": "$199.99",
+      "stock": "Product in stock"
     },
     {
-      "id":19,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410394977001/665/410394977001_1_1800.webp",
-      "description":"Sawed off",
-      "desc":"McTavish",
-      "price":"$149.99",
-      "stock":"Product in stock"
+      "id": 19,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410394977001/665/410394977001_1_1800.webp",
+      "description": "Sawed off",
+      "desc": "McTavish",
+      "price": "$149.99",
+      "stock": "Product in stock"
     },
     {
-      "id":20,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410394968003/665/410394968003_1_9437.webp",
-      "description":"Slim Boy",
-      "desc":"Hiro",
-      "price":"$150.99",
-      "stock":"Product in stock"
+      "id": 20,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410394968003/665/410394968003_1_9437.webp",
+      "description": "Slim Boy",
+      "desc": "Hiro",
+      "price": "$150.99",
+      "stock": "Product in stock"
     }
   ],
-  "electronics":[
+  "electronics": [
     {
-      "id":1,
-      "image":"https://m.media-amazon.com/images/I/51HL7-elUNL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"OnePlus Open",
-      "desc":"OnePlus",
-      "price":"$999.99",
-      "stock":"Product in stock"
+      "id": 1,
+      "image": "https://m.media-amazon.com/images/I/51HL7-elUNL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "OnePlus Open",
+      "desc": "OnePlus",
+      "price": "$999.99",
+      "stock": "Product in stock"
     },
     {
-      "id":2,
-      "image":"https://m.media-amazon.com/images/I/3150P3KQFlL._SY445_SX342_QL70_FMwebp_.jpg",
-      "description":"iPhone 13",
-      "desc":"Apple",
-      "price":"$759.9",
-      "stock":"Product in stock"
+      "id": 2,
+      "image": "https://m.media-amazon.com/images/I/3150P3KQFlL._SY445_SX342_QL70_FMwebp_.jpg",
+      "description": "iPhone 13",
+      "desc": "Apple",
+      "price": "$759.9",
+      "stock": "Product in stock"
     },
     {
-      "id":3,
-      "image":"https://m.media-amazon.com/images/I/31eq5m7D5uL._SY445_SX342_QL70_FMwebp_.jpg",
-      "description":"iPhone SE",
-      "desc":"Apple",
-      "price":"$450",
-      "stock":"Product in stock"
+      "id": 3,
+      "image": "https://m.media-amazon.com/images/I/31eq5m7D5uL._SY445_SX342_QL70_FMwebp_.jpg",
+      "description": "iPhone SE",
+      "desc": "Apple",
+      "price": "$450",
+      "stock": "Product in stock"
     },
     {
-      "id":4,
-      "image":"https://m.media-amazon.com/images/I/31laW9Ex46L._SY445_SX342_QL70_FMwebp_.jpg",
-      "description":"iPhone 14 Plus",
-      "desc":"Apple",
-      "price":"$850",
-      "stock":"Product in stock"
+      "id": 4,
+      "image": "https://m.media-amazon.com/images/I/31laW9Ex46L._SY445_SX342_QL70_FMwebp_.jpg",
+      "description": "iPhone 14 Plus",
+      "desc": "Apple",
+      "price": "$850",
+      "stock": "Product in stock"
     },
     {
-      "id":5,
-      "image":"https://m.media-amazon.com/images/I/31vz6yNQ6+L._SX342_SY445_.jpg",
-      "description":"iPhone 15",
-      "desc":"Apple",
-      "price":"$699.99",
-      "stock":"Product in stock"
+      "id": 5,
+      "image": "https://m.media-amazon.com/images/I/31vz6yNQ6+L._SX342_SY445_.jpg",
+      "description": "iPhone 15",
+      "desc": "Apple",
+      "price": "$699.99",
+      "stock": "Product in stock"
     },
     {
-      "id":6,
-      "image":"https://m.media-amazon.com/images/I/41037bXz-GL._SY445_SX342_QL70_FMwebp_.jpg",
-      "description":"iPhone 15 Pro Max",
-      "desc":"Apple",
-      "price":"$1199",
-      "stock":"Product in stock"
+      "id": 6,
+      "image": "https://m.media-amazon.com/images/I/41037bXz-GL._SY445_SX342_QL70_FMwebp_.jpg",
+      "description": "iPhone 15 Pro Max",
+      "desc": "Apple",
+      "price": "$1199",
+      "stock": "Product in stock"
     },
     {
-      "id":7,
-      "image":"https://m.media-amazon.com/images/I/412CKVTe8dL._SY445_SX342_QL70_FMwebp_.jpg",
-      "description":"iPhone 15 Pro",
-      "desc":"Apple",
-      "price":"$999",
-      "stock":"Product in stock"
+      "id": 7,
+      "image": "https://m.media-amazon.com/images/I/412CKVTe8dL._SY445_SX342_QL70_FMwebp_.jpg",
+      "description": "iPhone 15 Pro",
+      "desc": "Apple",
+      "price": "$999",
+      "stock": "Product in stock"
     },
     {
-      "id":8,
-      "image":"https://m.media-amazon.com/images/I/41cXVuSDFvL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"A55 5G",
-      "desc":"Samsung",
-      "price":"$400",
-      "stock":"Product in stock"
+      "id": 8,
+      "image": "https://m.media-amazon.com/images/I/41cXVuSDFvL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "A55 5G",
+      "desc": "Samsung",
+      "price": "$400",
+      "stock": "Product in stock"
     },
     {
-      "id":9,
-      "image":"https://m.media-amazon.com/images/I/41YIASAs7HL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"IQOO 9 Pro",
-      "desc":"IQOO",
-      "price":"$499",
-      "stock":"Product in stock"
+      "id": 9,
+      "image": "https://m.media-amazon.com/images/I/41YIASAs7HL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "IQOO 9 Pro",
+      "desc": "IQOO",
+      "price": "$499",
+      "stock": "Product in stock"
     },
     {
-      "id":10,
-      "image":"https://m.media-amazon.com/images/I/41m-C1HHkIL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"IQOO Neo 9 pro",
-      "desc":"IQOO",
-      "price":"$499",
-      "stock":"Product in stock"
+      "id": 10,
+      "image": "https://m.media-amazon.com/images/I/41m-C1HHkIL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "IQOO Neo 9 pro",
+      "desc": "IQOO",
+      "price": "$499",
+      "stock": "Product in stock"
     },
     {
-      "id":11,
-      "image":"https://m.media-amazon.com/images/I/41vvbQWXrzL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"S24",
-      "desc":"Samsung",
-      "stock":"Product in stock"
+      "id": 11,
+      "image": "https://m.media-amazon.com/images/I/41vvbQWXrzL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "S24",
+      "desc": "Samsung",
+      "stock": "Product in stock"
     },
     {
-      "id":12,
-      "image":"https://m.media-amazon.com/images/I/4193g0Lz6aL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"S24 Ultra",
-      "desc":"Samsung",
-      "price":"1199",
-      "stock":"Product in stock"
+      "id": 12,
+      "image": "https://m.media-amazon.com/images/I/4193g0Lz6aL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "S24 Ultra",
+      "desc": "Samsung",
+      "price": "1199",
+      "stock": "Product in stock"
     },
     {
-      "id":13,
-      "image":"https://m.media-amazon.com/images/I/410m1C3UQkL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"Xiaomi 14 Ultra",
-      "desc":"Xiaomi",
-      "price":"$1199",
-      "stock":"Product in stock"
+      "id": 13,
+      "image": "https://m.media-amazon.com/images/I/410m1C3UQkL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "Xiaomi 14 Ultra",
+      "desc": "Xiaomi",
+      "price": "$1199",
+      "stock": "Product in stock"
     },
     {
-      "id":14,
-      "image":"https://m.media-amazon.com/images/I/41yAce7gd4L._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"IQOO Z7 Pro",
-      "desc":"IQOO",
-      "price":"$499",
-      "stock":"Product in stock"
+      "id": 14,
+      "image": "https://m.media-amazon.com/images/I/41yAce7gd4L._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "IQOO Z7 Pro",
+      "desc": "IQOO",
+      "price": "$499",
+      "stock": "Product in stock"
     },
     {
-      "id":15,
-      "image":"https://m.media-amazon.com/images/I/41O+9LbIOUL._SY300_SX300_.jpg",
-      "description":"Xiaomi 14",
-      "desc":"Xiaomi",
-      "price":"$200",
-      "stock":"Product in stock"
+      "id": 15,
+      "image": "https://m.media-amazon.com/images/I/41O+9LbIOUL._SY300_SX300_.jpg",
+      "description": "Xiaomi 14",
+      "desc": "Xiaomi",
+      "price": "$200",
+      "stock": "Product in stock"
     },
     {
-      "id":16,
-      "image":"https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":" Redmi 12",
-      "desc":"Redmi",
-      "price":"$400",
-      "stock":"Product in stock"
+      "id": 16,
+      "image": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": " Redmi 12",
+      "desc": "Redmi",
+      "price": "$400",
+      "stock": "Product in stock"
     },
     {
-      "id":17,
-      "image":"https://m.media-amazon.com/images/I/41gF1pn3wPL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"Redmi Note 13 pro",
-      "desc":"Redmi",
-      "price":"$220",
-      "stock":"Product in stock"
+      "id": 17,
+      "image": "https://m.media-amazon.com/images/I/41gF1pn3wPL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "Redmi Note 13 pro",
+      "desc": "Redmi",
+      "price": "$220",
+      "stock": "Product in stock"
     },
     {
-      "id":18,
-      "image":"https://m.media-amazon.com/images/I/71r41+TT2UL._SX679_.jpg",
-      "description":"Redmi Note 13 pro",
-      "desc":"Redmi",
-      "price":"$250",
-      "stock":"Product in stock"
+      "id": 18,
+      "image": "https://m.media-amazon.com/images/I/71r41+TT2UL._SX679_.jpg",
+      "description": "Redmi Note 13 pro",
+      "desc": "Redmi",
+      "price": "$250",
+      "stock": "Product in stock"
     },
     {
-      "id":19,
-      "image":"https://m.media-amazon.com/images/I/411iWoJEJjL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"Redmi Note 13 C",
-      "desc":"Redmi",
-      "price":"$220",
-      "stock":"Product in stock"
+      "id": 19,
+      "image": "https://m.media-amazon.com/images/I/411iWoJEJjL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "Redmi Note 13 C",
+      "desc": "Redmi",
+      "price": "$220",
+      "stock": "Product in stock"
     },
     {
-      "id":20,
-      "image":"https://m.media-amazon.com/images/I/41WooGDixpL._SX300_SY300_QL70_FMwebp_.jpg",
-      "description":"Xiaomi 12 Pro+",
-      "desc":"Xiaomi",
-      "price":"$290",
-      "stock":"Product in stock"
+      "id": 20,
+      "image": "https://m.media-amazon.com/images/I/41WooGDixpL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "Xiaomi 12 Pro+",
+      "desc": "Xiaomi",
+      "price": "$290",
+      "stock": "Product in stock"
     }
   ],
-  "jewels":[
+  "jewels": [
     {
-      "id":1,
-      "image":"https://in.danielwellington.com/cdn/shop/products/d50489783aa3ff98d3754b4e7fbc36cbf8937492.png?v=1686815193",
-      "description":"DW 1 Ring",
-      "desc":"DW",
-      "price":"$199",
-      "stock":"Product in stock"
+      "id": 1,
+      "image": "https://in.danielwellington.com/cdn/shop/products/d50489783aa3ff98d3754b4e7fbc36cbf8937492.png?v=1686815193",
+      "description": "DW 1 Ring",
+      "desc": "DW",
+      "price": "$199",
+      "stock": "Product in stock"
     },
     {
-      "id":2,
-      "image":"https://in.danielwellington.com/cdn/shop/products/a993aa5a42d230f0944c08a7aed325739918733b.png?v=1679932016",
-      "description":"DW 1 Ring Large",
-      "desc":"DW",
-      "price":"$250",
-      "stock":"Product in stock"
+      "id": 2,
+      "image": "https://in.danielwellington.com/cdn/shop/products/a993aa5a42d230f0944c08a7aed325739918733b.png?v=1679932016",
+      "description": "DW 1 Ring Large",
+      "desc": "DW",
+      "price": "$250",
+      "stock": "Product in stock"
     },
     {
-      "id":3,
-      "image":"https://in.danielwellington.com/cdn/shop/products/lpjj5kd10lqskn5zlbts.png?v=1686815179",
-      "description":"Carbon Zero",
-      "desc":"CC",
-      "price":"$290",
-      "stock":"Product in stock"
+      "id": 3,
+      "image": "https://in.danielwellington.com/cdn/shop/products/lpjj5kd10lqskn5zlbts.png?v=1686815179",
+      "description": "Carbon Zero",
+      "desc": "CC",
+      "price": "$290",
+      "stock": "Product in stock"
     },
     {
-      "id":4,
-      "image":"https://www.miabytanishq.com/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10eab331/images/hi-res/2812FTM.jpg?sw=640&sh=640",
-      "description":"Skelaton Rig",
-      "desc":"CC",
-      "price":"$199",
-      "stock":"Product in stock"
+      "id": 4,
+      "image": "https://www.miabytanishq.com/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10eab331/images/hi-res/2812FTM.jpg?sw=640&sh=640",
+      "description": "Skelaton Rig",
+      "desc": "CC",
+      "price": "$199",
+      "stock": "Product in stock"
     },
     {
-      "id":5,
-      "image":"https://www.amama.in/cdn/shop/files/AMA-RU-AR-013-2.jpg?v=1717131188&width=800",
-      "description":"Flat Long",
-      "desc":"DW",
-      "price":"$79",
-      "stock":"Product in stock"
+      "id": 5,
+      "image": "https://www.amama.in/cdn/shop/files/AMA-RU-AR-013-2.jpg?v=1717131188&width=800",
+      "description": "Flat Long",
+      "desc": "DW",
+      "price": "$79",
+      "stock": "Product in stock"
     },
     {
-      "id":6,
-      "image":"https://www.amama.in/cdn/shop/products/BPR001-1_f30d7a77-2f65-4bb1-9037-6d36ad79b1c3.jpg?v=1717844430&width=1200",
-      "description":"All Fingers",
-      "desc":"Dystopia",
-      "price":"$199",
-      "stock":"Product in stock"
+      "id": 6,
+      "image": "https://www.amama.in/cdn/shop/products/BPR001-1_f30d7a77-2f65-4bb1-9037-6d36ad79b1c3.jpg?v=1717844430&width=1200",
+      "description": "All Fingers",
+      "desc": "Dystopia",
+      "price": "$199",
+      "stock": "Product in stock"
     },
     {
-      "id":7,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-98157308001_2.jpg?v=1657014122&width=3000",
-      "description":"Hanna Earings",
-      "desc":"Hanna",
-      "price":"$290",
-      "stock":"Product in stock"
+      "id": 7,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-98157308001_2.jpg?v=1657014122&width=3000",
+      "description": "Hanna Earings",
+      "desc": "Hanna",
+      "price": "$290",
+      "stock": "Product in stock"
     },
     {
-      "id":8,
-      "image":"https://accessorizelondon.in/cdn/shop/products/01_78497781_1.jpg?v=1675683616&width=3000",
-      "description":"All 10 Fingers",
-      "desc":"A10",
-      "price":"$500",
-      "stock":"Product in stock"
+      "id": 8,
+      "image": "https://accessorizelondon.in/cdn/shop/products/01_78497781_1.jpg?v=1675683616&width=3000",
+      "description": "All 10 Fingers",
+      "desc": "A10",
+      "price": "$500",
+      "stock": "Product in stock"
     },
     {
-      "id":9,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-38180681001_4.jpg?v=1659957484&width=3000",
-      "description":"Bengal Bangles",
-      "desc":"DW",
-      "price":"$400",
-      "stock":"Product in stock"
+      "id": 9,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-38180681001_4.jpg?v=1659957484&width=3000",
+      "description": "Bengal Bangles",
+      "desc": "DW",
+      "price": "$400",
+      "stock": "Product in stock"
     },
     {
-      "id":10,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-18408581001_2_c7b8cdaf-8f71-43e8-b618-bc49ae97d1fb.jpg?v=1663843852&width=3000",
-      "description":"All Mineral",
-      "desc":"CC",
-      "price":"$350",
-      "stock":"Product in stock"
+      "id": 10,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-18408581001_2_c7b8cdaf-8f71-43e8-b618-bc49ae97d1fb.jpg?v=1663843852&width=3000",
+      "description": "All Mineral",
+      "desc": "CC",
+      "price": "$350",
+      "stock": "Product in stock"
     },
     {
-      "id":11,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-82004941001_2_a033cc4f-d145-4052-9818-299398f156a0.jpg?v=1662375139&width=3000",
-      "description":"Rainy Earings",
-      "desc":"CC",
-      "price":"$2000",
-      "stock":"Product in stock"
+      "id": 11,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-82004941001_2_a033cc4f-d145-4052-9818-299398f156a0.jpg?v=1662375139&width=3000",
+      "description": "Rainy Earings",
+      "desc": "CC",
+      "price": "$2000",
+      "stock": "Product in stock"
     },
     {
-      "id":12,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MA-18187670001_5_9a33291d-042e-4663-909b-4f30f3ae2043.jpg?v=1675336758&width=3000",
-      "description":"Pinned Bangles",
-      "desc":"DW",
-      "price":"$100",
-      "stock":"Product in stock"
+      "id": 12,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MA-18187670001_5_9a33291d-042e-4663-909b-4f30f3ae2043.jpg?v=1675336758&width=3000",
+      "description": "Pinned Bangles",
+      "desc": "DW",
+      "price": "$100",
+      "stock": "Product in stock"
     },
     {
-      "id":13,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MA-38105397001_2.jpg?v=1677229898&width=3000",
-      "description":"Green Emeralds",
-      "desc":"Ringers",
-      "price":"$999",
-      "stock":"Product in stock"
+      "id": 13,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MA-38105397001_2.jpg?v=1677229898&width=3000",
+      "description": "Green Emeralds",
+      "desc": "Ringers",
+      "price": "$999",
+      "stock": "Product in stock"
     },
     {
-      "id":14,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-98135981001_2_8834b775-a3d5-4839-a3d5-f2c89f1478bf.jpg?v=1657008846&width=3000",
-      "description":"Scorpion Ears",
-      "desc":"Ringers",
-      "price":"$200",
-      "stock":"Product in stock"
+      "id": 14,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-98135981001_2_8834b775-a3d5-4839-a3d5-f2c89f1478bf.jpg?v=1657008846&width=3000",
+      "description": "Scorpion Ears",
+      "desc": "Ringers",
+      "price": "$200",
+      "stock": "Product in stock"
     },
     {
-      "id":15,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MA-38100481001_3.jpg?v=1657021866&width=3000",
-      "description":"All Ring 5",
-      "desc":"DW",
-      "price":"$800",
-      "stock":"Product in stock"
+      "id": 15,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MA-38100481001_3.jpg?v=1657021866&width=3000",
+      "description": "All Ring 5",
+      "desc": "DW",
+      "price": "$800",
+      "stock": "Product in stock"
     },
     {
-      "id":16,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-58174908001_1_e7f5cc3f-354d-4c94-93e0-7d98c093bc4d.jpg?v=1693986666&width=3000",
-      "description":"Air Cut ",
-      "desc":"AiroG",
-      "price":"$10,000",
-      "stock":"Product in stock"
+      "id": 16,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-58174908001_1_e7f5cc3f-354d-4c94-93e0-7d98c093bc4d.jpg?v=1693986666&width=3000",
+      "description": "Air Cut ",
+      "desc": "AiroG",
+      "price": "$10,000",
+      "stock": "Product in stock"
     },
     {
-      "id":17,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-38180781001_3_92390dd7-4ed7-4625-807c-5d7ce07b62ec.jpg?v=1668139450&width=3000",
-      "description":"Banger",
-      "desc":"CC",
-      "price":"$200",
-      "stock":"Product in stock"
+      "id": 17,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-38180781001_3_92390dd7-4ed7-4625-807c-5d7ce07b62ec.jpg?v=1668139450&width=3000",
+      "description": "Banger",
+      "desc": "CC",
+      "price": "$200",
+      "stock": "Product in stock"
     },
     {
-      "id":18,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-69483881001_1_641a0042-e964-4344-b667-4b15ce62b150.jpg?v=1663842808&width=3000",
-      "description":"Universe Earing",
-      "desc":"BlueCut",
-      "price":"$2000",
-      "stock":"Product in stock"
+      "id": 18,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-69483881001_1_641a0042-e964-4344-b667-4b15ce62b150.jpg?v=1663842808&width=3000",
+      "description": "Universe Earing",
+      "desc": "BlueCut",
+      "price": "$2000",
+      "stock": "Product in stock"
     },
     {
-      "id":19,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MA-58102981001_1.jpg?v=1678695955&width=3000",
-      "description":"Butterfly Earings",
-      "desc":"DW",
-      "price":"$600",
-      "stock":"Product in stock"
+      "id": 19,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MA-58102981001_1.jpg?v=1678695955&width=3000",
+      "description": "Butterfly Earings",
+      "desc": "DW",
+      "price": "$600",
+      "stock": "Product in stock"
     },
     {
-      "id":20,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
-      "description":"InterTwined",
-      "desc":"McTavish",
-      "price":"$800",
-      "stock":"Product in stock"
+      "id": 20,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
+      "description": "InterTwined",
+      "desc": "McTavish",
+      "price": "$800",
+      "stock": "Product in stock"
     }
   ],
-  "newarrivals":[
+  "newarrivals": [
     {
-      "id":1,
-      "image":"https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
-      "description":"InterTwined",
-      "desc":"McTavish",
-      "price":"$800",
-      "stock":"Product in stock"
+      "id": 1,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
+      "description": "InterTwined",
+      "desc": "McTavish",
+      "price": "$800",
+      "stock": "Product in stock"
     },
     {
-      "id":2,
-      "image":"https://m.media-amazon.com/images/I/412CKVTe8dL._SY445_SX342_QL70_FMwebp_.jpg",
-      "description":"iPhone 15 Pro",
-      "desc":"Apple",
-      "price":"$999",
-      "stock":"Product in stock"
+      "id": 2,
+      "image": "https://m.media-amazon.com/images/I/412CKVTe8dL._SY445_SX342_QL70_FMwebp_.jpg",
+      "description": "iPhone 15 Pro",
+      "desc": "Apple",
+      "price": "$999",
+      "stock": "Product in stock"
     },
     {
       "id": 3,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Blue Half Sleeve Shirt",
-      "desc":"H & M",
-      "price":"$29.99",
-      "stock":"Product in stock"
+      "desc": "H & M",
+      "price": "$29.99",
+      "stock": "Product in stock"
     },
     {
-      "id":4,
-      "image":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
-      "description":"Coffin Collection",
-      "desc":"SNKRS",
-      "price":"$250",
-      "stock":"Product in stock"
+      "id": 4,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
+      "description": "Coffin Collection",
+      "desc": "SNKRS",
+      "price": "$250",
+      "stock": "Product in stock"
     },
     {
-      "id":5,
-      "image":"https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408760001/665/410408760001_1_6934.webp",
-      "description":"Mini Me Duffel",
-      "desc":"Catergirl",
-      "price":"$199.99",
-      "stock":"Product in stock"
+      "id": 5,
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408760001/665/410408760001_1_6934.webp",
+      "description": "Mini Me Duffel",
+      "desc": "Catergirl",
+      "price": "$199.99",
+      "stock": "Product in stock"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "appu",
+      "email": "appu@gmail.com",
+      "password": "123",
+      "cart": [],
+      "favourites": []
+    },
+    {
+      "username": "SidhardhJoe",
+      "email": "Sidhardhjoe@gmail.com",
+      "password": "12345678",
+      "id": 2,
+      "cart": [],
+      "favourites": []
+    },
+    {
+      "username": "SidhardhJoe",
+      "email": "Sidhardhjoe@gmail.com",
+      "password": "12345678",
+      "cart": [],
+      "favourites": [],
+      "id": 3
     }
   ]
-  
 }

@@ -4,14 +4,15 @@ import { useNavigation } from '@react-navigation/native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-const ProductDetailsPage = () => {
+const ProductDetailsPage = ({route}) => {
     const navigation = useNavigation();
     const [data, setData] = useState([]);
     const [val, setVal] = useState(0);
-
+    const {id} = route.params
     const getAPI = async () => {
+        console.log('id', id)
         try {
-            const url = "http://192.168.1.98:3000/Clothes";
+            const url = `http://192.168.1.98:3000/Clothes/${id}`;
             const result = await fetch(url);
             const data = await result.json();
             setData(data);
@@ -30,27 +31,35 @@ const ProductDetailsPage = () => {
         <View style={styles.container}>
             <View style={styles.view1}>
                 <TouchableOpacity onPress={() => navigation.navigate('TestPage')}>
-                    <Image source={{ uri: data[0]?.image }} style={styles.image} />
+                    <Image source={{ uri: data?.image }} style={styles.image} />
                 </TouchableOpacity>
             </View>
             <View style={styles.view2}>
                 <View style={styles.view2sub}>
                     <View>
-                        <Text style={styles.itemname}>{data[0]?.description}</Text>
-                        <Text style={styles.brandname}>{data[0]?.desc}</Text>
+                        <Text style={styles.itemname}>{data?.description}</Text>
+                        <Text style={styles.brandname}>{data?.desc}</Text>
+                        <View style={styles.ratingContainer}>
+                            <Icon name="star" size={16} color="gold" />
+                            <Icon name="star" size={16} color="gold" />
+                            <Icon name="star" size={16} color="gold" />
+                            <Icon name="star" size={16} color="gold" />
+                            <Icon name="star-outline" size={16} color="gold" />
+                            <Text style={styles.reviewText}>(320 Review)</Text>
+                        </View>
                     </View>
                     <View  >
                         <View style={styles.capsule}>
-                            <TouchableOpacity onPress={() => setVal(val - 1)}>
+                            <TouchableOpacity onPress={() => setVal(val>0?val - 1:0)}>
                                 <Image source={require("../Icons/Minus.png")} />
                             </TouchableOpacity>
                             <Text>{val}</Text>
-                            <TouchableOpacity onPress={() => setVal(val + 1)}>
+                            <TouchableOpacity onPress={() => setVal(val<10?val + 1:10)}>
                                 <Image source={require("../Icons/Plus.png")} />
                             </TouchableOpacity>
                         </View>
                         <View>
-                            <Text>Product in stock</Text>
+                            <Text style={styles.stock}>{data?.stock}</Text>
                         </View>
                     </View>
                 </View>
@@ -64,7 +73,7 @@ export default ProductDetailsPage
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "white"
+        backgroundColor: "black"
     },
     view1: {
         height: "53%"
@@ -92,19 +101,33 @@ const styles = StyleSheet.create({
     },
     capsule: {
         height: "30%",
-        width: "60%",
+        width: "65%",
         backgroundColor: "#e2e2e2",
         borderRadius: 20,
         justifyContent: "center",
         alignItems: "center",
-        gap: 10,
-        flexDirection:"row"
+        gap: 15,
+        flexDirection: "row"
     },
     view2sub: {
         flexDirection: "row",
         justifyContent: "space-between",
         marginHorizontal: 15,
-        marginTop: 20
+        marginTop: 20,
+        gap: 20
 
+    },
+    stock: {
+        fontFamily: "PoppinsBold",
+        fontSize: 12,
+        color: "green"
+
+    },
+    ratingContainer:{
+        flexDirection:"row"
+    },
+    reviewText:{
+        fontFamily:"PoppinsRegular",
+        marginLeft:2
     }
 })
