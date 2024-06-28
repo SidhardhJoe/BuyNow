@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, Image, ScrollView } from 'react-native'
 import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const ProductDetailsPage = () => {
     const navigation = useNavigation();
@@ -38,14 +39,19 @@ const ProductDetailsPage = () => {
                         <Text style={styles.itemname}>{data[0]?.description}</Text>
                         <Text style={styles.brandname}>{data[0]?.desc}</Text>
                     </View>
-                    <View style={styles.capsule}>
-                        <TouchableOpacity onPress={()=>setVal(val-1)}>
-                            <Image source={require("../Icons/Minus.png")} />
-                        </TouchableOpacity>
-                        <Text>{val}</Text>
-                        <TouchableOpacity onPress={()=>setVal(val+1)}>
-                            <Image source={require("../Icons/Plus.png")} />
-                        </TouchableOpacity>
+                    <View  >
+                        <View style={styles.capsule}>
+                            <TouchableOpacity onPress={() => setVal(val - 1)}>
+                                <Image source={require("../Icons/Minus.png")} />
+                            </TouchableOpacity>
+                            <Text>{val}</Text>
+                            <TouchableOpacity onPress={() => setVal(val + 1)}>
+                                <Image source={require("../Icons/Plus.png")} />
+                            </TouchableOpacity>
+                        </View>
+                        <View>
+                            <Text>Product in stock</Text>
+                        </View>
                     </View>
                 </View>
             </View>
@@ -85,14 +91,14 @@ const styles = StyleSheet.create({
         fontSize: 16,
     },
     capsule: {
-        height: "60%",
-        width: "25%",
+        height: "30%",
+        width: "60%",
         backgroundColor: "#e2e2e2",
         borderRadius: 20,
-        flexDirection: "row",
         justifyContent: "center",
         alignItems: "center",
-        gap: 10
+        gap: 10,
+        flexDirection:"row"
     },
     view2sub: {
         flexDirection: "row",
