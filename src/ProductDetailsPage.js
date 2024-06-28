@@ -39,14 +39,13 @@ const ProductDetailsPage = () => {
                         <Text style={styles.brandname}>{data[0]?.desc}</Text>
                     </View>
                     <View style={styles.capsule}>
-                        <TouchableOpacity onPress={()=>setVal(val+1)}>
-                            <Image source={require("../Icons/Plus.png")} />
-                        </TouchableOpacity>
-                        <Text>{val}</Text>
                         <TouchableOpacity onPress={()=>setVal(val-1)}>
                             <Image source={require("../Icons/Minus.png")} />
                         </TouchableOpacity>
-
+                        <Text>{val}</Text>
+                        <TouchableOpacity onPress={()=>setVal(val+1)}>
+                            <Image source={require("../Icons/Plus.png")} />
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>
@@ -74,7 +73,7 @@ const styles = StyleSheet.create({
         backgroundColor: "white",
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
-        marginTop: -10
+        marginTop: -15
     },
     itemname: {
         fontFamily: "PoppinsBold",
