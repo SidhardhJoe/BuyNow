@@ -4,7 +4,9 @@ import React from 'react'
 const Cart = () => {
   return (
     <View style={styles.container}>
-      
+      <View>
+        <Image />
+      </View>
     </View>
   )
 }

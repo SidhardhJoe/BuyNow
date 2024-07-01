@@ -32,7 +32,8 @@ const ProductDetailsPage = ({ route }) => {
 
             const getCart = await axios.get(`http://192.168.1.98:3000/users/${userid.id}`)
             const response = await axios.put(`http://192.168.1.98:3000/users/${userid.id}`,
-                { "cart": [...getCart.data.cart, data], "email": userid.email, "favourites": [], "id": userid.id, "password": userid.password, "username": userid.username }
+                { "cart": [...getCart.data.cart, data], "email": userid.email, "favourites": [], "id": userid.id, "password": userid.password, "username": userid.username },
+                console.log("response", getCart.data.cart)
             )
             navigation.navigate('Cart')
         }

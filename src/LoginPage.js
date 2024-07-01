@@ -21,7 +21,7 @@ const LoginPage = () => {
     else{
       try {
         const response = await axios.get(`http://192.168.1.98:3000/users?email=${email}&password=${password}`);
-        {console.log(response.data)}
+        {console.log( "responsedata", response.data)}
         if (response.data.length > 0) {
 
           await AsyncStorage.setItem("userdata", JSON.stringify(response.data));
