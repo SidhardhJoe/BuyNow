@@ -25,7 +25,7 @@ const JewelleryPage = () => {
         <View style={{ justifyContent: "center", alignItems: "center" }}>
           <Text style={styles.desctext}>{item.description}</Text>
           <Text style={styles.desc1}>{item.desc}</Text>
-          {/* <Text style={styles.desctext}>{item.price}</Text> */}
+          <Text style={styles.desctext}>{item.price}</Text>
         </View>
       </TouchableOpacity>
     </View>
