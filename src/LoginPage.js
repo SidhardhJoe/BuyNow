@@ -2,6 +2,8 @@ import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, Alert } fro
 import React, { useState } from 'react'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation } from '@react-navigation/native'
+import axios from 'axios';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 const LoginPage = () => {
@@ -10,15 +12,43 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
   const [secureTextEntry, setSecureTextEntry] = useState(true);
 
-  const handlePress=()=>{
+  const handlePress= async()=>{
     if(email === ''){
       Alert.alert("Enter Email")
     }else if(password === ''){
       Alert.alert("Enter Password")
-    }else{
-      navigation.navigate('SuccessPage')
+    }
+    else{
+      try {
+        const response = await axios.get(`http://192.168.1.98:3000/users?email=${email}&password=${password}`);
+        {console.log(response.data)}
+        if (response.data.length > 0) {
+
+          await AsyncStorage.setItem("userdata", JSON.stringify(response.data));
+          navigation.navigate('SuccessPage');
+        } else {
+          Alert.alert('Invalid Credentials', 'The email or password you entered is incorrect.');
+        }
+      } catch (error) {
+        console.error(error);
+        Alert.alert('Error', 'Something went wrong. Please try again later.');
+      }
     }
   }
+
+  const handleLogin = async () => {
+    try {
+      const response = await axios.get(`http://localhost:3000/users?email=${email}&password=${password}`);
+      if (response.data.length > 0) {
+        navigation.navigate('Home');
+      } else {
+        Alert.alert('Invalid Credentials', 'The email or password you entered is incorrect.');
+      }
+    } catch (error) {
+      console.error(error);
+      Alert.alert('Error', 'Something went wrong. Please try again later.');
+    }
+  };
 
   const toggleSecureTextEntry = () => {
     setSecureTextEntry(!secureTextEntry);

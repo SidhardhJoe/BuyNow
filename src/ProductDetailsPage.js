@@ -3,22 +3,44 @@ import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/Ionicons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import axios from 'axios';
+
 
 const ProductDetailsPage = ({ route }) => {
     const navigation = useNavigation();
     const [data, setData] = useState([]);
     const [val, setVal] = useState(0);
     const { id } = route.params
+    const [userid, setUserId] = useState(null)
     const getAPI = async () => {
         try {
             const url = `http://192.168.1.98:3000/Clothes/${id}`;
             const result = await fetch(url);
             const data = await result.json();
             setData(data);
+            const value = await AsyncStorage.getItem("userdata");
+            const datas = JSON.parse(value)
+            setUserId(datas[0])
         } catch (err) {
             setError('Failed to fetch data');
         }
     };
+
+    const postData = async () => {
+        try {
+
+            const getCart = await axios.get(`http://192.168.1.98:3000/users/${userid.id}`)
+            const response = await axios.put(`http://192.168.1.98:3000/users/${userid.id}`,
+                { "cart": [...getCart.data.cart, data], "email": userid.email, "favourites": [], "id": userid.id, "password": userid.password, "username": userid.username }
+            )
+            navigation.navigate('Cart')
+        }
+        catch (error) {
+            console.log('error', error)
+        }
+    }
+
 
     useEffect(() => {
         getAPI();
@@ -76,7 +98,7 @@ const ProductDetailsPage = ({ route }) => {
                         </View>
                         <View style={styles.pricebox}>
                             <View>
-                                <TouchableOpacity>
+                                <TouchableOpacity onPress={postData}>
                                     <Text style={styles.atctext}>Add to cart</Text>
                                 </TouchableOpacity>
                             </View>

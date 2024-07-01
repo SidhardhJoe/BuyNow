@@ -7,17 +7,7 @@
       "desc": "H & M",
       "price": "$29.99",
       "stock": "Product in stock",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar",
-      "size": [
-        {
-          "id": 1,
-          "size": "L"
-        },
-        {
-          "id": 2,
-          "size": "S"
-        }
-      ]
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar"
     },
     {
       "id": 2,
@@ -977,7 +967,7 @@
     {
       "username": "SidhardhJoe",
       "email": "Sidhardhjoe@gmail.com",
-      "password": "12345678",
+      "password": "1234567",
       "id": 2,
       "cart": [],
       "favourites": []
@@ -997,6 +987,78 @@
       "cart": [],
       "favourites": [],
       "id": 4
+    },
+    {
+      "cart": [
+        {
+          "id": 3,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff9%2F48%2Ff9489a65d01754a3a32e31dcc15038c0c72e0f4e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]",
+          "description": "White Thick Lined Shirt",
+          "desc": "H & M",
+          "price": "$34.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 7,
+          "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F7a%2F0a7a496a5a58f57fdd11c360efc29250d9fe8c95.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "description": "Godfather T-Shirt",
+          "desc": "McTavish",
+          "price": "$49.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 17,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa4%2F8a%2Fa48a3267d0834b49db3d4ca387794a04bf15906f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+          "description": "Black White Longer",
+          "desc": "McTavish",
+          "price": "$69.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 7,
+          "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F7a%2F0a7a496a5a58f57fdd11c360efc29250d9fe8c95.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "description": "Godfather T-Shirt",
+          "desc": "McTavish",
+          "price": "$49.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 3,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff9%2F48%2Ff9489a65d01754a3a32e31dcc15038c0c72e0f4e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]",
+          "description": "White Thick Lined Shirt",
+          "desc": "H & M",
+          "price": "$34.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 12,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F83%2F468305176be407543d1d48945b9be0beb6c8d298.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+          "description": "Green Camo T-Shirt",
+          "desc": "McTavish",
+          "price": "$29.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 1,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+          "description": "Blue Half Sleeve Shirt",
+          "desc": "H & M",
+          "price": "$29.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar"
+        }
+      ],
+      "email": "A",
+      "favourites": [],
+      "id": 5,
+      "password": "A",
+      "username": "A"
     }
   ]
 }
