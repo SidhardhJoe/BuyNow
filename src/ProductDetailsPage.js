@@ -15,25 +15,26 @@ const ProductDetailsPage = ({ route }) => {
     const [userid, setUserId] = useState(null)
     const getAPI = async () => {
         try {
-            const url = `http://192.168.1.98:3000/Clothes/${id}`;
-            const result = await fetch(url);
-            const data = await result.json();
-            setData(data);
-            const value = await AsyncStorage.getItem("userdata");
-            const datas = JSON.parse(value)
-            setUserId(datas[0])
+            const url = `http://192.168.43.64:3000/Clothes/${id}`; // setting url as the api of clothes with id passed as params from clothes page
+            const result = await fetch(url); //  calling the api
+            const data = await result.json(); // stores result in data as a json format  
+            setData(data); // setting data in useState
+            const value = await AsyncStorage.getItem("userdata"); // storing value of userdata which is an asyncstorage in value ... userdata is the data of the particular user which we took from login page using email and password
+            const datas = JSON.parse(value) // parsing the value and storing it in datas
+            setUserId(datas[0]) // storing userid to data[0] because there data is an array and it is only 1 element so to store it we need to asssing the array position
         } catch (err) {
-            setError('Failed to fetch data');
+            setError('Failed to fetch data'); // showing error if any
         }
     };
 
     const postData = async () => {
         try {
 
-            const getCart = await axios.get(`http://192.168.1.98:3000/users/${userid.id}`)
-            const response = await axios.put(`http://192.168.1.98:3000/users/${userid.id}`,
+            const getCart = await axios.get(`http://192.168.43.64:3000/users/${userid.id}`) // getting data from api of userid of id
+            await AsyncStorage.setItem("cartValues",JSON.stringify(getCart))
+            const response = await axios.put(`http://192.168.43.64:3000/users/${userid.id}`, // updating the details in cart. 
                 { "cart": [...getCart.data.cart, data], "email": userid.email, "favourites": [], "id": userid.id, "password": userid.password, "username": userid.username },
-                console.log("response", getCart.data.cart)
+                // console.log("response", getCart.data.cart)
             )
             navigation.navigate('Cart')
         }

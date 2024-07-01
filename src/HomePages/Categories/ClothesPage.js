@@ -7,7 +7,7 @@ const ClothesPage = () => {
   const navigation = useNavigation();
   const [data, setData] = useState([]);
   const getAPI = async () => {
-    const url = "http://192.168.1.98:3000/Clothes";
+    const url = "http://192.168.43.64:3000/Clothes";
     const result = await fetch(url);
     const data = await result.json();
     setData(data);
