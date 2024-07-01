@@ -7,7 +7,7 @@ const JewelleryPage = () => {
   const navigation = useNavigation();
   const [data, setData] = useState([]);
   const getAPI = async () => {
-    const url = "http://192.168.1.98:3000/Jewels";
+    const url = "http://192.168.43.64:3000/jewels";
     const result = await fetch(url);
     const data = await result.json();
     setData(data);
@@ -25,7 +25,7 @@ const JewelleryPage = () => {
         <View style={{ justifyContent: "center", alignItems: "center" }}>
           <Text style={styles.desctext}>{item.description}</Text>
           <Text style={styles.desc1}>{item.desc}</Text>
-          <Text style={styles.desctext}>{item.price}</Text>
+          {/* <Text style={styles.desctext}>{item.price}</Text> */}
         </View>
       </TouchableOpacity>
     </View>
