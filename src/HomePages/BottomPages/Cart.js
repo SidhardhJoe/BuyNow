@@ -3,12 +3,9 @@ import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-const Cart = ({ route }) => {
-  const navigation = useNavigation();
-  const [cartData, setCartData] = useState([]);
-  const [error, setError] = useState(null);
-  const [val, setVal] = useState(null);
+import {useFocusEffect} from'@react-navigation/native'
+const Cart = () => {
+  const [value, setValue]=useState([]);
 
   const getAPI = async () => {
     // try {
@@ -23,23 +20,36 @@ const Cart = ({ route }) => {
     // } catch (err) {
     //   setError('Failed to fetch data');
     //   console.error("Error fetching cart data:", err)
-
+    // }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // try{
+    //   const userdata= await AsyncStorage.getItem("cartValues")
+    //   if(userdata){
+    //     const userdataval=JSON.parse(userdata);
+    //     const finalval =userdataval.data.cart
+    //     setVal(finalval)
+    //     console.log("final value", val )
+    //   }else{
+    //     console.log("error")
+    //   }
+    // }catch(err){
+    //   setError('Failed to fetch data')
+    //   console.log("error",setError)
     // }
 
     try{
-      const userdata= await AsyncStorage.getItem("realvals")
-      if(userdata){
-        const userdataval=JSON.parse(userdata);
-        setVal(userdataval),
-        console.log("userdata", val)
+      const getdata = await AsyncStorage.getItem("cartValues")
+      if(getdata){
+        const changeval=JSON.parse(getdata);
+        const changevalagain=changeval.data
+        console.log('changevalagain', changevalagain)
+        setValue(changevalagain.cart)
+        // console.log("usestate stored value", value)
       }else{
-        console.log("error")
+        console.log("no data returned")
       }
-
     }catch(err){
-      setError('Failed to fetch data')
-      console.log("error",setError)
-
+      console.log("error", err)
     }
 
 
@@ -48,6 +58,12 @@ const Cart = ({ route }) => {
 
 
   };
+  useFocusEffect(
+    React.useCallback(()=>{
+    getAPI();
+
+    },[])
+  )
 
   useEffect(() => {
     getAPI();
@@ -70,12 +86,12 @@ const Cart = ({ route }) => {
         <Text style={styles.mycarttext}>My Cart</Text>
       </View>
       <View style={styles.flatlistview}>
-        <FlatList
-          data={val}
+        {value&&<FlatList
+          data={value}
           renderItem={renderItem}
           keyExtractor={item => item.id.toString()}
           showsVerticalScrollIndicator={false}
-        />
+        />}
       </View>
       <View style={styles.view3}>
         <View style={styles.details}>

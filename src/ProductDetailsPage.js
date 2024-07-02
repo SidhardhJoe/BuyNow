@@ -31,7 +31,7 @@ const ProductDetailsPage = ({ route }) => {
         try {
 
             const getCart = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`)
-            
+
             // await AsyncStorage.setItem("cartValues", JSON.stringify(getCart)) 
             const response = await axios.put(`http://192.168.1.18:3000/users/${userid.id}`, // updating the details in cart. 
                 {
@@ -42,17 +42,16 @@ const ProductDetailsPage = ({ route }) => {
                     "password": userid.password,
                     "username": userid.username
                 },
-            // await AsyncStorage.setItem("realvals", JSON.stringify(response)),
-                
+                // await AsyncStorage.setItem("realvals", JSON.stringify(response)),
+
             )
-            
+
             const getCarts = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`)
             console.log('getCart', getCarts)
-            if(getCarts){
-                await AsyncStorage.setItem("cartValues", JSON.stringify(getCarts)) 
-                // getting data from api of userid of id
-               console.log("response", getCarts.data)
-               navigation.navigate('Cart')
+            if (getCarts) {
+                await AsyncStorage.setItem("cartValues", JSON.stringify(getCarts))
+                // console.log("response", getCarts.data)
+                navigation.navigate('Cart')
             }
 
         }
