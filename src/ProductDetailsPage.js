@@ -11,11 +11,12 @@ const ProductDetailsPage = ({ route }) => {
     const navigation = useNavigation();
     const [data, setData] = useState([]);
     const [val, setVal] = useState(0);
-    const { id } = route.params
+    const { id, category } = route.params
+    // const {category} = route.params
     const [userid, setUserId] = useState(null)
     const getAPI = async () => {
         try {
-            const url = `http://192.168.1.18:3000/Clothes/${id}`; // setting url as the api of clothes with id passed as params from clothes page
+            const url = `http://192.168.1.18:3000/${category}/${id}`; // setting url as the api of clothes with id passed as params from clothes page
             const result = await fetch(url); //  calling the api
             const data = await result.json(); // stores result in data as a json format  
             setData(data); // setting data in useState

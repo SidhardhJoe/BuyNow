@@ -19,7 +19,7 @@ const BagsPage = () => {
 
     const renderItem = ({ item }) => (
         <View style={styles.itemContainer}>
-            <TouchableOpacity onPress={() => navigation.navigate('ProductDetailsPage', { id: item?.id })}>
+            <TouchableOpacity onPress={() => navigation.navigate('ProductDetailsPage', { id: item?.id, category: 'bags' })}>
                 <Image source={{ uri: item.image }} style={styles.image} />
                 <View style={{ justifyContent: "center", alignItems: "center" }}>
                     <Text style={styles.desctext}>{item.description}</Text>

@@ -89,7 +89,7 @@ const Cart = () => {
         {value&&<FlatList
           data={value}
           renderItem={renderItem}
-          keyExtractor={item => item.id.toString()}
+          keyExtractor={item => (item.id ? item.id.toString() : Math.random().toString())}
           showsVerticalScrollIndicator={false}
         />}
       </View>
