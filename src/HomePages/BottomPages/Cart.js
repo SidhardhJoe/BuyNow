@@ -4,25 +4,49 @@ import { useNavigation } from '@react-navigation/native';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const Cart = ({route}) => {
+const Cart = ({ route }) => {
   const navigation = useNavigation();
   const [cartData, setCartData] = useState([]);
   const [error, setError] = useState(null);
-  // const {id}=route.params
+  const [val, setVal] = useState(null);
 
   const getAPI = async () => {
-    try {
-      const pass = await AsyncStorage.getItem("cartValues"); // getting all data of the user from product details page
-      if (pass) {
-        const passval = JSON.parse(pass); // parsing the value and storing it in passval
-        setCartData(passval.data.cart); // setting cartData to passval.data.cart
-        console.log("Cart Data: ", passval.data.cart);
-        // console.log("id value", id)
+    // try {
+    //   const userdata = await AsyncStorage.getItem("userdata"); // calling data from asyncStorage which was saved from login page
+    //   if (userdata) { // if there is any user data
+    //     const userdataval = JSON.parse(userdata); // parsing the data which we stringify'ed
+    //     setVal(userdataval[0].cart); // val is now userdataval
+    //     console.log("User Data:", userdataval[0].cart);
+    //   } else {
+    //     console.log("No user data found in AsyncStorage");
+    //   }
+    // } catch (err) {
+    //   setError('Failed to fetch data');
+    //   console.error("Error fetching cart data:", err)
+
+    // }
+
+    try{
+      const userdata= await AsyncStorage.getItem("realvals")
+      if(userdata){
+        const userdataval=JSON.parse(userdata);
+        setVal(userdataval),
+        console.log("userdata", val)
+      }else{
+        console.log("error")
       }
-    } catch (err) {
-      setError('Failed to fetch data');
-      console.error("Error fetching cart data: ", err);
+
+    }catch(err){
+      setError('Failed to fetch data')
+      console.log("error",setError)
+
     }
+
+
+
+
+
+
   };
 
   useEffect(() => {
@@ -47,7 +71,7 @@ const Cart = ({route}) => {
       </View>
       <View style={styles.flatlistview}>
         <FlatList
-          data={cartData}
+          data={val}
           renderItem={renderItem}
           keyExtractor={item => item.id.toString()}
           showsVerticalScrollIndicator={false}
