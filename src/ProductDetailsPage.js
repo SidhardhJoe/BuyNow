@@ -15,7 +15,7 @@ const ProductDetailsPage = ({ route }) => {
     const [userid, setUserId] = useState(null)
     const getAPI = async () => {
         try {
-            const url = `http://192.168.43.64:3000/Clothes/${id}`; // setting url as the api of clothes with id passed as params from clothes page
+            const url = `http://192.168.1.18:3000/Clothes/${id}`; // setting url as the api of clothes with id passed as params from clothes page
             const result = await fetch(url); //  calling the api
             const data = await result.json(); // stores result in data as a json format  
             setData(data); // setting data in useState

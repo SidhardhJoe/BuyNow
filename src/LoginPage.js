@@ -21,7 +21,7 @@ const LoginPage = () => {
     else{
       try {
 
-        const response = await axios.get(`http://192.168.43.64:3000/users?email=${email}&password=${password}`);
+        const response = await axios.get(`http://192.168.1.18:3000/users?email=${email}&password=${password}`);
         {console.log( "responsedata", response.data)}
         {console.log("email", email)}
         {console.log("password", password)}

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 const NewArrivalsPage = () => {
     const [data, setData] = useState([]); 
     const getAPI = async () => {
-        const url = 'http://localhost:3000/newarrivals'
+        const url = 'http://192.168.1.18:3000/newarrivals'
         const result = await fetch(url);
         const data = await result.json();
         setData(data);

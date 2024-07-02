@@ -7,7 +7,7 @@ const JewelleryPage = () => {
   const navigation = useNavigation();
   const [data, setData] = useState([]);
   const getAPI = async () => {
-    const url = "http://192.168.1.98:3000/jewels";
+    const url = "http://192.168.1.18:3000/jewels";
     const result = await fetch(url);
     const data = await result.json();
     setData(data);
