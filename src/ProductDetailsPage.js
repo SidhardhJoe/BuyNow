@@ -29,6 +29,7 @@ const ProductDetailsPage = ({ route }) => {
     };
 
     const postData = async () => {
+        console.log('userid.id', userid.id)
         try {
 
             const getCart = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`)
