@@ -30,19 +30,25 @@ const ProductDetailsPage = ({ route }) => {
     const postData = async () => {
         try {
 
-            const getCart = await axios.get(`http://192.168.43.64:3000/users/${userid.id}`) // getting data from api of userid of id
-            await AsyncStorage.setItem("cartValues",JSON.stringify(getCart))
-            const response = await axios.put(`http://192.168.43.64:3000/users/${userid.id}`, // updating the details in cart. 
-                { "cart": [...getCart.data.cart, data], "email": userid.email, "favourites": [], "id": userid.id, "password": userid.password, "username": userid.username },
+            const getCart = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`) // getting data from api of userid of id
+            await AsyncStorage.setItem("cartValues", JSON.stringify(getCart)) 
+            const response = await axios.put(`http://192.168.1.18:3000/users/${userid.id}`, // updating the details in cart. 
+                {
+                    "cart": [...getCart.data.cart, data],
+                    "email": userid.email,
+                    "favourites": [],
+                    "id": userid.id,
+                    "password": userid.password,
+                    "username": userid.username
+                },
                 // console.log("response", getCart.data.cart)
+                navigation.navigate('Cart')
             )
-            navigation.navigate('Cart')
         }
         catch (error) {
             console.log('error', error)
         }
     }
-
 
     useEffect(() => {
         getAPI();

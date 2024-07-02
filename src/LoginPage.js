@@ -26,8 +26,6 @@ const LoginPage = () => {
         {console.log("email", email)}
         {console.log("password", password)}
         if (response.data.length > 0) {
-          // await AsyncStorage.setItem("email", email);
-          // await AsyncStorage.setItem("password", password);
           await AsyncStorage.setItem("userdata", JSON.stringify(response.data));
 
           navigation.navigate('SuccessPage');

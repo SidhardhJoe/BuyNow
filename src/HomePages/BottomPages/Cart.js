@@ -1,38 +1,39 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity, FlatList } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import { StyleSheet, Text, View, Image, TouchableOpacity, FlatList } from 'react-native';
+import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-
-const Cart = () => {
+const Cart = ({route}) => {
   const navigation = useNavigation();
-  const [email, setEmail]=useState()
-  const [password, setPassword]=useState();
-  
+  const [cartData, setCartData] = useState([]);
+  const [error, setError] = useState(null);
+  // const {id}=route.params
+
   const getAPI = async () => {
-    try{
-      const pass = await AsyncStorage.getItem("cartValues");
-      const passval =JSON.parse(pass);
-      setEmail(passval)
-      console.log("valaaaa",email.data.cart)
+    try {
+      const pass = await AsyncStorage.getItem("cartValues"); // getting all data of the user from product details page
+      if (pass) {
+        const passval = JSON.parse(pass); // parsing the value and storing it in passval
+        setCartData(passval.data.cart); // setting cartData to passval.data.cart
+        console.log("Cart Data: ", passval.data.cart);
+        // console.log("id value", id)
+      }
+    } catch (err) {
+      setError('Failed to fetch data');
+      console.error("Error fetching cart data: ", err);
     }
-    catch(err){
-      setError('Failed to fetch data');""
-    }
-  
-  }
-  useEffect(()=>{
+  };
+
+  useEffect(() => {
     getAPI();
-  }, [])
-  
-  const renderItem=({item})=>{
-    <View>
+  }, []);
 
+  const renderItem = ({ item }) => (
+    <View style={styles.itemContainer}>
+      <Image source={{ uri: item.image }} style={styles.itemImage} />
     </View>
-
-  }
-
+  );
 
   return (
     <View style={styles.container}>
@@ -45,11 +46,11 @@ const Cart = () => {
         <Text style={styles.mycarttext}>My Cart</Text>
       </View>
       <View style={styles.flatlistview}>
-        <FlatList 
-        data={email}
-        renderItem={renderItem}
-        keyExtractor={item => item.id.toString()}
-        showsVerticalScrollIndicator={false}
+        <FlatList
+          data={cartData}
+          renderItem={renderItem}
+          keyExtractor={item => item.id.toString()}
+          showsVerticalScrollIndicator={false}
         />
       </View>
       <View style={styles.view3}>
@@ -74,10 +75,10 @@ const Cart = () => {
         </TouchableOpacity>
       </View>
     </View>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;
 
 const styles = StyleSheet.create({
   container: {
@@ -142,5 +143,15 @@ const styles = StyleSheet.create({
   innertext1: {
     fontFamily: "PoppinsBold",
     fontSize: 16
+  },
+  itemContainer: {
+    padding: 10,
+    backgroundColor: 'white',
+    borderBottomWidth: 1,
+    borderColor: '#ccc'
+  },
+  itemImage: {
+    width: 100,
+    height: 100,
   }
-})
+});
