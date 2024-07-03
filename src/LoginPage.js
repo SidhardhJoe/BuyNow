@@ -21,13 +21,12 @@ const LoginPage = () => {
     else{
       try {
 
-        const response = await axios.get(`http://192.168.1.18:3000/users?email=${email}&password=${password}`);
+        const response = await axios.get(`http://192.168.1.18:3000/users?email=${email}&password=${password}`); // getting data from server with the email and password that we updated
         {console.log( "responsedata", response.data)}
         {console.log("email", email)}
         {console.log("password", password)}
         if (response.data.length > 0) {
-          await AsyncStorage.setItem("userdata", JSON.stringify(response.data));
-
+          await AsyncStorage.setItem("userdata", JSON.stringify(response.data)); // setting the data that we got to asyncStorage
           navigation.navigate('SuccessPage');
         } else {
           Alert.alert('Invalid Credentials', 'The email or password you entered is incorrect.');
@@ -38,20 +37,6 @@ const LoginPage = () => {
       }
     }
   }
-
-  // const handleLogin = async () => {
-  //   try {
-  //     const response = await axios.get(`http://localhost:3000/users?email=${email}&password=${password}`);
-  //     if (response.data.length > 0) {
-  //       navigation.navigate('Home');
-  //     } else {
-  //       Alert.alert('Invalid Credentials', 'The email or password you entered is incorrect.');
-  //     }
-  //   } catch (error) {
-  //     console.error(error);
-  //     Alert.alert('Error', 'Something went wrong. Please try again later.');
-  //   }
-  // };
 
   const toggleSecureTextEntry = () => {
     setSecureTextEntry(!secureTextEntry);

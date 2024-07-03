@@ -36,7 +36,7 @@ const SignUpPage = () => {
           cart:[],
           favourites:[]
         })
-      navigation.navigate('SuccessPage')
+      navigation.navigate('LoginPage')
         
       } catch (error) {
         console.log('error', error)

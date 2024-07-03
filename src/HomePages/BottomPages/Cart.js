@@ -1,77 +1,60 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity, FlatList } from 'react-native';
 import React, { useEffect, useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
-import axios from 'axios';
+import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {useFocusEffect} from'@react-navigation/native'
+
 const Cart = () => {
-  const [value, setValue]=useState([]);
+  const navigation = useNavigation();
+  const [value, setValue] = useState([]);
+  const [totalPrice, setTotalPrice] = useState(0);
 
   const getAPI = async () => {
-    // try {
-    //   const userdata = await AsyncStorage.getItem("userdata"); // calling data from asyncStorage which was saved from login page
-    //   if (userdata) { // if there is any user data
-    //     const userdataval = JSON.parse(userdata); // parsing the data which we stringify'ed
-    //     setVal(userdataval[0].cart); // val is now userdataval
-    //     console.log("User Data:", userdataval[0].cart);
-    //   } else {
-    //     console.log("No user data found in AsyncStorage");
-    //   }
-    // } catch (err) {
-    //   setError('Failed to fetch data');
-    //   console.error("Error fetching cart data:", err)
-    // }
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // try{
-    //   const userdata= await AsyncStorage.getItem("cartValues")
-    //   if(userdata){
-    //     const userdataval=JSON.parse(userdata);
-    //     const finalval =userdataval.data.cart
-    //     setVal(finalval)
-    //     console.log("final value", val )
-    //   }else{
-    //     console.log("error")
-    //   }
-    // }catch(err){
-    //   setError('Failed to fetch data')
-    //   console.log("error",setError)
-    // }
+    try {
+      const getdata = await AsyncStorage.getItem("cartValues"); // getting data from the product details page
+      if (getdata) { // if data not empty
+        const changeval = JSON.parse(getdata); // parsing data
+        const changevalagain = changeval.data; // getting the data from the api, getting rid of other elements
+        console.log('changevalagain', changevalagain);
 
-    try{
-      const getdata = await AsyncStorage.getItem("cartValues")
-      if(getdata){
-        const changeval=JSON.parse(getdata);
-        const changevalagain=changeval.data
-        console.log('changevalagain', changevalagain)
-        setValue(changevalagain.cart)
-        // console.log("usestate stored value", value)
-      }else{
-        console.log("no data returned")
+        const total = changevalagain.cart.reduce((sum, item) => { // takes in 2 parameters, sum (value of previous iterations) and item(value of current item) 
+          const price = parseFloat(item.price.replace('$', '')); // converts string to floating point values
+          return sum + price; // returns sum+price
+        }, 0); // setting initial value to 0
+
+        setValue(changevalagain.cart);
+        setTotalPrice(total);
+        console.log('totalprice', total);
+        await AsyncStorage.setItem("totalprice", JSON.stringify(totalPrice))
+      } else {
+        console.log("no data returned");
       }
-    }catch(err){
-      console.log("error", err)
+    } catch (err) {
+      console.log("error", err);
     }
-
-
-
-
-
-
   };
+
   useFocusEffect(
-    React.useCallback(()=>{
-    getAPI();
-
-    },[])
-  )
-
-  useEffect(() => {
-    getAPI();
-  }, []);
+    React.useCallback(() => {
+      getAPI();
+    }, [])
+  );
 
   const renderItem = ({ item }) => (
     <View style={styles.itemContainer}>
-      <Image source={{ uri: item.image }} style={styles.itemImage} />
+      <View style={styles.view5}>
+        <View>
+          <Image source={{ uri: item.image }} style={styles.itemImage} />
+        </View>
+        <View style={styles.detailstext}>
+          <View>
+            <Text style={styles.descriptiontext}>{item.description}</Text>
+            <Text style={styles.desctext}>{item.desc}</Text>
+          </View>
+          <View>
+            <Text style={styles.descriptiontext}>{item.price}</Text>
+          </View>
+        </View>
+      </View>
     </View>
   );
 
@@ -86,25 +69,27 @@ const Cart = () => {
         <Text style={styles.mycarttext}>My Cart</Text>
       </View>
       <View style={styles.flatlistview}>
-        {value&&<FlatList
-          data={value}
-          renderItem={renderItem}
-          keyExtractor={item => (item.id ? item.id.toString() : Math.random().toString())}
-          showsVerticalScrollIndicator={false}
-        />}
+        {value && (
+          <FlatList
+            data={value}
+            renderItem={renderItem}
+            keyExtractor={item => (item.id ? item.id.toString() : Math.random().toString())}
+            showsVerticalScrollIndicator={false}
+          />
+        )}
       </View>
       <View style={styles.view3}>
         <View style={styles.details}>
           <Text style={styles.innertext}>Subtotal:</Text>
-          <Text style={styles.innertext1}>$500</Text>
+          <Text style={styles.innertext1}>${totalPrice.toFixed(2)}</Text> 
         </View>
         <View style={styles.details}>
           <Text style={styles.innertext}>Shipping:</Text>
-          <Text style={styles.innertext1}>$17</Text>
+          <Text style={styles.innertext1}>$17.00</Text>
         </View>
         <View style={styles.details}>
-          <Text style={styles.innertext}>Checkout</Text>
-          <Text style={styles.innertext1}>$517</Text>
+          <Text style={styles.innertext}>Total:</Text>
+          <Text style={styles.innertext1}>${(totalPrice + 17).toFixed(2)}</Text> 
         </View>
       </View>
       <View style={styles.view4}>
@@ -144,7 +129,6 @@ const styles = StyleSheet.create({
   },
   flatlistview: {
     height: "50%",
-    backgroundColor: "grey",
     marginHorizontal: 20
   },
   view3: {
@@ -193,5 +177,22 @@ const styles = StyleSheet.create({
   itemImage: {
     width: 100,
     height: 100,
+    borderRadius: 10
+  },
+  view5: {
+    flexDirection: "row"
+  },
+  descriptiontext: {
+    fontFamily: "PoppinsBold"
+  },
+  desctext: {
+    fontFamily: "PoppinsRegular",
+    fontSize: 14,
+    color: "grey"
+  },
+  detailstext: {
+    justifyContent: "space-between",
+    marginHorizontal: 10,
+    marginVertical: 2
   }
 });

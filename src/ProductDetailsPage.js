@@ -8,12 +8,13 @@ import axios from 'axios';
 
 
 const ProductDetailsPage = ({ route }) => {
+    const { id, category } = route.params
+
     const navigation = useNavigation();
     const [data, setData] = useState([]);
     const [val, setVal] = useState(0);
-    const { id, category } = route.params
-    // const {category} = route.params
     const [userid, setUserId] = useState(null)
+
     const getAPI = async () => {
         try {
             const url = `http://192.168.1.18:3000/${category}/${id}`; // setting url as the api of clothes with id passed as params from clothes page
@@ -31,10 +32,7 @@ const ProductDetailsPage = ({ route }) => {
     const postData = async () => {
         console.log('userid.id', userid.id)
         try {
-
-            const getCart = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`)
-
-            // await AsyncStorage.setItem("cartValues", JSON.stringify(getCart)) 
+            const getCart = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`) // getting data of the user with their id
             const response = await axios.put(`http://192.168.1.18:3000/users/${userid.id}`, // updating the details in cart. 
                 {
                     "cart": [...getCart.data.cart, data],
@@ -43,19 +41,14 @@ const ProductDetailsPage = ({ route }) => {
                     "id": userid.id,
                     "password": userid.password,
                     "username": userid.username
-                },
-                // await AsyncStorage.setItem("realvals", JSON.stringify(response)),
-
+                }
             )
-
-            const getCarts = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`)
+            const getCarts = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`) // once put data we are calling it and storing it in getCarts
             console.log('getCart', getCarts)
-            if (getCarts) {
-                await AsyncStorage.setItem("cartValues", JSON.stringify(getCarts))
-                // console.log("response", getCarts.data)
+            if (getCarts) { // if the data is not empty
+                await AsyncStorage.setItem("cartValues", JSON.stringify(getCarts)) // we are setting this item in asyncStorage, it has the deatils of the current logged in user
                 navigation.navigate('Cart')
             }
-
         }
         catch (error) {
             console.log('error', error)
@@ -65,8 +58,6 @@ const ProductDetailsPage = ({ route }) => {
     useEffect(() => {
         getAPI();
     }, []);
-
-
 
     return (
         <View style={styles.container}>
