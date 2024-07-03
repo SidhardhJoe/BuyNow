@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity, FlatList } from 'react-native';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -93,7 +93,7 @@ const Cart = () => {
         </View>
       </View>
       <View style={styles.view4}>
-        <TouchableOpacity style={styles.outboxptc}>
+        <TouchableOpacity style={styles.outboxptc} onPress={()=>navigation.navigate('PaymentPage')}>
           <View>
             <Text style={styles.ptctext}>Proceed to Checkout</Text>
           </View>
