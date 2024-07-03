@@ -973,12 +973,22 @@
       "favourites": []
     },
     {
-      "username": "SidhardhJoe",
+      "cart": [
+        {
+          "id": 61,
+          "image": "https://m.media-amazon.com/images/I/51HL7-elUNL._SX300_SY300_QL70_FMwebp_.jpg",
+          "description": "OnePlus Open",
+          "desc": "OnePlus",
+          "price": "$999.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        }
+      ],
       "email": "Sidhardhjoe@gmail.com",
-      "password": "12345678",
-      "cart": [],
       "favourites": [],
-      "id": 3
+      "id": 3,
+      "password": "12345678",
+      "username": "SidhardhJoe"
     },
     {
       "username": "Abcd",

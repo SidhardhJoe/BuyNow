@@ -1,28 +1,28 @@
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 const Profile = () => {
-  const [username, setUsername]=useState();
-  const [email, setEmail]=useState();
+  const [username, setUsername] = useState();
+  const [email, setEmail] = useState();
 
-  const getApi = async() => {
-    try{
-      const data =await AsyncStorage.getItem("userdata")
+  const getApi = async () => {
+    try {
+      const data = await AsyncStorage.getItem("userdata")
       const dataparse = JSON.parse(data)
       setEmail(dataparse[0].email)
       setUsername(dataparse[0].username)
     }
-    catch(err){
+    catch (err) {
       console.log("error", err)
     }
   }
 
 
 
-useEffect(()=>{
-  getApi();
-},[])
+  useEffect(() => {
+    getApi();
+  }, [])
 
 
   return (
@@ -42,8 +42,96 @@ useEffect(()=>{
         </View>
       </View>
       <View style={styles.view3}>
-        <View style={styles.view3sub}> 
-
+        <View style={styles.view3sub}>
+          <View style={styles.detailsrow}>
+            <View style={{ flexDirection: "row", gap: 10 }}>
+              <View style={styles.background}>
+                <Image source={require("../../../Icons/User.png")} style={{ marginBottom: 5 }} />
+              </View>
+              <View>
+                <Text style={styles.headertxt}>Personal Details</Text>
+              </View>
+            </View>
+            <TouchableOpacity>
+              <View>
+                <Image source={require("../../../Icons/Expand.png")} />
+              </View>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.detailsrow}>
+            <View style={{ flexDirection: "row", gap: 10 }}>
+              <View style={styles.background1}>
+                <Image source={require("../../../Icons/Bag.png")} style={{ marginBottom: 5 }} />
+              </View>
+              <View>
+                <Text style={styles.headertxt}>My Order</Text>
+              </View>
+            </View>
+            <TouchableOpacity>
+              <View>
+                <Image source={require("../../../Icons/Expand.png")} />
+              </View>
+            </TouchableOpacity>
+          </View><View style={styles.detailsrow}>
+            <View style={{ flexDirection: "row", gap: 10 }}>
+              <View style={styles.background2}>
+                <Image source={require("../../../Icons/Favorite.png")} style={{ marginBottom: 5 }} />
+              </View>
+              <View>
+                <Text style={styles.headertxt}>My Favourites</Text>
+              </View>
+            </View>
+            <TouchableOpacity>
+              <View>
+                <Image source={require("../../../Icons/Expand.png")} />
+              </View>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.detailsrow}>
+            <View style={{ flexDirection: "row", gap: 10 }}>
+              <View style={styles.background4}>
+                <Image source={require("../../../Icons/package.png")} style={{ marginBottom: 5 }} />
+              </View>
+              <View>
+                <Text style={styles.headertxt}>Shipping Address</Text>
+              </View>
+            </View>
+            <TouchableOpacity>
+              <View>
+                <Image source={require("../../../Icons/Expand.png")} />
+              </View>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.detailsrow}>
+            <View style={{ flexDirection: "row", gap: 10 }}>
+              <View style={styles.background3}>
+                <Image source={require("../../../Icons/Card.png")} style={{ marginBottom: 5 }} />
+              </View>
+              <TouchableOpacity>
+                <View>
+                  <Text style={styles.headertxt}>My Card</Text>
+                </View>
+              </TouchableOpacity>
+            </View>
+            <View>
+              <Image source={require("../../../Icons/Expand.png")} />
+            </View>
+          </View>
+          <View style={styles.detailsrow}>
+            <View style={{ flexDirection: "row", gap: 10 }}>
+              <View style={styles.background5}>
+                <Image source={require("../../../Icons/Settings.png")} style={{ marginBottom: 5 }} />
+              </View>
+              <View>
+                <Text style={styles.headertxt}>Settings</Text>
+              </View>
+            </View>
+            <TouchableOpacity>
+              <View>
+                <Image source={require("../../../Icons/Expand.png")} />
+              </View>
+            </TouchableOpacity>
+          </View>
         </View>
       </View>
     </View>
@@ -69,45 +157,106 @@ const styles = StyleSheet.create({
     borderRadius: 5
   },
   view2: {
-    marginTop: "5%",
+    marginTop: "8%",
     alignItems: "center",
     height: "12%",
-   
+
   },
   view2sub1: {
     width: "80%",
     height: "100%",
-    flexDirection:"row",
-    borderWidth:1,
-    borderRadius:10
+    flexDirection: "row",
+    borderWidth: 1,
+    borderRadius: 10
   },
-  name1:{
-    fontFamily:"PoppinsBold",
-    fontSize:18
+  name1: {
+    fontFamily: "PoppinsBold",
+    fontSize: 18
   },
-  email1:{
-    fontFamily:"PoppinsMedium",
-    color:"grey",
-    fontSize:12
+  email1: {
+    fontFamily: "PoppinsMedium",
+    color: "grey",
+    fontSize: 12
   },
-  propicview:{
-    justifyContent:"center",
-    paddingHorizontal:10
+  propicview: {
+    justifyContent: "center",
+    paddingHorizontal: 10
   },
-  textview:{
-    justifyContent:"center",
-    height:"100%",
-    width:"50%"
+  textview: {
+    justifyContent: "center",
+    height: "100%",
+    width: "100%"
   },
-  view3sub:{
-    height:"60%",
-    width:"80%",
-    borderRadius:10,
-    borderWidth:1
+  view3sub: {
+    height: "50%",
+    width: "80%",
+    borderRadius: 10,
+    borderWidth: 1,
+    justifyContent: "space-evenly"
   },
-  view3:{
-    height:"100%",
-    alignItems:"center",
-    marginTop:"10%",
+  view3: {
+    height: "100%",
+    alignItems: "center",
+    marginTop: "10%",
+  },
+  background: {
+    height: "90%",
+    width: "20%",
+    backgroundColor: "grey",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  detailsrow: {
+    height: "12%",
+    width: "90%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginHorizontal: 15
+  },
+  headertxt: {
+    fontFamily: "PoppinsBold",
+    marginTop: 7
+  },
+  background1: {
+    height: "90%",
+    width: "25%",
+    backgroundColor: "grey",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  background2: {
+    height: "90%",
+    width: "21%",
+    backgroundColor: "grey",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  background4: {
+    height: "90%",
+    width: "19%",
+    backgroundColor: "grey",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  background3: {
+    height: "90%",
+    width: "26%",
+    backgroundColor: "grey",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  background5: {
+    height: "90%",
+    width: "25%",
+    backgroundColor: "grey",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center"
   }
 })
