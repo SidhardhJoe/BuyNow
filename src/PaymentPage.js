@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
+import { StyleSheet, Text, View, Image, FlatList, ScrollView, TouchableNativeFeedback } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
@@ -13,7 +13,7 @@ const PaymentPage = () => {
       const data = await AsyncStorage.getItem("cartValues");
       if (data) {
         const changeval = JSON.parse(data);
-        const changevalagain = changeval.data; 
+        const changevalagain = changeval.data;
         console.log('changevalagain', changevalagain)
         setVal(changevalagain?.cart)
         console.log('changevalagaisadsadsadadn', changevalagain);
@@ -30,7 +30,7 @@ const PaymentPage = () => {
   const renderItems = ({ item }) => {
     return (
       <View style={styles.containerflatlist}>
-        <View style={styles. flatlistimageview}>
+        <View style={styles.flatlistimageview}>
           <Image source={{ uri: item.image }} style={styles.flatlistimage} />
         </View>
         <View style={styles.bottomviewflatlist}>
@@ -50,6 +50,9 @@ const PaymentPage = () => {
       </View>
       <View style={styles.view2}>
         <Text style={styles.da}>Delivery Address</Text>
+        <TouchableOpacity onPress={()=>navigation.navigate('EditAddress')}>
+          <Image source={require("../Icons/Settings.png")} />
+        </TouchableOpacity>
       </View>
       <View style={styles.view3}>
         <View style={styles.view3sub}>
@@ -94,6 +97,11 @@ const PaymentPage = () => {
           showsVerticalScrollIndicator={false}
         />
       </View>
+      <View style={styles.view4}>
+        <TouchableOpacity style={{ backgroundColor: 'black', padding: 15, borderRadius: 10 }} onPress={() => navigation.navigate('FinalNavPage')}>
+          <Text style={styles.paymentext}>Proceed to Payment</Text>
+        </TouchableOpacity>
+      </View>
     </View>
   );
 };
@@ -114,7 +122,10 @@ const styles = StyleSheet.create({
     fontSize: 20
   },
   view2: {
-    padding: 18
+    padding: 18,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center"
   },
   view3: {
     height: "25%",
@@ -130,7 +141,7 @@ const styles = StyleSheet.create({
     fontFamily: "PoppinsBold"
   },
   intxt2: {
-    fontFamily: "PoppinsRegular",
+    fontFamily: "PoppinsMedium",
     color: "grey"
   },
   view3sub: {
@@ -145,24 +156,43 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     borderWidth: 1
   },
-  containerflatlist:{
-    flexDirection:"row",
-    padding:5
+  containerflatlist: {
+    flexDirection: "row",
+    padding: 5
   },
-  flatlistimage:{
-    height:60,
-    width:50,
-    borderRadius:10,
+  flatlistimage: {
+    height: 60,
+    width: 50,
+    borderRadius: 10,
   },
-  txtbold:{
-    fontFamily:"PoppinsBold",
-    fontSize:12
+  txtbold: {
+    fontFamily: "PoppinsBold",
+    fontSize: 12
   },
-  txtgrey:{
-    fontFamily:"PoppinsRegular",
-    fontSize:12
+  txtgrey: {
+    fontFamily: "PoppinsRegular",
+    fontSize: 12
   },
-  flatlistimageview:{
-    paddingRight:10
+  flatlistimageview: {
+    paddingRight: 10
+  },
+  paymentview: {
+    height: "45%",
+    width: "100%",
+    backgroundColor: "black",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  view4: {
+    width: "100%",
+    height: "17%",
+    justifyContent: "center",
+    alignItems: "center",
+
+  },
+  paymentext: {
+    fontFamily: "PoppinsBold",
+    color: "white"
   }
 });

@@ -20,6 +20,8 @@ import NewArrivalsPage from './src/HomePages/Categories/NewArrivalsPage';
 import ProductDetailsPage from './src/ProductDetailsPage';
 import TestPage from './src/TestPage';
 import PaymentPage from './src/PaymentPage';
+import FinalNavPage from './src/FinalNavPage';
+import EditAddressPage from './src/EditAddressPage';
  
 
 
@@ -59,7 +61,9 @@ export default function App() {
           <Nav.Screen name='JewelleryPage' component={JewelleryPage}/>
           <Nav.Screen name='ProductDetailsPage' component={ProductDetailsPage}/>
           <Nav.Screen name='PaymentPage' component={PaymentPage}/>
+          <Nav.Screen name='FinalNavPage' component={FinalNavPage}/>
           <Nav.Screen name='TestPage' component={TestPage}/>
+          <Nav.Screen name='EditAddress' component={EditAddressPage}/>
         </Nav.Navigator>
       </NavigationContainer>
     );
