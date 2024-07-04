@@ -81,7 +81,7 @@ const Cart = () => {
       <View style={styles.view3}>
         <View style={styles.details}>
           <Text style={styles.innertext}>Subtotal:</Text>
-          <Text style={styles.innertext1}>${totalPrice.toFixed(2)}</Text> 
+          <Text style={styles.innertext1}>${totalPrice.toFixed(2)}</Text>
         </View>
         <View style={styles.details}>
           <Text style={styles.innertext}>Shipping:</Text>
@@ -89,11 +89,11 @@ const Cart = () => {
         </View>
         <View style={styles.details}>
           <Text style={styles.innertext}>Total:</Text>
-          <Text style={styles.innertext1}>${(totalPrice + 17).toFixed(2)}</Text> 
+          <Text style={styles.innertext1}>${(totalPrice + 17).toFixed(2)}</Text>
         </View>
       </View>
       <View style={styles.view4}>
-        <TouchableOpacity style={styles.outboxptc} onPress={()=>navigation.navigate('PaymentPage')}>
+        <TouchableOpacity style={styles.outboxptc} onPress={() => navigation.navigate('PaymentPage')}>
           <View>
             <Text style={styles.ptctext}>Proceed to Checkout</Text>
           </View>
