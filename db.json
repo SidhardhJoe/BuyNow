@@ -1053,6 +1053,24 @@
           "price": "$200",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 86,
+          "image": "https://accessorizelondon.in/cdn/shop/products/MN-58174908001_1_e7f5cc3f-354d-4c94-93e0-7d98c093bc4d.jpg?v=1693986666&width=3000",
+          "description": "Air Cut ",
+          "desc": "AiroG",
+          "price": "$10,000",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 1,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+          "description": "Blue Half Sleeve Shirt",
+          "desc": "H & M",
+          "price": "$29.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar"
         }
       ],
       "email": "A",

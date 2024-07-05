@@ -1,9 +1,29 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, Image, TouchableOpacity, requireNativeComponent } from 'react-native'
+import React, { useEffect, useState } from 'react'
 import { useNavigation } from '@react-navigation/native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const FinalNavPage = () => {
     const navigation = useNavigation();
+    const [data, setData]=useState();
+
+    const getData = async ()=>{
+        try{
+            const response = await AsyncStorage.getItem("totalprice")
+            const val = JSON.parse(response)
+            console.log('val', val)
+
+        }catch(err){
+            console.log('err', err)
+        }
+    }
+
+    useEffect(()=>{
+        getData();
+    },[])
+
+
+
     return (
         <View style={styles.container}>
             <View style={styles.view1}>
@@ -47,6 +67,9 @@ const FinalNavPage = () => {
                         <Text style={styles.insidetext}>Google Pay</Text>
                     </View>
                 </View>
+                <View style={styles.subview1}>
+                    <Image source={require("../Icons/Plus.png")} style={styles.logo5}/>
+                </View>
             </View>
         </View>
     )
@@ -71,7 +94,7 @@ const styles = StyleSheet.create({
         fontSize:20
     },
     subview:{
-        height:"12%",
+        height:"11%",
         width:"90%",
         flexDirection:"row",
         borderWidth:1,
@@ -85,7 +108,7 @@ const styles = StyleSheet.create({
     bggg:{
         height:"70%",
         width:"12%",
-        backgroundColor:"grey",
+        backgroundColor:"#F5F5F5",
         borderRadius:50,
         justifyContent:"center",
         alignItems:"center",
@@ -105,5 +128,20 @@ const styles = StyleSheet.create({
     logo2:{
         height:10,
         width:25
+    },
+    subview1:{
+        height:"11%",
+        width:"90%",
+        flexDirection:"row",
+        borderWidth:1,
+        borderRadius:10,
+        alignItems:"center",
+        marginBottom:10,
+        borderColor:"whitesmoke",
+        justifyContent:"center"
+    },
+    logo5:{
+        height:28,
+        width:28
     }
 })

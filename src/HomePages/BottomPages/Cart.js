@@ -24,6 +24,7 @@ const Cart = () => {
         setValue(changevalagain.cart);
         setTotalPrice(total);
         console.log('totalprice', total);
+        
         await AsyncStorage.setItem("totalprice", JSON.stringify(totalPrice))
       } else {
         console.log("no data returned");
