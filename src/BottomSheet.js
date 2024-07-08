@@ -33,6 +33,7 @@ const BottomSheet = () => {
                         <Text style={styles.pyotext}>Place your order</Text>
                     </View>
                 </TouchableOpacity>
+                <Text style={styles.tac}>By agreeing to place your order you agree to the terms and conditions of BuyNow.</Text>
                 <Modal
                     animationType="fade"
                     transparent={true}
@@ -42,11 +43,13 @@ const BottomSheet = () => {
                             <Image source={require("../Icons/Baglast.png")} style={styles.baglogo} />
                             <Text style={styles.successtxt}>Successfull!</Text>
                             <View style={styles.viewsmall}>
-                            <Text style={styles.yohbsp}>Your order has been Successfully placed</Text>
+                                <Text style={styles.yohbsp}>Your order has been Successfully placed</Text>
                             </View>
-                            <View style={styles.continuebox}>
-                                <Text style={styles.continuetext}>Continue Shopping</Text>
-                            </View>
+                            <TouchableOpacity style={styles.continuebox} onPress={()=>navigation.navigate("Home")}>
+                                <View>
+                                    <Text style={styles.continuetext}>Continue Shopping</Text>
+                                </View>
+                            </TouchableOpacity>
                         </View>
                     </View>
                 </Modal>
@@ -65,7 +68,7 @@ const styles = StyleSheet.create({
         flex: 1
     },
     detailsview: {
-        height: "30%",
+        height: "50%",
         position: "absolute",
         bottom: 0,
         width: "100%"
@@ -77,9 +80,8 @@ const styles = StyleSheet.create({
         color: "red"
     },
     view3: {
-        height: "35%",
+        height: "20%",
         marginHorizontal: 20,
-        borderRadius: 10,
         justifyContent: "center"
     },
     details: {
@@ -96,7 +98,7 @@ const styles = StyleSheet.create({
         fontSize: 16
     },
     view4: {
-        height: "20%",
+        height: "15%",
         width: "60%",
         backgroundColor: "black",
         borderRadius: 10,
@@ -143,35 +145,45 @@ const styles = StyleSheet.create({
         marginBottom: 15,
         textAlign: 'center',
     },
-    baglogo:{
-        height:25,
-        width:25,
+    baglogo: {
+        height: 25,
+        width: 25,
+        marginTop: "10%"
 
     },
-    continuebox:{
-        height:"20%",
-        width:"70%",
-        backgroundColor:"black",
-        borderRadius:10,
-        marginTop:"10%",
-        justifyContent:"center",
-        alignItems:"center"
+    continuebox: {
+        height: "20%",
+        width: "70%",
+        backgroundColor: "black",
+        borderRadius: 10,
+        marginTop: "10%",
+        justifyContent: "center",
+        alignItems: "center"
     },
-    continuetext:{
-        color:"white",
-        fontFamily:"PoppinsBold",
-        fontSize:12
+    continuetext: {
+        color: "white",
+        fontFamily: "PoppinsBold",
+        fontSize: 12
     },
-    successtxt:{
-        fontFamily:"PoppinsBold",
-        marginTop:"5%"
+    successtxt: {
+        fontFamily: "PoppinsBold",
+        marginTop: "5%"
     },
-    viewsmall:{
-        width:"60%",
-        textAlign:"justify"
+    viewsmall: {
+        width: "70%",
+        textAlign: "justify",
+        alignItems: "center"
     },
-    yohbsp:{
+    yohbsp: {
+        fontFamily: "PoppinsRegular",
+        fontSize: 12
+    },
+    tac:{
         fontFamily:"PoppinsRegular",
-        fontSize:12
+        color:"grey",
+        fontSize:10,
+        marginHorizontal:30,
+        marginTop:"2%"
+
     }
 })

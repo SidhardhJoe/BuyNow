@@ -1071,6 +1071,15 @@
           "price": "$29.99",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar"
+        },
+        {
+          "id": 74,
+          "image": "https://www.miabytanishq.com/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10eab331/images/hi-res/2812FTM.jpg?sw=640&sh=640",
+          "description": "Skelaton Rig",
+          "desc": "CC",
+          "price": "$199",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
       ],
       "email": "A",
