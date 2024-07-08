@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity, requireNativeComponent } from 'react-native'
+import { StyleSheet, Text, View, Image, TouchableOpacity, requireNativeComponent, Button } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -27,7 +27,7 @@ const FinalNavPage = () => {
     return (
         <View style={styles.container}>
             <View style={styles.view1}>
-                <TouchableOpacity onPress={() => navigation.navigate('PaymentPage')}>
+                <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Image source={require("../Icons/Back.png")} />
                 </TouchableOpacity>
             </View>
@@ -70,6 +70,9 @@ const FinalNavPage = () => {
                 <View style={styles.subview1}>
                     <Image source={require("../Icons/Plus.png")} style={styles.logo5}/>
                 </View>
+            </View>
+            <View>
+                <Button title='press here ' onPress={()=> navigation.navigate('BottomSheet')}/>
             </View>
         </View>
     )
