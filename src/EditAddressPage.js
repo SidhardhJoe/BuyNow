@@ -20,15 +20,15 @@ const EditAddressPage = () => {
       const val = JSON.parse(get)
       console.log('val', val.data)
       setData(val)
-      console.log('get', data.data.email)
     } catch (err) {
       console.log("err", err)
     }
   }
 
   const postaData = async () => {
+    console.log('data.data.email', data.data.id)
     try {
-      const response = await axios.post(`http://192.168.1.18:3000/users/${data.data.email}`, {
+      const response = await axios.put(`http://192.168.1.18:3000/users/${data?.data?.id}`, {
         "cart": data.data.cart,
         "email": data.data.email,
         "favourites": [],
@@ -36,7 +36,12 @@ const EditAddressPage = () => {
         "password": data.data.password,
         "username": data.data.username,
         "address":{
-          street,country,
+          street,
+          city,
+          state,
+          phone,
+          code, 
+          country
         }
         ,
       })

@@ -66,7 +66,7 @@ export default function App() {
           <Nav.Screen name='FinalNavPage' component={FinalNavPage} />
           <Nav.Screen name='TestPage' component={TestPage} />
           <Nav.Screen name='EditAddress' component={EditAddressPage} />
-          <Nav.Screen name='BottomSheet' component={BottomSheet} options={{ presentation: "transparentModal" }} />
+          <Nav.Screen name='BottomSheet' component={BottomSheet} options={{ presentation: "transparentModal" ,animation:"slide_to_bottom" }} />
         </Nav.Navigator>
       </NavigationContainer>
     );

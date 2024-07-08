@@ -37,7 +37,9 @@ const BottomSheet = () => {
                 <Modal
                     animationType="fade"
                     transparent={true}
-                    visible={modalVisible}>
+                    visible={modalVisible}
+                    onRequestClose={()=>navigation.goBack()}
+                    >
                     <View style={styles.centeredView}>
                         <View style={styles.modalView}>
                             <Image source={require("../Icons/Baglast.png")} style={styles.baglogo} />

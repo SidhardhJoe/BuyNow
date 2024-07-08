@@ -7,6 +7,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const PaymentPage = () => {
   const navigation = useNavigation();
   const [val, setVal] = useState([]);
+  const [address, setAddress] = useState({});
 
   const getApi = async () => {
     try {
@@ -15,8 +16,9 @@ const PaymentPage = () => {
         const changeval = JSON.parse(data);
         const changevalagain = changeval.data;
         console.log('changevalagain', changevalagain)
-        setVal(changevalagain?.cart)
-        console.log('changevalagaisadsadsadadn', changevalagain);
+        setVal(changevalagain?.cart);
+        setAddress(changevalagain?.address);
+        console.log('changevalagaisadsadsadadn', changevalagain?.address);
       }
     } catch (err) {
       console.log('error', err);

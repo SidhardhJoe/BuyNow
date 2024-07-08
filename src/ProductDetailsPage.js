@@ -40,7 +40,8 @@ const ProductDetailsPage = ({ route }) => {
                     "favourites": [],
                     "id": userid.id,
                     "password": userid.password,
-                    "username": userid.username
+                    "username": userid.username,
+                    "address":userid.address
                 }
             )
             const getCarts = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`) // once put data we are calling it and storing it in getCarts

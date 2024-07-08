@@ -1135,7 +1135,113 @@
       "favourites": [],
       "id": 8,
       "password": "1",
-      "username": "Meow"
+      "username": "Meow",
+      "address": {
+        "street": "A",
+        "city": "A",
+        "state": "A",
+        "phone": "A",
+        "code": "A",
+        "country": "A"
+      }
+    },
+    {
+      "cart": [
+        {
+          "id": 43,
+          "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410369655001/665/410369655001_1_1703.webp",
+          "description": "Chained Up Side bag",
+          "desc": "Dystopia",
+          "price": "$55.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 18,
+          "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F85%2F88856afd3c8db1b7a5408b2ea1e17d9c134cb92b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "description": "Blue Button Down",
+          "desc": "H & M",
+          "price": "$49.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 3,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff9%2F48%2Ff9489a65d01754a3a32e31dcc15038c0c72e0f4e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]",
+          "description": "White Thick Lined Shirt",
+          "desc": "H & M",
+          "price": "$34.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 72,
+          "image": "https://in.danielwellington.com/cdn/shop/products/a993aa5a42d230f0944c08a7aed325739918733b.png?v=1679932016",
+          "description": "DW 1 Ring Large",
+          "desc": "DW",
+          "price": "$250",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 6,
+          "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F54%2Ff6%2F54f69308f864cd3b3c46871991686e3c77b0846b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_printed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "description": "Green Printed T-Shirt",
+          "desc": "Green Vial",
+          "price": "$22.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 64,
+          "image": "https://m.media-amazon.com/images/I/31laW9Ex46L._SY445_SX342_QL70_FMwebp_.jpg",
+          "description": "iPhone 14 Plus",
+          "desc": "Apple",
+          "price": "$850",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 9,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F93%2Fb6%2F93b60ee0fc9ecbc537ee836b5d51161c772ba195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_printed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+          "description": "Cream 'Labria' Shirt",
+          "desc": "Green Vial",
+          "price": "$24.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 44,
+          "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410395003001/665/410395003001_1_7170.webp",
+          "description": "Thin and Long",
+          "desc": "Dystopia",
+          "price": "$19.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 24,
+          "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd4a337e-51cf-46d1-9ef4-e2d41463c12d/air-force-1-07-fresh-shoes-bBRnbq.png",
+          "description": "AirForce 1",
+          "desc": "Nike",
+          "price": "$79.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        }
+      ],
+      "email": "G",
+      "favourites": [],
+      "id": 9,
+      "password": "G",
+      "username": "G",
+      "address": {
+        "street": "Shhshssh",
+        "city": "Shhshssh",
+        "state": "Hshsjsj",
+        "phone": "",
+        "code": "",
+        "country": ""
+      }
     }
   ]
 }
