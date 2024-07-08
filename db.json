@@ -867,7 +867,7 @@
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-58174908001_1_e7f5cc3f-354d-4c94-93e0-7d98c093bc4d.jpg?v=1693986666&width=3000",
       "description": "Air Cut ",
       "desc": "AiroG",
-      "price": "$10,000",
+      "price": "$1000",
       "stock": "Product in stock",
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
@@ -962,7 +962,8 @@
       "email": "appu@gmail.com",
       "password": "123",
       "cart": [],
-      "favourites": []
+      "favourites": [],
+      "address": []
     },
     {
       "username": "SidhardhJoe",
@@ -970,7 +971,8 @@
       "password": "1234567",
       "id": 2,
       "cart": [],
-      "favourites": []
+      "favourites": [],
+      "address": []
     },
     {
       "cart": [
@@ -980,6 +982,15 @@
           "description": "OnePlus Open",
           "desc": "OnePlus",
           "price": "$999.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 29,
+          "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fb7eda3c-5ac8-4d05-a18f-1c2c5e82e36e/blazer-mid-77-vintage-shoes-dNWPTj.png",
+          "description": "90's Collection",
+          "desc": "Nike",
+          "price": "$79.99",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
@@ -996,7 +1007,8 @@
       "password": "1234",
       "cart": [],
       "favourites": [],
-      "id": 4
+      "id": 4,
+      "address": []
     },
     {
       "cart": [
@@ -1086,7 +1098,8 @@
       "favourites": [],
       "id": 5,
       "password": "A",
-      "username": "A"
+      "username": "A",
+      "address": []
     },
     {
       "cart": [],
@@ -1094,7 +1107,8 @@
       "favourites": [],
       "id": 6,
       "password": "Z",
-      "username": "Z"
+      "username": "Z",
+      "address": []
     },
     {
       "cart": [],
@@ -1102,7 +1116,26 @@
       "favourites": [],
       "id": 7,
       "password": "Qwerty",
-      "username": "User1"
+      "username": "User1",
+      "address": []
+    },
+    {
+      "cart": [
+        {
+          "id": 12,
+          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F83%2F468305176be407543d1d48945b9be0beb6c8d298.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+          "description": "Green Camo T-Shirt",
+          "desc": "McTavish",
+          "price": "$29.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        }
+      ],
+      "email": "Meow@gmail.com",
+      "favourites": [],
+      "id": 8,
+      "password": "1",
+      "username": "Meow"
     }
   ]
 }

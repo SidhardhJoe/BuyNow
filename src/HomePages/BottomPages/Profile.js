@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
   background: {
     height: "90%",
     width: "20%",
-    backgroundColor: "grey",
+    backgroundColor: "#F5F5F5",
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
   background1: {
     height: "90%",
     width: "25%",
-    backgroundColor: "grey",
+    backgroundColor: "#F5F5F5",
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"
@@ -230,7 +230,7 @@ const styles = StyleSheet.create({
   background2: {
     height: "90%",
     width: "21%",
-    backgroundColor: "grey",
+    backgroundColor: "#F5F5F5",
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
   background4: {
     height: "90%",
     width: "19%",
-    backgroundColor: "grey",
+    backgroundColor: "#F5F5F5",
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"
@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
   background3: {
     height: "90%",
     width: "26%",
-    backgroundColor: "grey",
+    backgroundColor: "#F5F5F5",
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"
@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
   background5: {
     height: "90%",
     width: "25%",
-    backgroundColor: "grey",
+    backgroundColor: "#F5F5F5",
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"

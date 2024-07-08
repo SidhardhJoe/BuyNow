@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     width: "90%",
     marginHorizontal: "5%",
     borderRadius: 10,
-    borderWidth: 1
+    borderWidth: 1,
   },
   intxtview: {
     flexDirection: "row"

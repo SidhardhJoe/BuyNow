@@ -34,7 +34,8 @@ const SignUpPage = () => {
           email,
           password,
           cart:[],
-          favourites:[]
+          favourites:[],
+          address:[]
         })
       navigation.navigate('LoginPage')
         

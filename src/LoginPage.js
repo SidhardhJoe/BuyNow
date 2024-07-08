@@ -12,19 +12,19 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
   const [secureTextEntry, setSecureTextEntry] = useState(true);
 
-  const handlePress= async()=>{
-    if(email === ''){
+  const handlePress = async () => {
+    if (email === '') {
       Alert.alert("Enter Email")
-    }else if(password === ''){
+    } else if (password === '') {
       Alert.alert("Enter Password")
     }
-    else{
+    else {
       try {
 
         const response = await axios.get(`http://192.168.1.18:3000/users?email=${email}&password=${password}`); // getting data from server with the email and password that we updated
-        {console.log( "responsedata", response.data)}
-        {console.log("email", email)}
-        {console.log("password", password)}
+        { console.log("responsedata", response.data) }
+        { console.log("email", email) }
+        { console.log("password", password) }
         if (response.data.length > 0) {
           await AsyncStorage.setItem("userdata", JSON.stringify(response.data)); // setting the data that we got to asyncStorage
           navigation.navigate('SuccessPage');
@@ -85,7 +85,7 @@ const LoginPage = () => {
         <Text style={styles.or}>Or</Text>
       </View>
       <View>
-        <TouchableOpacity onPress={()=>navigation.navigate('SignUpPage')}>
+        <TouchableOpacity onPress={() => navigation.navigate('SignUpPage')}>
           <View style={styles.signupbox}>
             <Text style={styles.logintext}>Sign Up</Text>
           </View>
