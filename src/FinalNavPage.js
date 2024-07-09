@@ -1,28 +1,27 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity, requireNativeComponent, Button } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import { StyleSheet, Text, View, Image, TouchableOpacity, requireNativeComponent, Button, Modal } from 'react-native';
+import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { LinearGradient } from 'expo-linear-gradient';
 
 const FinalNavPage = () => {
     const navigation = useNavigation();
     const [data, setData] = useState();
+    const [pressedComponent, setPressedComponent] = useState(null);    
+    const [modalVisible, setModalVisible] = useState(false);
+
 
     const getData = async () => {
         try {
-            const response = await AsyncStorage.getItem("totalprice")
-            const val = JSON.parse(response)
-            console.log('val', val)
-
+            await AsyncStorage.setItem("methodselected", JSON.stringify(pressedComponent))
         } catch (err) {
-            console.log('err', err)
+            console.log('err', err);
         }
-    }
+    };
 
     useEffect(() => {
         getData();
-    }, [])
-
-
+    }, [pressedComponent]);
 
     return (
         <View style={styles.container}>
@@ -35,54 +34,79 @@ const FinalNavPage = () => {
                 <Text style={styles.headertxt}>Payment</Text>
             </View>
             <View style={styles.view3}>
-                <View style={styles.subview}>
+                <TouchableOpacity
+                    onPress={() => setPressedComponent('MasterCard')}
+                    style={[styles.subview, pressedComponent === 'MasterCard' && styles.pressed]}
+                >
                     <View style={styles.bggg}>
                         <Image source={require("../Images/mastercard.png")} style={styles.logo} />
                     </View>
                     <View>
                         <Text style={styles.insidetext}>MasterCard</Text>
                     </View>
-                </View>
-                <View style={styles.subview}>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => setPressedComponent('PayPal')}
+                    style={[styles.subview, pressedComponent === 'PayPal' && styles.pressed]}
+                >
                     <View style={styles.bggg}>
                         <Image source={require("../Images/PayPal.png")} style={styles.logo1} />
                     </View>
                     <View>
                         <Text style={styles.insidetext}>PayPal</Text>
                     </View>
-                </View>
-                <View style={styles.subview}>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => setPressedComponent('Visa')}
+                    style={[styles.subview, pressedComponent === 'Visa' && styles.pressed]}
+                >
                     <View style={styles.bggg}>
                         <Image source={require("../Images/Visa.png")} style={styles.logo2} />
                     </View>
                     <View>
                         <Text style={styles.insidetext}>Visa Card</Text>
                     </View>
-                </View>
-                <View style={styles.subview}>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => setPressedComponent('GooglePay')}
+                    style={[styles.subview, pressedComponent === 'GooglePay' && styles.pressed]}
+                >
                     <View style={styles.bggg}>
                         <Image source={require("../Images/google.png")} style={styles.logo} />
                     </View>
                     <View>
                         <Text style={styles.insidetext}>Google Pay</Text>
                     </View>
-                </View>
-                <View style={styles.subview1}>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.subview1} onPress={() => setModalVisible(true)}>
                     <Image source={require("../Icons/Plus.png")} style={styles.logo5} />
-                </View>
+                </TouchableOpacity>
             </View>
             <View style={styles.finalview}>
-                <TouchableOpacity style={styles.orderbox} onPress={()=>navigation.navigate("BottomSheet")}>
-                    <View >
+                <TouchableOpacity style={styles.orderbox} onPress={() => navigation.navigate("BottomSheet")}>
+                    <View>
                         <Text style={styles.ordertext}>Confirm Order</Text>
                     </View>
                 </TouchableOpacity>
             </View>
+            <Modal
+                animationType="fade"
+                transparent={true}
+                visible={modalVisible}
+                onRequestClose={() => navigation.goBack()}>
+                <View style={styles.centeredView}>
+                    <View style={styles.modalView}>
+                        <LinearGradient style={styles.ccview} colors={['#8e9eab', '#eef2f3']}>
+                        
+                        </LinearGradient>
+                    </View>
+                </View>
+            </Modal>
         </View>
-    )
-}
+    );
+};
 
-export default FinalNavPage
+export default FinalNavPage;
 
 const styles = StyleSheet.create({
     container: {
@@ -169,5 +193,37 @@ const styles = StyleSheet.create({
     ordertext: {
         color: "white",
         fontFamily: "PoppinsBold"
+    },
+    pressed: {
+        borderColor: 'blue',
+        borderWidth: 2,
+    },
+    centeredView: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    modalView: {
+        backgroundColor: 'white',
+        borderRadius: 10,
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+        width: "80%",
+        height: "60%"
+    },
+    ccview:{
+        height:"32%",
+        width:"80%",
+        borderWidth:1,
+        borderRadius:10,
+        marginTop:"5%",
+        borderColor:"#eef2f3"
     }
-})
+});
