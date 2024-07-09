@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View, Image, FlatList, ScrollView, TouchableNativeFeedback } from 'react-native';
-import React, { useEffect, useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
+import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -8,6 +8,7 @@ const PaymentPage = () => {
   const navigation = useNavigation();
   const [val, setVal] = useState([]);
   const [address, setAddress] = useState({});
+  const [id, setId]=useState(null)
 
   const getApi = async () => {
     try {
@@ -16,18 +17,43 @@ const PaymentPage = () => {
         const changeval = JSON.parse(data);
         const changevalagain = changeval.data;
         console.log('changevalagain', changevalagain)
+        setId(changevalagain?.id);
+        
         setVal(changevalagain?.cart);
-        setAddress(changevalagain?.address);
-        console.log('changevalagaisadsadsadadn', changevalagain?.address);
+
       }
     } catch (err) {
       console.log('error', err);
     }
   };
 
-  useEffect(() => {
-    getApi();
-  }, []);
+    useEffect(()=>{
+      if(id){
+        getAdd();
+      }
+    },[id])
+
+  const getAdd = async()=>{
+    try{
+      const url = `http://192.168.1.18:3000/users/${id}`
+      const result = await fetch(url);
+      const resultjson = await result.json();
+    console.log('first',resultjson)
+
+      setAddress(resultjson.address)
+      console.log('address', address)
+
+    }catch(err){
+      console.log('errorr', err)
+    }
+  }
+
+  useFocusEffect(
+    React.useCallback(()=>{
+      setId(null)
+      getApi();
+    },[])
+  )
 
   const renderItems = ({ item }) => {
     return (
@@ -44,7 +70,8 @@ const PaymentPage = () => {
     )
   };
   return (
-    <View style={styles.container}>
+    <>
+    {address?<View style={styles.container}>
       <View style={styles.view1}>
         <TouchableOpacity onPress={() => navigation.navigate('Cart')}>
           <Image source={require("../Icons/Back.png")} />
@@ -59,24 +86,26 @@ const PaymentPage = () => {
       <View style={styles.view3}>
         <View style={styles.view3sub}>
           <View style={styles.intxtview}>
+          {console.log('addressinview', address)}
+
             <Text style={styles.intxt1}>Street:</Text>
-            <Text style={styles.intxt2}>Bluemoon Street 420</Text>
+            <Text style={styles.intxt2}>{address?.street}</Text>
           </View>
           <View style={styles.intxtview}>
             <Text style={styles.intxt1}>City:</Text>
-            <Text style={styles.intxt2}>Nagarcoil</Text>
+            <Text style={styles.intxt2}>{address?.city}</Text>
           </View>
           <View style={styles.intxtview}>
             <Text style={styles.intxt1}>State/Province/Area:</Text>
-            <Text style={styles.intxt2}>Tamil Nadu</Text>
+            <Text style={styles.intxt2}>{address?.state}</Text>
           </View>
           <View style={styles.intxtview}>
             <Text style={styles.intxt1}>Phone No:</Text>
-            <Text style={styles.intxt2}>6942042069</Text>
+            <Text style={styles.intxt2}>{address?.address}</Text>
           </View>
           <View style={styles.intxtview}>
             <Text style={styles.intxt1}>ZipCode:</Text>
-            <Text style={styles.intxt2}>658947</Text>
+            <Text style={styles.intxt2}>{address.code}</Text>
           </View>
           <View style={styles.intxtview}>
             <Text style={styles.intxt1}>Country Code:</Text>
@@ -84,7 +113,7 @@ const PaymentPage = () => {
           </View>
           <View style={styles.intxtview}>
             <Text style={styles.intxt1}>Country:</Text>
-            <Text style={styles.intxt2}>India</Text>
+            <Text style={styles.intxt2}>{address.country}</Text>
           </View>
         </View>
       </View>
@@ -104,7 +133,8 @@ const PaymentPage = () => {
           <Text style={styles.paymentext}>Proceed to Payment</Text>
         </TouchableOpacity>
       </View>
-    </View>
+    </View>:null}
+    </>
   );
 };
 

@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native'
+import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput, KeyboardAvoidingView, Platform, ScrollView } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -35,16 +35,17 @@ const EditAddressPage = () => {
         "id": data.data.id,
         "password": data.data.password,
         "username": data.data.username,
-        "address":{
+        "address": {
           street,
           city,
           state,
           phone,
-          code, 
+          code,
           country
         }
         ,
       })
+      navigation.navigate("PaymentPage")
     } catch (err) {
       console.log('err', err)
     }
@@ -59,71 +60,79 @@ const EditAddressPage = () => {
 
 
   return (
-    <View style={styles.container}>
-      <TouchableOpacity onPress={() => navigation.goBack()}>
-        <View style={styles.view1}>
-          <Image source={require("../Icons/Back.png")} />
+    <ScrollView style={{backgroundColor:"white"}}>
+      <View style={styles.container}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <View style={styles.view1}>
+            <Image source={require("../Icons/Back.png")} />
+          </View>
+        </TouchableOpacity>
+        <View style={styles.view2} >
+          <Text style={styles.editadd}>Edit address</Text>
         </View>
-      </TouchableOpacity>
-      <View style={styles.view2} >
-        <Text style={styles.editadd}>Edit address</Text>
+        <View style={styles.view3}>
+          <View>
+            <Text style={styles.toptext}>Street</Text>
+            <TextInput
+              style={styles.inputbox}
+              value={street}
+              onChangeText={text => setStreet(text)}
+              placeholder="Street name"
+            />
+          </View>
+          <View>
+            <Text style={styles.toptext}>City</Text>
+            <TextInput
+              style={styles.inputbox}
+              value={city}
+              onChangeText={text => setCity(text)}
+              placeholder="City"
+            />
+          </View>
+          <View>
+            <Text style={styles.toptext}>State</Text>
+            <TextInput
+              style={styles.inputbox}
+              value={state}
+              onChangeText={text => setState(text)}
+              placeholder="State"
+            />
+          </View>
+          <View>
+            <Text style={styles.toptext}>Phone</Text>
+            <TextInput
+              style={styles.inputbox}
+              value={phone}
+              onChangeText={text => setPhone(text)}
+              placeholder="Phone no"
+            />
+          </View>
+          <View>
+            <Text style={styles.toptext}>Code</Text>
+            <TextInput
+              style={styles.inputbox}
+              value={code}
+              onChangeText={text => setCode(text)}
+              placeholder="Zipcode"
+            />
+          </View>
+          <View>
+            <Text style={styles.toptext}>Country</Text>
+            <TextInput
+              style={styles.inputbox}
+              value={country}
+              onChangeText={text => setCountry(text)}
+              placeholder="Country"
+            />
+          </View>
+        </View>
+        <TouchableOpacity style={styles.savechangebox} onPress={postaData}>
+          <View>
+            <Text style={styles.sct}>Save Changes</Text>
+          </View>
+        </TouchableOpacity>
       </View>
-      <View style={styles.view3}>
-        <View>
-          <Text style={styles.toptext}>Street</Text>
-          <TextInput
-            style={styles.inputbox}
-            value={street}
-            onChangeText={text => setStreet(text)}
-          />
-        </View>
-        <View>
-          <Text style={styles.toptext}>City</Text>
-          <TextInput
-            style={styles.inputbox}
-            value={city}
-            onChangeText={text => setCity(text)}
-          />
-        </View>
-        <View>
-          <Text style={styles.toptext}>State</Text>
-          <TextInput
-            style={styles.inputbox}
-            value={state}
-            onChangeText={text => setState(text)}
-          />
-        </View>
-        <View>
-          <Text style={styles.toptext}>Phone</Text>
-          <TextInput
-            style={styles.inputbox}
-            value={phone}
-            onChangeText={text => setPhone(text)}
-          />
-        </View>
-        <View>
-          <Text style={styles.toptext}>Code</Text>
-          <TextInput
-            style={styles.inputbox}
-            value={code}
-            onChangeText={text => setCode(text)}
-          />
-        </View>
-        <View>
-          <Text style={styles.toptext}>Country</Text>
-          <TextInput
-            style={styles.inputbox}
-            value={country}
-            onChangeText={text => setCountry(text)}
-          />
-        </View>
-      </View>
-      <TouchableOpacity style={styles.savechangebox} onPress={postaData}>
-        <View>
-          <Text style={styles.sct}>Save Changes</Text>
-        </View>
-      </TouchableOpacity>
-    </View>
+    </ScrollView>
   )
 }
 
@@ -169,7 +178,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginLeft: "20%",
-    marginTop: "10%"
+    marginTop: "10%",
+    marginBottom:"10%"
   },
   sct: {
     color: "white",
