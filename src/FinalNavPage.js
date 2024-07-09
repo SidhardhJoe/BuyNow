@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity, requireNativeComponent, Button, Modal } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity, Modal, TextInput } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -7,8 +7,12 @@ import { LinearGradient } from 'expo-linear-gradient';
 const FinalNavPage = () => {
     const navigation = useNavigation();
     const [data, setData] = useState();
-    const [pressedComponent, setPressedComponent] = useState(null);    
+    const [pressedComponent, setPressedComponent] = useState(null);
     const [modalVisible, setModalVisible] = useState(false);
+    const [cardname, setCardname] = useState('');
+    const [cardnum, setCardnum] = useState('');
+    const [exp, setExp] = useState('');
+    const [cvv, setCvv] = useState('');
 
 
     const getData = async () => {
@@ -97,8 +101,61 @@ const FinalNavPage = () => {
                 <View style={styles.centeredView}>
                     <View style={styles.modalView}>
                         <LinearGradient style={styles.ccview} colors={['#8e9eab', '#eef2f3']}>
-                        
+                            <View>
+                                <View style={{marginLeft:"5%", marginTop:"10%"}}>
+                                    <Text style={styles.ccname}>CARD NUMEBR</Text>
+                                    <Text>{cardname}</Text>
+                                </View>
+                                <View style={styles.viewsomething}>
+                                    <View style={{marginLeft:"5%"}}>
+                                        <Text style={styles.ccname}>CARDHOLDER NAME</Text>
+                                        <Text>{cardnum}</Text>
+                                    </View>
+                                    <View style={{marginRight:"5%"}}>
+                                        <Text style={styles.ccname}>VALID THRU</Text>
+                                        <Text>{exp}</Text>
+                                    </View>
+                                </View>
+                            </View>
                         </LinearGradient>
+                        <Text style={styles.cctext}>Card Details</Text>
+                        <View style={styles.inputboxview}>
+                            <TextInput style={styles.inputbox1}
+                                placeholder="Cardholder Name"
+                                value={cardname}
+                                onChangeText={text => setCardname(text)}
+                            />
+                            <TextInput style={styles.inputbox1}
+                                placeholder="Card Number"
+                                maxLength={16}
+                                value={cardnum}
+                                onChangeText={text => setCardnum(text)}
+                            />
+                            <TextInput style={styles.inputbox2}
+                                placeholder="Exp Date"
+                                maxLength={4}
+                                value={exp}
+                                onChangeText={text => setExp(text)}
+                            />
+                            <TextInput style={styles.inputbox2}
+                                placeholder="Cvv"
+                                maxLength={3}
+                                value={cvv}
+                                onChangeText={text => setCvv(text)}
+                            />
+                        </View>
+                        <View style={styles.bottomview}>
+                            <TouchableOpacity style={styles.cancelview} onPress={()=>navigation.goBack()}>
+                                <View>
+                                    <Text style={styles.canceltxt}>Cancel</Text>
+                                </View>
+                            </TouchableOpacity>
+                            <TouchableOpacity style={styles.cancelview1}  onPress={()=>navigation.goBack()}>
+                                <View>
+                                    <Text style={styles.canceltxt1}>Save Changes</Text>
+                                </View>
+                            </TouchableOpacity>
+                        </View>
                     </View>
                 </View>
             </Modal>
@@ -206,7 +263,6 @@ const styles = StyleSheet.create({
     modalView: {
         backgroundColor: 'white',
         borderRadius: 10,
-        alignItems: 'center',
         shadowColor: '#000',
         shadowOffset: {
             width: 0,
@@ -218,12 +274,74 @@ const styles = StyleSheet.create({
         width: "80%",
         height: "60%"
     },
-    ccview:{
-        height:"32%",
-        width:"80%",
-        borderWidth:1,
-        borderRadius:10,
-        marginTop:"5%",
-        borderColor:"#eef2f3"
+    ccview: {
+        height: "32%",
+        width: "80%",
+        borderWidth: 1,
+        borderRadius: 10,
+        marginTop: "5%",
+        borderColor: "#eef2f3",
+        marginLeft: "10%"
+    },
+    cctext: {
+        fontFamily: "PoppinsBold",
+        fontSize: 16,
+        padding: 15
+    },
+    inputbox1: {
+        height: "20%",
+        width: "80%",
+        borderWidth: 1,
+        borderRadius: 5,
+        marginLeft: "10%",
+        marginBottom: "3%",
+        borderColor: "#8e9eab",
+        fontFamily: "PoppinsRegular"
+    },
+    inputboxview: {
+        height: "39%"
+    },
+    inputbox2: {
+        height: "20%",
+        width: "25%",
+        borderWidth: 1,
+        borderRadius: 5,
+        marginLeft: "10%",
+        marginBottom: "3%",
+        borderColor: "#8e9eab",
+        fontFamily: "PoppinsRegular"
+    },
+    canceltxt: {
+        color: "red",
+        fontFamily: "PoppinsBold"
+
+    },
+    cancelview: {
+        width: "20%",
+        marginLeft: "10%",
+        marginTop: "2%"
+    },
+    bottomview: {
+        flexDirection: "row",
+        justifyContent: "space-between"
+    },
+    cancelview1: {
+        width: "40%",
+        marginRight: "10%",
+        marginTop: "2%"
+    },
+    canceltxt1: {
+        color: "#007AFF",
+        fontFamily: "PoppinsBold"
+    },
+    ccname: {
+        fontFamily: "PoppinsBold",
+        fontSize: 10,
+        color:"grey"
+    },
+    viewsomething:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        marginTop:"5%"
     }
 });
