@@ -437,7 +437,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 59,
+      "id": 49,
       "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408091001/665/410408091001_1_6501.webp",
       "description": "Snake Camo",
       "desc": "Hermans",
@@ -536,7 +536,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 50,
+      "id": 60,
       "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410394968003/665/410394968003_1_9437.webp",
       "description": "Slim Boy",
       "desc": "Hiro",
@@ -628,7 +628,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 60,
+      "id": 70,
       "image": "https://m.media-amazon.com/images/I/41m-C1HHkIL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "IQOO Neo 9 pro",
       "desc": "IQOO",
@@ -637,15 +637,16 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 61,
+      "id": 71,
       "image": "https://m.media-amazon.com/images/I/41vvbQWXrzL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "S24",
       "desc": "Samsung",
+      "price": "$799",
       "stock": "Product in stock",
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 62,
+      "id": 72,
       "image": "https://m.media-amazon.com/images/I/4193g0Lz6aL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "S24 Ultra",
       "desc": "Samsung",
@@ -654,7 +655,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 63,
+      "id": 73,
       "image": "https://m.media-amazon.com/images/I/410m1C3UQkL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "Xiaomi 14 Ultra",
       "desc": "Xiaomi",
@@ -663,7 +664,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 64,
+      "id": 74,
       "image": "https://m.media-amazon.com/images/I/41yAce7gd4L._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "IQOO Z7 Pro",
       "desc": "IQOO",
@@ -672,7 +673,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 65,
+      "id": 75,
       "image": "https://m.media-amazon.com/images/I/41O+9LbIOUL._SY300_SX300_.jpg",
       "description": "Xiaomi 14",
       "desc": "Xiaomi",
@@ -681,7 +682,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 66,
+      "id": 76,
       "image": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": " Redmi 12",
       "desc": "Redmi",
@@ -690,7 +691,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 67,
+      "id": 77,
       "image": "https://m.media-amazon.com/images/I/41gF1pn3wPL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "Redmi Note 13 pro",
       "desc": "Redmi",
@@ -699,7 +700,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 68,
+      "id": 78,
       "image": "https://m.media-amazon.com/images/I/71r41+TT2UL._SX679_.jpg",
       "description": "Redmi Note 13 pro",
       "desc": "Redmi",
@@ -708,7 +709,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 69,
+      "id": 79,
       "image": "https://m.media-amazon.com/images/I/411iWoJEJjL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "Redmi Note 13 C",
       "desc": "Redmi",
@@ -717,7 +718,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 70,
+      "id": 80,
       "image": "https://m.media-amazon.com/images/I/41WooGDixpL._SX300_SY300_QL70_FMwebp_.jpg",
       "description": "Xiaomi 12 Pro+",
       "desc": "Xiaomi",
@@ -728,7 +729,7 @@
   ],
   "jewels": [
     {
-      "id": 71,
+      "id": 81,
       "image": "https://in.danielwellington.com/cdn/shop/products/d50489783aa3ff98d3754b4e7fbc36cbf8937492.png?v=1686815193",
       "description": "DW 1 Ring",
       "desc": "DW",
@@ -737,7 +738,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 72,
+      "id": 82,
       "image": "https://in.danielwellington.com/cdn/shop/products/a993aa5a42d230f0944c08a7aed325739918733b.png?v=1679932016",
       "description": "DW 1 Ring Large",
       "desc": "DW",
@@ -746,7 +747,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 73,
+      "id": 83,
       "image": "https://in.danielwellington.com/cdn/shop/products/lpjj5kd10lqskn5zlbts.png?v=1686815179",
       "description": "Carbon Zero",
       "desc": "CC",
@@ -755,7 +756,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 74,
+      "id": 84,
       "image": "https://www.miabytanishq.com/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10eab331/images/hi-res/2812FTM.jpg?sw=640&sh=640",
       "description": "Skelaton Rig",
       "desc": "CC",
@@ -764,7 +765,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 75,
+      "id": 85,
       "image": "https://www.amama.in/cdn/shop/files/AMA-RU-AR-013-2.jpg?v=1717131188&width=800",
       "description": "Flat Long",
       "desc": "DW",
@@ -773,7 +774,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 76,
+      "id": 86,
       "image": "https://www.amama.in/cdn/shop/products/BPR001-1_f30d7a77-2f65-4bb1-9037-6d36ad79b1c3.jpg?v=1717844430&width=1200",
       "description": "All Fingers",
       "desc": "Dystopia",
@@ -782,7 +783,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 77,
+      "id": 78,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-98157308001_2.jpg?v=1657014122&width=3000",
       "description": "Hanna Earings",
       "desc": "Hanna",
@@ -791,7 +792,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 78,
+      "id": 88,
       "image": "https://accessorizelondon.in/cdn/shop/products/01_78497781_1.jpg?v=1675683616&width=3000",
       "description": "All 10 Fingers",
       "desc": "A10",
@@ -800,7 +801,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 79,
+      "id": 89,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-38180681001_4.jpg?v=1659957484&width=3000",
       "description": "Bengal Bangles",
       "desc": "DW",
@@ -809,7 +810,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 80,
+      "id": 90,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-18408581001_2_c7b8cdaf-8f71-43e8-b618-bc49ae97d1fb.jpg?v=1663843852&width=3000",
       "description": "All Mineral",
       "desc": "CC",
@@ -818,7 +819,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 81,
+      "id": 91,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-82004941001_2_a033cc4f-d145-4052-9818-299398f156a0.jpg?v=1662375139&width=3000",
       "description": "Rainy Earings",
       "desc": "CC",
@@ -827,7 +828,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 82,
+      "id": 92,
       "image": "https://accessorizelondon.in/cdn/shop/products/MA-18187670001_5_9a33291d-042e-4663-909b-4f30f3ae2043.jpg?v=1675336758&width=3000",
       "description": "Pinned Bangles",
       "desc": "DW",
@@ -836,7 +837,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 83,
+      "id": 93,
       "image": "https://accessorizelondon.in/cdn/shop/products/MA-38105397001_2.jpg?v=1677229898&width=3000",
       "description": "Green Emeralds",
       "desc": "Ringers",
@@ -845,7 +846,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 84,
+      "id": 94,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-98135981001_2_8834b775-a3d5-4839-a3d5-f2c89f1478bf.jpg?v=1657008846&width=3000",
       "description": "Scorpion Ears",
       "desc": "Ringers",
@@ -854,7 +855,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 85,
+      "id": 95,
       "image": "https://accessorizelondon.in/cdn/shop/products/MA-38100481001_3.jpg?v=1657021866&width=3000",
       "description": "All Ring 5",
       "desc": "DW",
@@ -863,7 +864,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 86,
+      "id": 96,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-58174908001_1_e7f5cc3f-354d-4c94-93e0-7d98c093bc4d.jpg?v=1693986666&width=3000",
       "description": "Air Cut ",
       "desc": "AiroG",
@@ -872,7 +873,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 87,
+      "id": 97,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-38180781001_3_92390dd7-4ed7-4625-807c-5d7ce07b62ec.jpg?v=1668139450&width=3000",
       "description": "Banger",
       "desc": "CC",
@@ -881,7 +882,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 88,
+      "id": 98,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-69483881001_1_641a0042-e964-4344-b667-4b15ce62b150.jpg?v=1663842808&width=3000",
       "description": "Universe Earing",
       "desc": "BlueCut",
@@ -890,7 +891,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 89,
+      "id": 99,
       "image": "https://accessorizelondon.in/cdn/shop/products/MA-58102981001_1.jpg?v=1678695955&width=3000",
       "description": "Butterfly Earings",
       "desc": "DW",
@@ -899,7 +900,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 90,
+      "id": 100,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
       "description": "InterTwined",
       "desc": "McTavish",
@@ -910,7 +911,7 @@
   ],
   "newarrivals": [
     {
-      "id": 91,
+      "id": 101,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
       "description": "InterTwined",
       "desc": "McTavish",
@@ -919,7 +920,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 92,
+      "id": 102,
       "image": "https://m.media-amazon.com/images/I/412CKVTe8dL._SY445_SX342_QL70_FMwebp_.jpg",
       "description": "iPhone 15 Pro",
       "desc": "Apple",
@@ -928,7 +929,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 93,
+      "id": 103,
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "description": "Blue Half Sleeve Shirt",
       "desc": "H & M",
@@ -937,7 +938,7 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 94,
+      "id": 104,
       "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
       "description": "Coffin Collection",
       "desc": "SNKRS",
@@ -946,13 +947,55 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "id": 95,
+      "id": 105,
       "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408760001/665/410408760001_1_6934.webp",
       "description": "Mini Me Duffel",
       "desc": "Catergirl",
       "price": "$199.99",
       "stock": "Product in stock",
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "percentage": 50,
+      "detail": "On everything today",
+      "code": "AFZBREAK50",
+      "image": "https://img.freepik.com/free-photo/front-view-woman-posing-with-red-outfit_23-2151044542.jpg?w=1060&t=st=1720592672~exp=1720593272~hmac=7d02b2b7c84fb41c5c6b5a755123367efbad7fa3e6e53f45f6685c227de78bfb",
+      "nav": "ClothesPage"
+    },
+    {
+      "id": 2,
+      "percentage": 20,
+      "detail": "Bags at discount",
+      "code": "NBAGS20",
+      "image": "https://img.freepik.com/free-photo/girl-yellow-wall-with-shopping-bags_1157-34349.jpg?w=996&t=st=1720592543~exp=1720593143~hmac=7c10c691160260f65468b55a57483820a2b4bd03f9ca7f761d29bf227248385e",
+      "nav": "BagsPage"
+    },
+    {
+      "id": 3,
+      "percentage": 15,
+      "detail": "On your first order",
+      "code": "LITUP",
+      "image": "https://as1.ftcdn.net/v2/jpg/07/50/19/38/1000_F_750193865_o7MJTa1mMUnAGSX6003uqt8i2k3msiiQ.jpg",
+      "nav": "ElectronicsPage"
+    },
+    {
+      "id": 4,
+      "percentage": 30,
+      "detail": "Newly launched merch",
+      "code": "ILOVENEW",
+      "image": "https://as1.ftcdn.net/v2/jpg/08/48/55/82/1000_F_848558207_nOrZVSx8XxKs2M8S83Qu3SfCuA8FQgQz.jpg",
+      "nav": "ShoesPage"
+    },
+    {
+      "id": 5,
+      "percentage": 10,
+      "detail": "On everything after 6PM",
+      "code": "TIME1800",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/28/68/41/1000_F_528684185_isvw9mwFGEBym9e062XlKDDp8YsAeVfe.jpg",
+      "nav": "JewelleryPage"
     }
   ],
   "users": [
@@ -1090,6 +1133,15 @@
           "description": "Skelaton Rig",
           "desc": "CC",
           "price": "$199",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 71,
+          "image": "https://m.media-amazon.com/images/I/41vvbQWXrzL._SX300_SY300_QL70_FMwebp_.jpg",
+          "description": "S24",
+          "desc": "Samsung",
+          "price": "$799",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
