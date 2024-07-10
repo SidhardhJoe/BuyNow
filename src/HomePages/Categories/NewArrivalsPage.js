@@ -1,34 +1,24 @@
-import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
+import { StyleSheet, Text, View, Image, FlatList, TouchableOpacity } from 'react-native';
 import React, { useEffect, useState } from 'react';
+import { useNavigation } from '@react-navigation/native';
 
 const NewArrivalsPage = () => {
-    const [data, setData] = useState([]); 
-    const getAPI = async () => {
-        const url = 'http://192.168.1.18:3000/newarrivals'
-        const result = await fetch(url);
-        const data = await result.json();
-        setData(data);
-    };
-
-    useEffect(() => {
-        getAPI();
-    }, []);
-
-    const renderItem = ({ item }) => (
-        <View style={styles.itemContainer}>
-            <Image source={{ uri: item.image }} style={styles.image} />
-        </View>
-    );
+    const navigation = useNavigation();
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>TestPage</Text>
-            <FlatList
-                data={data}
-                renderItem={renderItem}
-                numColumns={2}
-                keyExtractor={item => item.id.toString()}
-            />
+            <View style={styles.view1}>
+                <TouchableOpacity onPress={() => navigation.goBack()}>
+                    <View >
+                        <Image source={require("../../../Icons/Back.png")} style={styles.icon} />
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
+                    <View style={styles.profile}>
+                        <Image source={require("../../../Icons/profile.png")} style={styles.icon} />
+                    </View>
+                </TouchableOpacity>
+            </View>
         </View>
     );
 
@@ -40,24 +30,24 @@ export default NewArrivalsPage;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'white',
-        alignItems: 'center',
+        backgroundColor: "white"
     },
-    title: {
-        fontSize: 24,
-        marginBottom: 20,
+    view1: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginHorizontal: 20,
+        marginTop: "12%"
     },
-    list: {
-        // alignItems: 'center',
+    profile: {
+        height: 45,
+        width: 45,
+        backgroundColor: "#cdcdcd",
+        borderRadius: 25,
+        justifyContent: "center",
+        alignItems: "center"
     },
-    itemContainer: {
-        marginBottom: 10,
-        alignItems: 'center',
-        borderWidth: 1,
-        justifyContent: "center"
-    },
-    image: {
-        width: 100,
-        height: 100,
-    },
+    icon: {
+        height: 40,
+        width: 40
+    }
 });

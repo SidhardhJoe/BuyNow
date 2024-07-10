@@ -104,7 +104,7 @@ const FinalNavPage = () => {
                             <View>
                                 <View style={{marginLeft:"5%", marginTop:"10%"}}>
                                     <Text style={styles.ccname}>CARD NUMEBR</Text>
-                                    <Text>{cardname}</Text>
+                                    <Text style={styles.textformat}>{cardname}</Text>
                                 </View>
                                 <View style={styles.viewsomething}>
                                     <View style={{marginLeft:"5%"}}>
