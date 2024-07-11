@@ -911,6 +911,17 @@
   ],
   "newarrivals": [
     {
+      "nav": "ElectronicsPage",
+      "category": "electronics",
+      "id": 107,
+      "image": "https://m.media-amazon.com/images/I/4193g0Lz6aL._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "S24 Ultra",
+      "desc": "Samsung",
+      "price": "1199",
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+    },
+    {
       "category": "clothes",
       "id": 101,
       "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
@@ -955,13 +966,35 @@
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     },
     {
-      "category": "jewels",
+      "category": "bags",
       "id": 105,
       "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/2UZm5n/t.resize(w:550)/product/410408760001/665/410408760001_1_6934.webp",
       "description": "Mini Me Duffel",
       "desc": "Catergirl",
       "price": "$199.99",
       "nav": "BagsPage",
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+    },
+    {
+      "category": "jewels",
+      "id": 106,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MA-38105397001_2.jpg?v=1677229898&width=3000",
+      "description": "Green Emeralds",
+      "desc": "Ringers",
+      "price": "$999",
+      "nav": "JewelleryPage",
+      "stock": "Product in stock",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+    },
+    {
+      "nav": "JewelleryPage",
+      "category": "jewels",
+      "id": 97,
+      "image": "https://accessorizelondon.in/cdn/shop/products/MN-38180781001_3_92390dd7-4ed7-4625-807c-5d7ce07b62ec.jpg?v=1668139450&width=3000",
+      "description": "Banger",
+      "desc": "CC",
+      "price": "$200",
       "stock": "Product in stock",
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
     }
@@ -1165,6 +1198,17 @@
           "nav": "ClothesPage",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "category": "clothes",
+          "id": 101,
+          "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
+          "description": "InterTwined",
+          "desc": "McTavish",
+          "price": "$800",
+          "stock": "Product in stock",
+          "nav": "JewelleryPage",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
       ],
       "email": "A",
@@ -1172,7 +1216,14 @@
       "id": 5,
       "password": "A",
       "username": "A",
-      "address": []
+      "address": {
+        "street": "Mewo",
+        "city": "Jsjaj",
+        "state": "Doydk",
+        "phone": "Fzuzuf",
+        "code": "Uxifx",
+        "country": "J f"
+      }
     },
     {
       "cart": [],
