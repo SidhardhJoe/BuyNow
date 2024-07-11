@@ -24,6 +24,10 @@ import PaymentPage from './src/PaymentPage';
 import FinalNavPage from './src/FinalNavPage';
 import EditAddressPage from './src/EditAddressPage';
 import BottomSheet from './src/BottomSheet';
+import MyOderPage from './src/ProfileListPages/MyOderPage';
+import EditCard from './src/ProfileListPages/EditCard';
+import EditPersonalDetails from './src/ProfileListPages/EditPersonalDetails';
+import EditAddress from './src/ProfileListPages/EditAddress';
 
 
 
@@ -67,6 +71,10 @@ export default function App() {
           <Nav.Screen name='TestPage' component={TestPage} />
           <Nav.Screen name='EditAddress' component={EditAddressPage} />
           <Nav.Screen name='BottomSheet' component={BottomSheet} options={{ presentation: "transparentModal" ,animation:"slide_to_bottom" }} />
+          <Nav.Screen name='EditPersonalDetails' component={EditPersonalDetails}/>
+          <Nav.Screen name='MyOrderPage' component={MyOderPage}/>
+          <Nav.Screen name='EditCard' component={EditCard}/>
+          <Nav.Screen name='EditAddresss' component={EditAddress}/>
         </Nav.Navigator>
       </NavigationContainer>
     );

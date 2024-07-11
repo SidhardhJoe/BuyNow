@@ -1,8 +1,10 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { useNavigation } from '@react-navigation/native';
 
 const Profile = () => {
+  const navigation =useNavigation();
   const [username, setUsername] = useState();
   const [email, setEmail] = useState();
 
@@ -33,7 +35,7 @@ const Profile = () => {
       <View style={styles.view2}>
         <View style={styles.view2sub1}>
           <View style={styles.propicview}>
-            <Image source={require("../../../Images/profile.jpg")} style={styles.profilepic} />
+            <Image source={require("../../../Icons/profile.png")} style={styles.profilepic} />
           </View>
           <View style={styles.textview}>
             <Text style={styles.name1}>{username}</Text>
@@ -52,7 +54,7 @@ const Profile = () => {
                 <Text style={styles.headertxt}>Personal Details</Text>
               </View>
             </View>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={()=>navigation.navigate('EditPersonalDetails')}>
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
@@ -67,21 +69,7 @@ const Profile = () => {
                 <Text style={styles.headertxt}>My Order</Text>
               </View>
             </View>
-            <TouchableOpacity>
-              <View>
-                <Image source={require("../../../Icons/Expand.png")} />
-              </View>
-            </TouchableOpacity>
-          </View><View style={styles.detailsrow}>
-            <View style={{ flexDirection: "row", gap: 10 }}>
-              <View style={styles.background2}>
-                <Image source={require("../../../Icons/Favorite.png")} style={{ marginBottom: 5 }} />
-              </View>
-              <View>
-                <Text style={styles.headertxt}>My Favourites</Text>
-              </View>
-            </View>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={()=>navigation.navigate('MyOrderPage')}>
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
@@ -96,7 +84,7 @@ const Profile = () => {
                 <Text style={styles.headertxt}>Shipping Address</Text>
               </View>
             </View>
-            <TouchableOpacity>
+            <TouchableOpacity  onPress={()=>navigation.navigate('EditAddress')} >
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
@@ -107,32 +95,21 @@ const Profile = () => {
               <View style={styles.background3}>
                 <Image source={require("../../../Icons/Card.png")} style={{ marginBottom: 5 }} />
               </View>
-              <TouchableOpacity>
-                <View>
-                  <Text style={styles.headertxt}>My Card</Text>
-                </View>
-              </TouchableOpacity>
-            </View>
-            <View>
-              <Image source={require("../../../Icons/Expand.png")} />
-            </View>
-          </View>
-          <View style={styles.detailsrow}>
-            <View style={{ flexDirection: "row", gap: 10 }}>
-              <View style={styles.background5}>
-                <Image source={require("../../../Icons/Settings.png")} style={{ marginBottom: 5 }} />
-              </View>
+
               <View>
-                <Text style={styles.headertxt}>Settings</Text>
+                <Text style={styles.headertxt}>My Card</Text>
               </View>
             </View>
-            <TouchableOpacity>
+            <TouchableOpacity  onPress={()=>navigation.navigate('EditCard')}>
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
             </TouchableOpacity>
           </View>
         </View>
+      </View>
+      <View style={styles.view4}>
+        <Text style={styles.view4txt}>Logout</Text>
       </View>
     </View>
   )
@@ -161,6 +138,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     height: "12%",
 
+
   },
   view2sub1: {
     width: "80%",
@@ -188,14 +166,14 @@ const styles = StyleSheet.create({
     width: "100%"
   },
   view3sub: {
-    height: "50%",
+    height: "65%",
     width: "80%",
     borderRadius: 10,
     borderWidth: 1,
     justifyContent: "space-evenly"
   },
   view3: {
-    height: "100%",
+    height: "55%",
     alignItems: "center",
     marginTop: "10%",
   },
@@ -258,5 +236,19 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center"
+  },
+  view4:{
+    height:"7%",
+    width:"50%",
+    backgroundColor:"black",
+    justifyContent:"center",
+    alignItems:"center",
+    borderRadius:10,
+    marginLeft:"25%"
+  },
+  view4txt:{
+    color:"white",
+    fontFamily:"PoppinsMedium",
+    fontSize:20
   }
 })

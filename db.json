@@ -1079,6 +1079,15 @@
           "price": "$79.99",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 24,
+          "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd4a337e-51cf-46d1-9ef4-e2d41463c12d/air-force-1-07-fresh-shoes-bBRnbq.png",
+          "description": "AirForce 1",
+          "desc": "Nike",
+          "price": "$79.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
       ],
       "email": "Sidhardhjoe@gmail.com",
@@ -1209,6 +1218,15 @@
           "stock": "Product in stock",
           "nav": "JewelleryPage",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 89,
+          "image": "https://accessorizelondon.in/cdn/shop/products/MN-38180681001_4.jpg?v=1659957484&width=3000",
+          "description": "Bengal Bangles",
+          "desc": "DW",
+          "price": "$400",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
       ],
       "email": "A",
@@ -1217,12 +1235,12 @@
       "password": "A",
       "username": "A",
       "address": {
-        "street": "Mewo",
-        "city": "Jsjaj",
-        "state": "Doydk",
-        "phone": "Fzuzuf",
-        "code": "Uxifx",
-        "country": "J f"
+        "street": "Punjabi Street",
+        "city": "Nandini chowk",
+        "state": "Punjab",
+        "phone": "926780123",
+        "code": "Y4791",
+        "country": "India"
       }
     },
     {
