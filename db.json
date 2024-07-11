@@ -1027,9 +1027,9 @@
     {
       "id": 4,
       "percentage": 30,
-      "detail": "Newly launched merch",
+      "detail": "New merch",
       "code": "ILOVENEW",
-      "image": "https://as1.ftcdn.net/v2/jpg/08/48/55/82/1000_F_848558207_nOrZVSx8XxKs2M8S83Qu3SfCuA8FQgQz.jpg",
+      "image": "https://img.freepik.com/premium-photo/portrait-beautiful-young-woman-retro-style-elegant-white-hat-dress_661495-14381.jpg?w=996",
       "nav": "ShoesPage"
     },
     {
@@ -1037,7 +1037,7 @@
       "percentage": 10,
       "detail": "On everything after 6PM",
       "code": "TIME1800",
-      "image": "https://as2.ftcdn.net/v2/jpg/05/28/68/41/1000_F_528684185_isvw9mwFGEBym9e062XlKDDp8YsAeVfe.jpg",
+      "image": "https://img.freepik.com/free-photo/reflection-sunset-sky_53876-146873.jpg?w=1060&t=st=1720685773~exp=1720686373~hmac=df2698532bf97edfa236f1952f728300b79daf70e2303680904ed5aeb8ccad1d",
       "nav": "JewelleryPage"
     }
   ],
@@ -1226,6 +1226,17 @@
           "desc": "DW",
           "price": "$400",
           "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "category": "clothes",
+          "id": 101,
+          "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
+          "description": "InterTwined",
+          "desc": "McTavish",
+          "price": "$800",
+          "stock": "Product in stock",
+          "nav": "JewelleryPage",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
       ],

@@ -95,7 +95,6 @@ const Profile = () => {
               <View style={styles.background3}>
                 <Image source={require("../../../Icons/Card.png")} style={{ marginBottom: 5 }} />
               </View>
-
               <View>
                 <Text style={styles.headertxt}>My Card</Text>
               </View>
@@ -108,7 +107,7 @@ const Profile = () => {
           </View>
         </View>
       </View>
-      <TouchableOpacity style={styles.view4} onPress={()=>navigation.navigate('LoginPage')}>
+      <TouchableOpacity style={styles.view4} onPress={() => navigation.navigate('LoginPage')}>
         <View >
           <Text style={styles.view4txt}>Logout</Text>
         </View>
@@ -197,7 +196,7 @@ const styles = StyleSheet.create({
   },
   headertxt: {
     fontFamily: "PoppinsBold",
-    marginTop: 7
+    marginTop:"3%"
   },
   background1: {
     height: "90%",
