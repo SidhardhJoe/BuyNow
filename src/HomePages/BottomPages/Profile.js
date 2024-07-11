@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useNavigation } from '@react-navigation/native';
 
 const Profile = () => {
-  const navigation =useNavigation();
+  const navigation = useNavigation();
   const [username, setUsername] = useState();
   const [email, setEmail] = useState();
 
@@ -54,7 +54,7 @@ const Profile = () => {
                 <Text style={styles.headertxt}>Personal Details</Text>
               </View>
             </View>
-            <TouchableOpacity onPress={()=>navigation.navigate('EditPersonalDetails')}>
+            <TouchableOpacity onPress={() => navigation.navigate('EditPersonalDetails')}>
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
@@ -69,7 +69,7 @@ const Profile = () => {
                 <Text style={styles.headertxt}>My Order</Text>
               </View>
             </View>
-            <TouchableOpacity onPress={()=>navigation.navigate('MyOrderPage')}>
+            <TouchableOpacity onPress={() => navigation.navigate('MyOrderPage')}>
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
@@ -84,7 +84,7 @@ const Profile = () => {
                 <Text style={styles.headertxt}>Shipping Address</Text>
               </View>
             </View>
-            <TouchableOpacity  onPress={()=>navigation.navigate('EditAddress')} >
+            <TouchableOpacity onPress={() => navigation.navigate('EditAddress')} >
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
@@ -100,7 +100,7 @@ const Profile = () => {
                 <Text style={styles.headertxt}>My Card</Text>
               </View>
             </View>
-            <TouchableOpacity  onPress={()=>navigation.navigate('EditCard')}>
+            <TouchableOpacity onPress={() => navigation.navigate('EditCard')}>
               <View>
                 <Image source={require("../../../Icons/Expand.png")} />
               </View>
@@ -108,9 +108,11 @@ const Profile = () => {
           </View>
         </View>
       </View>
-      <View style={styles.view4}>
-        <Text style={styles.view4txt}>Logout</Text>
-      </View>
+      <TouchableOpacity style={styles.view4} onPress={()=>navigation.navigate('LoginPage')}>
+        <View >
+          <Text style={styles.view4txt}>Logout</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   )
 }
@@ -237,18 +239,18 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center"
   },
-  view4:{
-    height:"7%",
-    width:"50%",
-    backgroundColor:"black",
-    justifyContent:"center",
-    alignItems:"center",
-    borderRadius:10,
-    marginLeft:"25%"
+  view4: {
+    height: "7%",
+    width: "50%",
+    backgroundColor: "black",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
+    marginLeft: "25%"
   },
-  view4txt:{
-    color:"white",
-    fontFamily:"PoppinsMedium",
-    fontSize:20
+  view4txt: {
+    color: "white",
+    fontFamily: "PoppinsMedium",
+    fontSize: 20
   }
 })
