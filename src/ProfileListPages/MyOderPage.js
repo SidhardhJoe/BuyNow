@@ -44,7 +44,55 @@ const MyOderPage = () => {
           <Text style={styles.txt8}>Mumbai</Text>
         </View>
         <View style={styles.view4sub3}>
+          <Text style={styles.txt9}>In Transit</Text>
+        </View>
+      </View>
+      <View style={styles.view4}>
+        <View style={styles.view4sub1}>
+          <Image source={require("../../Icons/package.png")} style={styles.suitcase}/>
+        </View>
+        <View style={styles.view4sub2}>
+          <Text style={styles.txt7}>US123632446</Text>
+          <Text style={styles.txt8}>Mumbai</Text>
+        </View>
+        <View style={styles.view4sub3}>
+          <Text style={styles.txt9}>In Transit</Text>
+        </View>
+      </View>
+      <View style={styles.view4}>
+        <View style={styles.view4sub1}>
+          <Image source={require("../../Icons/package.png")} style={styles.suitcase}/>
+        </View>
+        <View style={styles.view4sub2}>
+          <Text style={styles.txt7}>U4512458746</Text>
+          <Text style={styles.txt8}>Mumbai</Text>
+        </View>
+        <View style={styles.view4sub3}>
           <Text style={styles.txt9}>Delivered</Text>
+        </View>
+      </View>
+      <View style={styles.view4}>
+        <View style={styles.view4sub1}>
+          <Image source={require("../../Icons/package.png")} style={styles.suitcase}/>
+        </View>
+        <View style={styles.view4sub2}>
+          <Text style={styles.txt7}>US12366446</Text>
+          <Text style={styles.txt8}>Mumbai</Text>
+        </View>
+        <View style={styles.view4sub3}>
+          <Text style={styles.txt9}>Delivered</Text>
+        </View>
+      </View>
+      <View style={styles.view4}>
+        <View style={styles.view4sub1}>
+          <Image source={require("../../Icons/package.png")} style={styles.suitcase}/>
+        </View>
+        <View style={styles.view4sub2}>
+          <Text style={styles.txt7}>US189898746</Text>
+          <Text style={styles.txt8}>Mumbai</Text>
+        </View>
+        <View style={styles.view4sub3}>
+          <Text style={styles.txt9}>Cancelled</Text>
         </View>
       </View>
     </View>
@@ -130,12 +178,13 @@ const styles = StyleSheet.create({
     borderRadius:10,
     flexDirection:"row",
     alignItems:"center",
-    justifyContent:"space-between"
+    justifyContent:"space-between",
+    marginBottom:"3%"
   },
   view4sub1:{
-    height:"80%",
+    height:"70%",
     width:"18%",
-    backgroundColor:"grey",
+    backgroundColor:"#F5F5F5",
     borderRadius:10,
     justifyContent:"center",
     alignItems:"center",
@@ -144,11 +193,12 @@ const styles = StyleSheet.create({
   },
   txt7:{
     fontFamily:"PoppinsBold",
-    fontSize:16
+    fontSize:14
   },
   txt8:{
     fontFamily:"PoppinsBold",
-    color:"grey"
+    color:"grey",
+    fontSize:12
   },
   view4sub3:{
     justifyContent:"center",
