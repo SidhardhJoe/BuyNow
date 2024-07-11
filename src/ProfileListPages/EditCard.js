@@ -60,6 +60,7 @@ const EditCard = () => {
           value={exp}
           onChangeText={text => setExp(text)}
           keyboardType='numeric'
+          maxLength={4}
         />
         <TextInput
           style={styles.inputbox2}
