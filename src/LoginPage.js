@@ -21,7 +21,7 @@ const LoginPage = () => {
     else {
       try {
 
-        const response = await axios.get(`http://192.168.1.18:3000/users?email=${email}&password=${password}`); // getting data from server with the email and password that we updated
+        const response = await axios.get(`http://192.168.1.71:3000/users?email=${email}&password=${password}`); // getting data from server with the email and password that we updated
         { console.log("responsedata", response.data) }
         { console.log("email", email) }
         { console.log("password", password) }

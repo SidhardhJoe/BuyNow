@@ -10,7 +10,7 @@ const NewArrivalsPage = () => {
 
     const getApi = async () => {
         try {
-            const url = "http://192.168.1.18:3000/offers";
+            const url = "http://192.168.1.71:3000/offers";
             const result = await fetch(url);
             const data = await result.json();
             setOffer(data);
@@ -22,7 +22,7 @@ const NewArrivalsPage = () => {
 
     const getNew = async () => {
         try {
-            const url = "http://192.168.1.18:3000/newarrivals"
+            const url = "http://192.168.1.71:3000/newarrivals"
             const result1 = await fetch(url);
             const data1 = await result1.json();
             console.log('data', data1)

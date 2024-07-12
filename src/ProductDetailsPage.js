@@ -18,7 +18,7 @@ const ProductDetailsPage = ({ route }) => {
     const getAPI = async () => {
         console.log('id, category', id, category)
         try {
-            const url = `http://192.168.1.18:3000/${category}/${id}`; // setting url as the api of clothes with id passed as params from clothes page
+            const url = `http://192.168.1.71:3000/${category}/${id}`; // setting url as the api of clothes with id passed as params from clothes page
             const result = await fetch(url); //  calling the api
             const data = await result.json(); // stores result in data as a json format  
             setData(data); // setting data in useState
@@ -33,8 +33,8 @@ const ProductDetailsPage = ({ route }) => {
     const postData = async () => {
         console.log('userid.id', userid.id)
         try {
-            const getCart = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`) // getting data of the user with their id
-            const response = await axios.put(`http://192.168.1.18:3000/users/${userid.id}`, // updating the details in cart. 
+            const getCart = await axios.get(`http://192.168.1.71:3000/users/${userid.id}`) // getting data of the user with their id
+            const response = await axios.put(`http://192.168.1.71:3000/users/${userid.id}`, // updating the details in cart. 
                 {
                     "cart": [...getCart.data.cart, data],
                     "email": userid.email,
@@ -45,7 +45,7 @@ const ProductDetailsPage = ({ route }) => {
                     "address":userid.address
                 }
             )
-            const getCarts = await axios.get(`http://192.168.1.18:3000/users/${userid.id}`) // once put data we are calling it and storing it in getCarts
+            const getCarts = await axios.get(`http://192.168.1.71:3000/users/${userid.id}`) // once put data we are calling it and storing it in getCarts
             console.log('getCart', getCarts)
             if (getCarts) { // if the data is not empty
                 await AsyncStorage.setItem("cartValues", JSON.stringify(getCarts)) // we are setting this item in asyncStorage, it has the deatils of the current logged in user

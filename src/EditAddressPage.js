@@ -28,7 +28,7 @@ const EditAddressPage = () => {
   const postaData = async () => {
     console.log('data.data.email', data.data.id)
     try {
-      const response = await axios.put(`http://192.168.1.18:3000/users/${data?.data?.id}`, {
+      const response = await axios.put(`http://192.168.1.71:3000/users/${data?.data?.id}`, {
         "cart": data.data.cart,
         "email": data.data.email,
         "favourites": [],

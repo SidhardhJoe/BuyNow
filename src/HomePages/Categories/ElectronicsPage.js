@@ -7,7 +7,7 @@ const ElectronicsPage = () => {
     const navigation = useNavigation();
     const [data, setData] = useState([]);
     const getAPI = async () => {
-        const url = "http://192.168.1.18:3000/electronics";
+        const url = "http://192.168.1.71:3000/electronics";
         const result = await fetch(url);
         const data = await result.json();
         setData(data);

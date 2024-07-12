@@ -29,7 +29,7 @@ const SignUpPage = () => {
       Alert.alert("Accept terms and conditions")
     } else {
       try {
-        const response = await axios.post('http://192.168.1.18:3000/users',{
+        const response = await axios.post('http://192.168.1.71:3000/users',{
           username,
           email,
           password,
