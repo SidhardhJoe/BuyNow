@@ -35,7 +35,7 @@ const PaymentPage = () => {
 
   const getAdd = async()=>{
     try{
-      const url = `http://192.168.1.18:3000/users/${id}`
+      const url = `http://192.168.1.71:3000/users/${id}`
       const result = await fetch(url);
       const resultjson = await result.json();
     console.log('first',resultjson)

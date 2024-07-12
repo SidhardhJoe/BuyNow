@@ -1061,6 +1061,11 @@
       "address": []
     },
     {
+      "email": "Sidhardhjoe@gmail.com ",
+      "username": "SidhardhJoe",
+      "favourites": [],
+      "password": "000",
+      "id": 3,
       "cart": [
         {
           "id": 61,
@@ -1088,13 +1093,17 @@
           "price": "$79.99",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 64,
+          "image": "https://m.media-amazon.com/images/I/31laW9Ex46L._SY445_SX342_QL70_FMwebp_.jpg",
+          "description": "iPhone 14 Plus",
+          "desc": "Apple",
+          "price": "$850",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
-      ],
-      "email": "Sidhardhjoe@gmail.com",
-      "favourites": [],
-      "id": 3,
-      "password": "12345678",
-      "username": "SidhardhJoe"
+      ]
     },
     {
       "username": "Abcd",
@@ -1106,6 +1115,19 @@
       "address": []
     },
     {
+      "email": "Ssh",
+      "username": "Shsh",
+      "favourites": [],
+      "password": "Shshsh",
+      "id": 5,
+      "address": {
+        "street": "Punjabi Street",
+        "city": "Nandini chowk",
+        "state": "Punjab",
+        "phone": "926780123",
+        "code": "Y4791",
+        "country": "India"
+      },
       "cart": [
         {
           "id": 4,
@@ -1142,117 +1164,8 @@
           "price": "$109.99",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "id": 23,
-          "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
-          "description": "Coffin Collection",
-          "desc": "SNKRS",
-          "price": "$250",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "id": 27,
-          "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b6aa977d-3ad0-4f95-970f-2cae9a69dea5/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
-          "description": "Clouds",
-          "desc": "SNKRS",
-          "price": "$200",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "id": 86,
-          "image": "https://accessorizelondon.in/cdn/shop/products/MN-58174908001_1_e7f5cc3f-354d-4c94-93e0-7d98c093bc4d.jpg?v=1693986666&width=3000",
-          "description": "Air Cut ",
-          "desc": "AiroG",
-          "price": "$10,000",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "id": 1,
-          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
-          "description": "Blue Half Sleeve Shirt",
-          "desc": "H & M",
-          "price": "$29.99",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar"
-        },
-        {
-          "id": 74,
-          "image": "https://www.miabytanishq.com/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10eab331/images/hi-res/2812FTM.jpg?sw=640&sh=640",
-          "description": "Skelaton Rig",
-          "desc": "CC",
-          "price": "$199",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "id": 71,
-          "image": "https://m.media-amazon.com/images/I/41vvbQWXrzL._SX300_SY300_QL70_FMwebp_.jpg",
-          "description": "S24",
-          "desc": "Samsung",
-          "price": "$799",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "category": "clothes",
-          "id": 103,
-          "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2Fc7%2F01c7423ad970fb52b742da34570b8a6c703b2051.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
-          "description": "Blue Half Sleeve Shirt",
-          "desc": "H & M",
-          "price": "$29.99",
-          "nav": "ClothesPage",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "category": "clothes",
-          "id": 101,
-          "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
-          "description": "InterTwined",
-          "desc": "McTavish",
-          "price": "$800",
-          "stock": "Product in stock",
-          "nav": "JewelleryPage",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "id": 89,
-          "image": "https://accessorizelondon.in/cdn/shop/products/MN-38180681001_4.jpg?v=1659957484&width=3000",
-          "description": "Bengal Bangles",
-          "desc": "DW",
-          "price": "$400",
-          "stock": "Product in stock",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
-        },
-        {
-          "category": "clothes",
-          "id": 101,
-          "image": "https://accessorizelondon.in/cdn/shop/products/MN-38426870001_2.jpg?v=1678422077&width=3000",
-          "description": "InterTwined",
-          "desc": "McTavish",
-          "price": "$800",
-          "stock": "Product in stock",
-          "nav": "JewelleryPage",
-          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
-      ],
-      "email": "A",
-      "favourites": [],
-      "id": 5,
-      "password": "A",
-      "username": "A",
-      "address": {
-        "street": "Punjabi Street",
-        "city": "Nandini chowk",
-        "state": "Punjab",
-        "phone": "926780123",
-        "code": "Y4791",
-        "country": "India"
-      }
+      ]
     },
     {
       "cart": [],
@@ -1421,6 +1334,40 @@
         "code": "685584",
         "country": "India"
       }
+    },
+    {
+      "username": "Sterin",
+      "email": "Staerin@gmail.com",
+      "password": "Sterin",
+      "cart": [],
+      "favourites": [],
+      "address": {},
+      "id": 11
+    },
+    {
+      "username": "Jaydenn",
+      "favourites": [],
+      "id": 12,
+      "address": {},
+      "cart": []
+    },
+    {
+      "email": "",
+      "username": "Meow",
+      "favourites": [],
+      "password": "",
+      "id": 13,
+      "address": {},
+      "cart": []
+    },
+    {
+      "email": "Poo@gmail.com",
+      "username": "Poo",
+      "favourites": [],
+      "password": "B",
+      "id": 14,
+      "address": {},
+      "cart": []
     }
   ]
 }
