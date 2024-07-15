@@ -7,7 +7,7 @@ const AdPage1 = () => {
     const navigation=useNavigation();
     return (
         <View style={styles.container}>
-            <View>
+            <View >
                 <Image source={require("../../Images/Cover1.png")} style={styles.coverimg} />
             </View>
             <View style={styles.textbox}>

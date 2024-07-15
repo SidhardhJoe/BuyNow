@@ -1041,90 +1041,90 @@
       "nav": "JewelleryPage"
     }
   ],
-  "notifications":[
+  "notifications": [
     {
-      "id":1,
-      "name":"John Jacob",
-      "image":"https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"1"
+      "id": 1,
+      "name": "John Jacob",
+      "image": "https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "1"
     },
     {
-      "id":2,
-      "name":"Sebastian Stan",
-      "image":"https://plus.unsplash.com/premium_photo-1664297552793-519919f913db?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"2"
+      "id": 2,
+      "name": "Sebastian Stan",
+      "image": "https://plus.unsplash.com/premium_photo-1664297552793-519919f913db?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "2"
     },
     {
-      "id":3,
-      "name":"RDMan",
-      "image":"https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"6"
+      "id": 3,
+      "name": "RDMan",
+      "image": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "6"
     },
     {
-      "id":4,
-      "name":"Jeremmy Eye",
-      "image":"https://images.unsplash.com/photo-1536005233760-9894e2a60c3a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"7"
+      "id": 4,
+      "name": "Jeremmy Eye",
+      "image": "https://images.unsplash.com/photo-1536005233760-9894e2a60c3a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "7"
     },
     {
-      "id":5,
-      "name":"Scar Widow",
-      "image":"https://images.unsplash.com/photo-1508186225823-0963cf9ab0de?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"8"
+      "id": 5,
+      "name": "Scar Widow",
+      "image": "https://images.unsplash.com/photo-1508186225823-0963cf9ab0de?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "8"
     },
     {
-      "id":6,
-      "name":"Chris America",
-      "image":"https://images.unsplash.com/photo-1584361853901-dd1904bb7987?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"10"
+      "id": 6,
+      "name": "Chris America",
+      "image": "https://images.unsplash.com/photo-1584361853901-dd1904bb7987?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "10"
     },
     {
-      "id":7,
-      "name":"Mark Banner",
-      "image":"https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"12"
+      "id": 7,
+      "name": "Mark Banner",
+      "image": "https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "12"
     },
     {
-      "id":8,
-      "name":"Chris Son",
-      "image":"https://images.unsplash.com/photo-1587837073080-448bc6a2329b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"15"
+      "id": 8,
+      "name": "Chris Son",
+      "image": "https://images.unsplash.com/photo-1587837073080-448bc6a2329b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "15"
     },
     {
-      "id":9,
-      "name":"Paul Man",
-      "image":"https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"17"
+      "id": 9,
+      "name": "Paul Man",
+      "image": "https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "17"
     },
     {
-      "id":10,
-      "name":"Luka M",
-      "image":"https://images.unsplash.com/photo-1519266277740-7fdb3202f35d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"19"
+      "id": 10,
+      "name": "Luka M",
+      "image": "https://images.unsplash.com/photo-1519266277740-7fdb3202f35d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "19"
     },
     {
-      "id":11,
-      "name":"Eoj Dis",
-      "image":"https://images.unsplash.com/photo-1548207775-a7676e36f20a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"22"
+      "id": 11,
+      "name": "Eoj Dis",
+      "image": "https://images.unsplash.com/photo-1548207775-a7676e36f20a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "22"
     },
     {
-      "id":14,
-      "name":"An Li",
-      "image":"https://images.unsplash.com/photo-1536924430914-91f9e2041b83?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
-      "time":"23"
+      "id": 14,
+      "name": "An Li",
+      "image": "https://images.unsplash.com/photo-1536924430914-91f9e2041b83?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dapibus est. Fusce tristique, justo nec vestibulum convallis, nibh est sodales nisl, vel scelerisque felis.",
+      "time": "23"
     }
   ],
   "users": [
@@ -1281,6 +1281,15 @@
           "price": "$29.99",
           "stock": "Product in stock",
           "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
+        },
+        {
+          "id": 2,
+          "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc7%2F3b%2Fc73b3f78bd003fe5e3714f527a01b6bb4dd828ee.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "description": "Black Half Sleeve Shirt",
+          "desc": "H & M",
+          "price": "$29.99",
+          "stock": "Product in stock",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida nisl ac eros luctus, venenatis vulputate ex pulvinar."
         }
       ],
       "email": "Meow@gmail.com",
@@ -1289,12 +1298,12 @@
       "password": "1",
       "username": "Meow",
       "address": {
-        "street": "A",
-        "city": "A",
-        "state": "A",
-        "phone": "A",
-        "code": "A",
-        "country": "A"
+        "street": "Longer Street",
+        "city": "Manhatten",
+        "state": "New York",
+        "phone": "987654321",
+        "code": "C56X1",
+        "country": "India"
       }
     },
     {

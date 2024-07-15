@@ -50,7 +50,7 @@ const BottomSheet = () => {
                     </View>
                     <View style={styles.details}>
                         <Text style={styles.innertext}>Total:</Text>
-                        <Text style={styles.innertext1}>${cost + 17}</Text>
+                        <Text style={styles.innertext1}>${(cost + 17).toFixed(2)}</Text>
                     </View>
                 </View>
                 <View>

@@ -61,7 +61,7 @@ const LoginPage = () => {
         </View>
         <View>
           <Text style={styles.password}>Password</Text>
-          <View style={{ flexDirection: "row", width: 300, borderBottomWidth: 1 }}>
+          <View style={{ flexDirection: "row", width: 350, borderBottomWidth: 1 }}>
             <TextInput style={styles.textinput1}
               value={password}
               onChangeText={text => setPassword(text)}
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     height: 80,
     width: 130,
     marginTop: 60,
-    marginLeft: 115
+    marginLeft: 135
   },
   welcome: {
     fontFamily: "PoppinsBold",
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     height: 24,
     fontSize: 16,
     fontFamily: "PoppinsMedium",
-    width: 300
+    width: 350
   },
   password: {
     fontFamily: "PoppinsBold",
@@ -141,14 +141,14 @@ const styles = StyleSheet.create({
     height: 24,
     fontSize: 16,
     fontFamily: "PoppinsMedium",
-    width: 280
+    width: 320
   },
   loginbox: {
     height: 45,
     width: 200,
     backgroundColor: "black",
     marginTop: 50,
-    marginLeft: 77,
+    marginLeft: 100,
     borderRadius: 30
   },
   logintext: {
@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
     width: 200,
     backgroundColor: "black",
     marginTop: 10,
-    marginLeft: 77,
+    marginLeft: 100,
     borderRadius: 30
   }
 })

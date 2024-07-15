@@ -9,7 +9,8 @@ import axios from 'axios';
 
 const ProductDetailsPage = ({ route }) => {
     const { id, category } = route.params
-
+    const [selectedSize, setSelectedSize] = useState(null);
+    const sizes = ['S', 'M', 'L', 'XL'];
     const navigation = useNavigation();
     const [data, setData] = useState([]);
     const [val, setVal] = useState(0);
@@ -42,7 +43,7 @@ const ProductDetailsPage = ({ route }) => {
                     "id": userid.id,
                     "password": userid.password,
                     "username": userid.username,
-                    "address":userid.address
+                    "address": userid.address
                 }
             )
             const getCarts = await axios.get(`http://192.168.1.71:3000/users/${userid.id}`) // once put data we are calling it and storing it in getCarts
@@ -99,7 +100,18 @@ const ProductDetailsPage = ({ route }) => {
                 </View>
                 <View style={styles.sizeview}>
                     <Text style={styles.sizetext}>Size</Text>
-                    <View style={styles.sizedetails}></View>
+                    <View style={styles.sizedetails}>
+                        <View style={styles.sizesContainer}>
+                            {sizes.map((size, index) => (
+                                <TouchableOpacity
+                                    key={index}
+                                    style={[styles.sizeItem, { borderColor: selectedSize === size ? 'black' : 'grey' }]}
+                                    onPress={() => setSelectedSize(size)}>
+                                    <Text style={styles.sizeText}>{size}</Text>
+                                </TouchableOpacity>
+                            ))}
+                        </View>
+                    </View>
                     <View>
                         <Text style={styles.descriptiontext}>Description</Text>
                         <Text style={styles.fontfam}>{data?.details}</Text>
@@ -192,8 +204,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 15
     },
     sizedetails: {
-        backgroundColor: "black",
-        height: 50
+        height: "17%"
     },
     descriptiontext: {
         fontFamily: "PoppinsBold",
@@ -235,5 +246,21 @@ const styles = StyleSheet.create({
         fontFamily: "PoppinsMedium",
         color: "white",
         fontSize: 18
+    },
+    sizesContainer: {
+        flexDirection: 'row'
+    },
+    sizeItem: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: 50,
+        height: 50,
+        borderRadius: 25,
+        borderWidth: 2,
+        marginHorizontal: 10
+    },
+    sizeText: {
+        fontSize: 16,
+        fontFamily: 'PoppinsBold'
     }
 })
