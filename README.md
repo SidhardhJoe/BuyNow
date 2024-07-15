@@ -1,12 +1,12 @@
 
 # BuyNow
 
-BuyNow is a E-Commerce application that gives its users an application to buy products from its 6 categories. 
+BuyNow is a E-Commerce application that gives its users an application to buy products from its 6 categories. Curated for the best experience, BuyNow intents to be your one stop application. 
 
 
 
 ## Images
-<img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C1.png" width="90%" height="550" /> 
+<img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C1.png" width="90%" height="480" /> 
 <img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C2.png" width="90%" height="550" /> 
 <img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C3.png" width="90%" height="550" /> 
 <img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C4.png" width="90%" height="550" /> 
@@ -37,6 +37,8 @@ BuyNow is a E-Commerce application that gives its users an application to buy pr
     "react-native-vector-icons": "^10.1.0",<br>
     "expo-blur": "~13.0.2",<br>
     "expo-linear-gradient": "~13.0.2"<br>
+
+    #Note
 
 
 
