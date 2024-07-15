@@ -38,7 +38,7 @@ BuyNow is a E-Commerce application that gives its users an application to buy pr
     "expo-blur": "~13.0.2",<br>
     "expo-linear-gradient": "~13.0.2"<br>
 
-    #Note
+    
 
 
 
