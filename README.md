@@ -6,7 +6,7 @@ BuyNow is a E-Commerce application that gives its users an application to buy pr
 
 
 ## Images
-<img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C1.png" width="90%" height="480" /> 
+<img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C1.png" width="90%" height="450" /> 
 <img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C2.png" width="90%" height="550" /> 
 <img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C3.png" width="90%" height="550" /> 
 <img src="https://github.com/SidhardhJoe/BuyNow/blob/master/Screenshots/C4.png" width="90%" height="550" /> 
